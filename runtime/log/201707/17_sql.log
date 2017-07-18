@@ -1,0 +1,1487 @@
+[ 2017-07-17T09:07:29+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005068s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.005341s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001990s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanchang' LIMIT 1 [ RunTime:0.001117s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002197s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001442s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001666s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002193s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `end_time` > 1500253649  AND `category_id` = 1  AND `city_id` = 5  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 10 [ RunTime:0.001657s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 1  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 4 [ RunTime:0.001816s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T09:07:41+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/deal/apply.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002105s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002083s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.000995s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002327s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001077s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002332s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_deal` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.000693s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `status` = 0 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.000935s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T09:07:44+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/deal/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001898s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002539s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001411s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002135s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001191s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002442s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_deal` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000979s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `status` = 1 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.001530s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T09:07:54+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/deal/apply.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002630s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001795s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001010s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.001744s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.000926s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002345s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_deal` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.000690s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `status` = 0 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.001127s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T09:08:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001964s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002443s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001493s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanchang' LIMIT 1 [ RunTime:0.001226s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001702s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.000953s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.000969s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002271s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `end_time` > 1500253685  AND `category_id` = 1  AND `city_id` = 5  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 10 [ RunTime:0.001275s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 1  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 4 [ RunTime:0.000788s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T09:08:17+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/index/user/logincheck.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001848s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_user` [ RunTime:0.002212s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_user` WHERE  `username` = 'duncan' LIMIT 1 [ RunTime:0.001360s ]
+[ sql ] [ SQL ] UPDATE `o2o_user`  SET `last_login_time`=1500253697,`update_time`=1500253696  WHERE  `id` = 1 [ RunTime:0.031179s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T09:08:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002914s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002122s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001208s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanchang' LIMIT 1 [ RunTime:0.000752s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001580s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.000978s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.000984s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.001995s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `end_time` > 1500253700  AND `category_id` = 1  AND `city_id` = 5  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 10 [ RunTime:0.001248s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 1  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 4 [ RunTime:0.001499s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T09:09:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001770s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002245s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001397s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001855s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001181s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T09:09:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003966s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002017s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001266s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002419s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001038s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T09:09:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001948s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002557s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001686s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001599s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001181s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T09:09:41+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/city/getcitysbyparentid.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001774s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.001853s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 4 ORDER BY `id`  desc [ RunTime:0.001138s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T09:10:08+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/category/getcategorybyparentid.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001694s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002081s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 5 ORDER BY `id`  desc [ RunTime:0.001222s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T09:10:28+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004095s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002122s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001391s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002269s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.002137s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T09:10:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001942s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.001898s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001124s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001742s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001396s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T09:10:45+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/bis/register/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001789s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.002478s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_account` WHERE  `username` = 'Duncan' LIMIT 1 [ RunTime:0.001384s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T09:10:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001685s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002180s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001068s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001944s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001353s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T09:10:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001970s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002105s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001196s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001730s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001034s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T09:11:00+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/bis/login/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003716s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.001951s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_account` WHERE  `username` = 's' LIMIT 1 [ RunTime:0.000850s ]
+[ sql ] [ SQL ] UPDATE `o2o_bis_account`  SET `last_login_time`=1500253860,`update_time`=1500253860  WHERE  `id` = 6 [ RunTime:0.048260s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T09:11:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/deal/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002051s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002053s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001223s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001831s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.000900s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.002895s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `bis_id` = 7  AND `status` = 1 ORDER BY `id`  desc [ RunTime:0.001370s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T09:11:13+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/city/getcitysbyparentid.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001811s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002782s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 14 ORDER BY `id`  desc [ RunTime:0.001209s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T09:11:15+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/category/getcategorybyparentid.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002160s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001832s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 14 ORDER BY `id`  desc [ RunTime:0.001736s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T09:11:54+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/bis/deal/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001973s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.002280s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.001312s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.001823s ]
+[ sql ] [ SQL ] INSERT INTO `o2o_deal` (`bis_id` , `name` , `image` , `category_id` , `se_category_id` , `city_id` , `location_ids` , `start_time` , `end_time` , `total_count` , `origin_price` , `current_price` , `coupons_begin_time` , `coupons_end_time` , `notes` , `description` , `bis_account_id` , `xpoint` , `ypoint` , `status` , `update_time` , `create_time`) VALUES (7 , 'sda ' , '/upload\\20170717\\596e919e75e2bf3f89bb2d14a86b9dbc.jpg' , 14 , 0 , 15 , '8' , 1498871460 , 1501290660 , 12112 , 112 , 1 , 1499908260 , 1501204260 , '<p>wqe</p>' , '<p>waeqwe</p>' , 6 , '118.80203760581' , '32.033748955263' , 0 , 1500253914 , 1500253914) [ RunTime:0.043674s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T16:06:04+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008086s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.006320s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.002120s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanchang' LIMIT 1 [ RunTime:0.000902s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002167s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001803s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.003996s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002304s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `end_time` > 1500278763  AND `category_id` = 1  AND `city_id` = 5  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 10 [ RunTime:0.002234s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 1  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 4 [ RunTime:0.001105s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T16:06:16+08:00 ] 127.0.0.1 127.0.0.1 POST /index/user/logincheck.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004245s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_user` [ RunTime:0.004383s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_user` WHERE  `username` = 'duncan' LIMIT 1 [ RunTime:0.001020s ]
+[ sql ] [ SQL ] UPDATE `o2o_user`  SET `last_login_time`=1500278776,`update_time`=1500278775  WHERE  `id` = 1 [ RunTime:0.037106s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T16:06:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002053s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002305s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001062s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanchang' LIMIT 1 [ RunTime:0.000742s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002254s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002102s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `end_time` > 1500278779  AND `category_id` = 1  AND `city_id` = 5  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 10 [ RunTime:0.001987s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 1  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 4 [ RunTime:0.001003s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T16:06:23+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index.html?city=nanjing
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003352s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002153s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001518s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001054s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002579s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001629s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001084s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002902s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `end_time` > 1500278783  AND `category_id` = 1  AND `city_id` = 15  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 10 [ RunTime:0.001757s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 1  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 4 [ RunTime:0.002797s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T16:06:28+08:00 ] 127.0.0.1 127.0.0.1 GET /index/detail/index.html?id=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003161s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002609s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001345s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000883s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001966s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.004521s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001305s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.004855s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.001167s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000564s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.002382s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `id` IN (4)  AND `status` = 1 [ RunTime:0.001035s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T16:06:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index/detail/index.html?id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002070s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.003360s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001751s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000747s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001805s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.002125s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001829s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.001959s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001545s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000830s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.001890s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `id` IN (2)  AND `status` = 1 [ RunTime:0.001016s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T16:33:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007756s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.006168s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001844s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000994s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002385s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001534s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001947s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002178s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001252s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T16:33:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/image/faf2b2119313b07eadf19d880bd7912396dd8ce6.jpg
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005701s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.005936s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001589s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.004708s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.003279s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001320s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001371s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T16:33:35+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003516s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002837s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001210s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001358s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001716s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001237s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.000905s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.001989s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001644s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T16:33:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004611s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002056s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001082s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001587s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001705s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001658s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001084s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.001928s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001013s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T16:33:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/image/faf2b2119313b07eadf19d880bd7912396dd8ce6.jpg
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004673s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002756s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001556s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000805s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001784s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001045s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001221s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T16:45:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002340s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.003192s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.002011s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000972s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001730s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.000973s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001599s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002013s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001062s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T16:46:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002128s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002091s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001075s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000952s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002742s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001085s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.000913s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.001780s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001005s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T16:46:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002698s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.001964s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001297s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000752s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002435s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.000982s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001196s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002004s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001064s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T17:11:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003506s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.003235s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001523s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000810s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001688s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001470s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001282s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002342s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001159s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T17:12:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001965s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002348s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001556s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001489s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001926s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001084s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001287s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002503s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001120s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T18:37:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008442s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.005887s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.002017s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001063s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002588s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.003528s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001515s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.003084s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001547s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T18:37:38+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/index.html?id=2&deal_count%20=%201&deal_price%20=%2010
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005223s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002486s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001205s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001129s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002107s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001411s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.003535s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T18:57:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/index.html?id=2&deal_count%20=%201&deal_price%20=%2010
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008784s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.006040s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.003333s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000817s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002743s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001706s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001098s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T18:57:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/index.html?id=2&deal_count%20=%201&deal_price%20=%2010
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002640s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002475s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001545s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000751s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001661s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001035s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001532s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002798s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001490s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T18:58:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/index.html?id=2&deal_count%20=%201&deal_price%20=%2010
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001962s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002339s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001368s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002746s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001100s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.000993s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002236s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001103s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T18:58:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/index.html?id=2&deal_count%20=%201&deal_price%20=%2010
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001983s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002206s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001302s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000766s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002340s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001045s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.000923s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002196s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001118s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T19:02:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/index.html?id=2&deal_count%20=%201&deal_price%20=%2010
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002341s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.003772s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001656s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001109s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002106s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.000952s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001030s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002084s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001565s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T19:06:15+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/index.html?id=2&deal_count%20=%201&deal_price%20=%2010
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002339s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002617s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.002565s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.002803s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001972s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001407s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001050s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002719s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001428s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T19:17:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/index.html?id=2&deal_count%20=%201&deal_price%20=%2010
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004302s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.004315s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001519s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001797s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.003282s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001512s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.002259s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002147s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001769s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T19:21:26+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/index.html?id=2&deal_count%20=%201&deal_price%20=%2010
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004117s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002913s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001606s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000909s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001951s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001206s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001153s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.003171s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001347s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T19:41:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/index.html?id=2&deal_count%20=%201&deal_price%20=%2010
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009542s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.006058s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.002243s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.002053s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002080s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.002278s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.005149s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002533s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.004189s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T19:43:24+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/index.html?id=2&deal_count%20=%201&deal_price%20=%2010
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003524s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.003406s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001675s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001570s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002099s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001129s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001336s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.003185s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001110s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T19:43:28+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002714s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002193s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001826s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000892s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002528s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001674s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001097s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002105s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001014s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T19:44:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003775s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002390s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001196s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000780s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001843s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.000979s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.002228s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002250s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.002292s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T19:52:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/index.html?id=2&deal_count%20=%201&deal_price%20=%2010
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002337s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002603s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001294s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000853s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001569s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001017s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.000919s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002214s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001220s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_order` [ RunTime:0.004258s ]
+[ sql ] [ SQL ] INSERT INTO `o2o_order` (`out_trade_no` , `user_id` , `username` , `referer` , `create_time` , `status`) VALUES ('150029236873922766' , 1 , 'duncan' , 'http://loc.m.com/index/order/confirm.html?id=2&count=1' , 1500292368 , 1) [ RunTime:0.091042s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T19:52:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pay/index.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001898s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.003526s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001516s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000808s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001693s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.000905s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.000967s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T19:53:27+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pay/index.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003620s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002130s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001237s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000830s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002568s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001056s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001002s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T19:53:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pay/index.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003103s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002604s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001339s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001333s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001873s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001215s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001476s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T20:43:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pay/index.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006949s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.006008s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001919s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000843s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002774s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.002483s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001219s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T20:43:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002123s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.003089s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.002352s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000764s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.004022s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001404s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001445s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.005376s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001210s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T20:44:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/index.html?id=2&deal_count%20=%202&deal_price%20=%201121
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002376s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002410s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001105s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000753s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001556s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001029s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.000959s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.004092s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001486s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_order` [ RunTime:0.005221s ]
+[ sql ] [ SQL ] INSERT INTO `o2o_order` (`out_trade_no` , `user_id` , `username` , `referer` , `create_time` , `deal_count` , `total_price` , `status`) VALUES ('150029544285429162' , 1 , 'duncan' , 'http://loc.m.com/index/order/confirm.html?id=2&count=1' , 1500295442 , 1 , 1 , 1) [ RunTime:0.095428s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T20:44:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pay/index.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002179s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002330s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001244s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000772s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001646s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.000998s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001043s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T20:44:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001919s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.003463s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001574s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001099s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.003522s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001776s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001448s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.005425s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001580s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T20:44:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004182s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002171s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001838s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000776s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001441s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001756s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.002069s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.003881s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001101s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T20:44:43+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003728s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002751s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001515s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000906s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001643s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001095s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001023s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002299s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.003657s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T20:44:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002851s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.003274s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001986s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000904s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002366s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001179s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.002600s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002421s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001107s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T20:46:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index/detail/index.html?id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002215s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.003349s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001784s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001564s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002838s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001305s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.003158s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002672s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001138s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001055s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.002240s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `id` IN (2)  AND `status` = 1 [ RunTime:0.001228s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T20:46:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index/detail/index.html?id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002197s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.003177s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001537s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.002047s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.003591s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001512s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001493s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002323s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001542s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000989s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.005028s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `id` IN (2)  AND `status` = 1 [ RunTime:0.001329s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T20:47:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index/detail/index.html?id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002755s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002851s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001161s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000739s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001666s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.000989s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001292s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002184s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001025s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000592s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.001946s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `id` IN (2)  AND `status` = 1 [ RunTime:0.001445s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T20:47:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003315s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002741s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001192s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.003645s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002234s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001874s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.002022s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002367s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001463s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T20:47:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/index.html?id=2&deal_count%20=%201&deal_price%20=%2010
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003028s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002028s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001108s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000999s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001506s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001184s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.000982s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.001876s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.003721s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_order` [ RunTime:0.002744s ]
+[ sql ] [ SQL ] INSERT INTO `o2o_order` (`out_trade_no` , `user_id` , `username` , `referer` , `create_time` , `deal_count` , `total_price` , `status`) VALUES ('150029565924439937' , 1 , 'duncan' , 'http://loc.m.com/index/order/confirm.html?id=2&count=1' , 1500295659 , 1 , 1 , 1) [ RunTime:0.067888s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T20:47:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pay/index.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001858s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.003720s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001071s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000972s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001537s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001093s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.002360s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T20:47:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002304s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002011s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.000960s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000966s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.004344s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.000946s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001008s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.005025s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001856s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T20:47:43+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001690s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.001871s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.003466s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.003952s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002519s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001140s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001213s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002412s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001556s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T20:51:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002291s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002641s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.008334s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001132s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001930s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001125s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002247s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.002075s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T20:52:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002191s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002226s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001674s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002554s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001059s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001538s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002805s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000966s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T20:52:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003099s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002140s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001328s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000946s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001772s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.003785s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001786s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.001818s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001322s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:08:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005720s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.005111s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.010823s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001052s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002040s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001419s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001606s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002664s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001398s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:08:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/index.html?id=2&deal_count%20=%203&deal_price%20=%202232
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002009s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002724s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001420s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000756s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001637s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.000992s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.002184s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:09:28+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002205s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.005287s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001357s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001373s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001618s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.003768s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001099s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002806s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001300s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:20:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002361s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002709s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.002110s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001600s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002019s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001277s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001186s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002194s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001503s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:26:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003351s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002859s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001253s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanchang' LIMIT 1 [ RunTime:0.001430s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001555s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001007s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:26:43+08:00 ] 127.0.0.1 127.0.0.1 POST /index/user/logincheck.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001927s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_user` [ RunTime:0.005059s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_user` WHERE  `username` = 'duncan' LIMIT 1 [ RunTime:0.001118s ]
+[ sql ] [ SQL ] UPDATE `o2o_user`  SET `last_login_time`=1500301602,`update_time`=1500301602  WHERE  `id` = 1 [ RunTime:0.072816s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:26:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002433s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.009194s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001460s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanchang' LIMIT 1 [ RunTime:0.000792s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001694s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.000984s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001883s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002071s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `end_time` > 1500301606  AND `category_id` = 1  AND `city_id` = 5  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 10 [ RunTime:0.045121s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 1  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 4 [ RunTime:0.001357s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:26:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index.html?city=nanjing
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001697s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002166s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001041s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.003501s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001214s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001449s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.003600s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `end_time` > 1500301611  AND `category_id` = 1  AND `city_id` = 15  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 10 [ RunTime:0.041846s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 1  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 4 [ RunTime:0.002210s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:26:55+08:00 ] 127.0.0.1 127.0.0.1 GET /index/detail/index.html?id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004052s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002215s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001380s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000850s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002146s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001299s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001202s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002061s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001395s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000703s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.001967s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `id` IN (2)  AND `status` = 1 [ RunTime:0.001489s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:27:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001957s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.003680s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001429s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000724s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001576s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.000894s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.002532s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.001854s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001648s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:27:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001941s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.001956s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001142s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.042819s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002330s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001210s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001195s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002633s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001276s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:27:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002216s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002899s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001902s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000951s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001628s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.000889s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001023s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.001896s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001314s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:36:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002422s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.005762s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.003386s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000800s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.005398s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001567s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.002191s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002838s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.005192s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:38:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003215s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.006148s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.003157s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.006781s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002609s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001547s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.005868s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.006362s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001286s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:39:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002414s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002271s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001482s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000745s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002968s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001644s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.000988s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002104s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001224s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:40:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004507s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002852s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001190s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000885s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001499s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001179s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.000995s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.001916s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001856s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:40:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002050s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.003406s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001652s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001008s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001698s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.002900s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001060s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002105s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001044s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:40:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002981s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002400s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001339s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000746s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002673s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001501s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001119s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.001945s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001860s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:41:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/index.html?id=2&deal_count%20=%206&deal_price%20=%2060
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002680s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002163s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001077s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000738s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001913s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001146s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001166s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:41:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/index.html?id=2&deal_count%20=%206&deal_price%20=%2060
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001744s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002235s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.003172s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000723s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002306s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001024s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.000943s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002840s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001324s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_order` [ RunTime:0.005553s ]
+[ sql ] [ SQL ] INSERT INTO `o2o_order` (`out_trade_no` , `user_id` , `username` , `referer` , `create_time` , `deal_count` , `total_price` , `status`) VALUES ('15003024798283995' , 1 , 'duncan' , 'http://loc.m.com/index/order/confirm.html?id=2&count=1' , 1500302479 , 1 , 1 , 1) [ RunTime:0.067665s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:41:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pay/index.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001931s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.001939s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001590s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001254s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002820s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001106s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.002912s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:42:16+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pay/index.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001774s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.001985s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001002s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000770s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002048s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.000954s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001340s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:42:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001762s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002699s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.002990s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001170s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002553s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001385s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.003472s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002169s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001212s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:42:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/index.html?id=2&deal_count%20=%206&deal_price%20=%2010
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001931s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002775s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.002004s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001091s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001896s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001071s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.002515s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:43:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/index.html?id=2&deal_count%20=%206&deal_price%20=%2010
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003832s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.004084s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001451s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000927s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001689s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001484s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.002100s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:43:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007321s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.003825s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001070s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000807s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002680s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001157s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.002002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002972s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.005028s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:43:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001911s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002106s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001371s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000755s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002554s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001129s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001136s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.003085s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001384s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:43:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/index.html?id=2&deal_count=1&deal_price=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002279s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002049s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001809s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001311s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001535s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.000861s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001243s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:43:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001772s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.003263s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001265s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001160s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002920s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001250s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.004392s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002279s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001861s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:43:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001826s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002611s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001240s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000840s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002291s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001061s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001535s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002386s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001420s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:43:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/index.html?id=2&deal_count=1&deal_price=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001941s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.003141s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001460s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.002450s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001598s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.000991s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.001740s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000974s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_order` [ RunTime:0.004822s ]
+[ sql ] [ SQL ] INSERT INTO `o2o_order` (`out_trade_no` , `user_id` , `username` , `referer` , `create_time` , `deal_count` , `total_price` , `status`) VALUES ('150030262098227506' , 1 , 'duncan' , 'http://loc.m.com/index/order/confirm.html?id=2&count=1' , 1500302620 , 1 , 1 , 1) [ RunTime:0.061477s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:43:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pay/index.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001804s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002146s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001231s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000760s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.005288s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.002157s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001330s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:44:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pay/index.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001778s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002488s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001409s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001105s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001943s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001324s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001093s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:44:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001787s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.001982s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.000999s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000930s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001716s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001199s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001029s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.004490s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001784s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:44:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/index.html?id=2&deal_count=1&deal_price=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004301s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.001791s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001146s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001239s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001470s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.000846s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.003364s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002255s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001390s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:45:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001970s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.004549s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001440s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001046s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.004555s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001194s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001105s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002014s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.006122s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:45:54+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/index.html?id=2&deal_count=4&deal_price=40
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002129s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002836s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001207s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001288s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001647s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.000935s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001388s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.001906s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.003140s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:46:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/index.html?id=2&deal_count=4&deal_price=40
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001842s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002648s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001135s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001252s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001867s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.000942s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001452s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002622s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001313s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_order` [ RunTime:0.003520s ]
+[ sql ] [ SQL ] INSERT INTO `o2o_order` (`out_trade_no` , `user_id` , `username` , `referer` , `create_time` , `deal_count` , `total_price` , `status`) VALUES ('150030277987976200' , 1 , 'duncan' , 'http://loc.m.com/index/order/confirm.html?id=2&count=1' , 1500302779 , 4 , 40 , 1) [ RunTime:0.102253s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:46:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pay/index.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002458s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002297s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.000996s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001409s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001814s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001874s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001088s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:46:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001849s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002244s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001233s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000862s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.003058s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001727s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001292s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002264s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001032s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:47:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/index.html?id=2&deal_count=4&deal_price=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002105s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.003266s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001649s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001015s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002088s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.002147s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.002384s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.001741s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001074s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_order` [ RunTime:0.003947s ]
+[ sql ] [ SQL ] INSERT INTO `o2o_order` (`out_trade_no` , `user_id` , `username` , `referer` , `create_time` , `deal_count` , `total_price` , `status`) VALUES ('150030282562474687' , 1 , 'duncan' , 'http://loc.m.com/index/order/confirm.html?id=2&count=1' , 1500302825 , 4 , 10 , 1) [ RunTime:0.046237s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:51:17+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/index.html?id=2&deal_count=4&deal_price=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002185s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002959s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001465s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000946s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001611s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001703s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.002269s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002131s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001635s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_order` [ RunTime:0.002100s ]
+[ sql ] [ SQL ] INSERT INTO `o2o_order` (`out_trade_no` , `user_id` , `username` , `referer` , `create_time` , `deal_count` , `total_price` , `status`) VALUES ('150030307717974844' , 1 , 'duncan' , 'http://loc.m.com/index/order/confirm.html?id=2&count=1' , 1500303077 , 4 , 10 , 1) [ RunTime:0.061466s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:52:16+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002659s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.004428s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001399s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001187s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002432s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001571s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001504s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002285s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001658s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:52:55+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/index.html?id=2&deal_count=5&deal_price=50
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003283s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002129s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001627s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001384s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001862s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001159s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001200s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002570s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001300s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:52:59+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001738s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002151s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001312s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.002051s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001707s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001824s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001447s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002716s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001126s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:53:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002952s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.021467s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001557s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001344s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001751s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.002488s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001486s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002061s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001648s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:53:07+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/index.html?id=2&deal_count=4&deal_price=40
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005458s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002468s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001315s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000949s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002581s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001236s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001818s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002186s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001276s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:53:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005268s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002363s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.002057s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000778s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001893s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001541s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001454s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.001933s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001902s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:53:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002484s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002328s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001227s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.000944s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002203s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001881s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001756s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002247s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001196s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:53:43+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/index.html?id=2&deal_count=1&deal_price=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002378s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002931s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.003313s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.003597s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001874s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001160s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001278s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002592s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001313s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:53:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001840s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.001826s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001052s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001039s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002368s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.000887s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001243s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.003701s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001244s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:54:17+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004624s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.003076s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001235s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001063s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.003627s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001259s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001456s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002022s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001191s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:54:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/index.html?id=2&deal_count=1&deal_price=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003151s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.001834s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.002926s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001085s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002126s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001656s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001428s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002203s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001280s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:56:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004311s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.006200s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001327s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001586s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001768s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001568s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.002033s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002609s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001333s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:56:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003784s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002958s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.004336s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001607s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002286s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.003294s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.002646s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.003042s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001365s ]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:56:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/index.html?id=2&deal_count=3&deal_price=30
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002654s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002524s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.002038s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanjing' LIMIT 1 [ RunTime:0.001397s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001922s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001805s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (2,5,1,14)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001195s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.005844s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001869s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_order` [ RunTime:0.002052s ]
+[ sql ] [ SQL ] INSERT INTO `o2o_order` (`out_trade_no` , `user_id` , `username` , `referer` , `create_time` , `deal_count` , `total_price` , `status`) VALUES ('15003033724912079' , 1 , 'duncan' , 'http://loc.m.com/index/order/confirm.html?id=2&count=1' , 1500303372 , 3 , 30 , 1) [ RunTime:0.066246s ]
+
+---------------------------------------------------------------

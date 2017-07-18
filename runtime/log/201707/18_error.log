@@ -1,0 +1,8 @@
+[ 2017-07-18T08:38:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/order/index.html?id=2&deal_count=1&deal_price=10
+[ error ] [8]Use of undefined constant xdebug_message - assumed 'xdebug_message'[E:\wamp64\www\duncan\application\index\controller\Order.php:58]
+
+---------------------------------------------------------------
+[ 2017-07-18T08:39:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/order/index.html?id=2&deal_count=1&deal_price=10
+[ error ] [8]Trying to get property of non-object[E:\wamp64\www\duncan\application\common\model\Order.php:15]
+
+---------------------------------------------------------------

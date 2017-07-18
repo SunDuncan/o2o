@@ -1,0 +1,48 @@
+[ 2017-07-17T16:10:27+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ error ] [8]未定义变量: title[E:\wamp64\www\duncan\runtime\temp\9517d5d96725adae70220cad2fa2720d.php:8]
+
+---------------------------------------------------------------
+[ 2017-07-17T16:12:26+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ error ] [8]未定义变量: title[E:\wamp64\www\duncan\runtime\temp\9517d5d96725adae70220cad2fa2720d.php:8]
+
+---------------------------------------------------------------
+[ 2017-07-17T16:15:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ error ] [4]语法错误: unexpected '$info' (T_VARIABLE)[E:\wamp64\www\duncan\application\index\controller\Order.php:16]
+
+---------------------------------------------------------------
+[ 2017-07-17T16:15:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ error ] [8]Array to string conversion[E:\wamp64\www\duncan\application\index\controller\Order.php:16]
+
+---------------------------------------------------------------
+[ 2017-07-17T16:33:35+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/confirm.html?id=2&count=1
+[ error ] [1]Call to undefined function app\index\controller\toArray()[E:\wamp64\www\duncan\application\index\controller\Order.php:30]
+
+---------------------------------------------------------------
+[ 2017-07-17T18:57:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/index.html?id=2&deal_count%20=%201&deal_price%20=%2010
+[ error ] [8]Use of undefined constant intval - assumed 'intval'[E:\wamp64\www\duncan\application\index\controller\Order.php:21]
+
+---------------------------------------------------------------
+[ 2017-07-17T18:58:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/index.html?id=2&deal_count%20=%201&deal_price%20=%2010
+[ error ] [1]Call to undefined function app\index\controller\toArray()[E:\wamp64\www\duncan\application\index\controller\Order.php:36]
+
+---------------------------------------------------------------
+[ 2017-07-17T19:41:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/index.html?id=2&deal_count%20=%201&deal_price%20=%2010
+[ error ] [0]类的属性不存在:app\common\model\User->name[E:\wamp64\www\duncan\thinkphp\library\think\Model.php:424]
+
+---------------------------------------------------------------
+[ 2017-07-17T19:52:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pay/index.html?id=1
+[ error ] [8]Array to string conversion[E:\wamp64\www\duncan\application\index\controller\Pay.php:12]
+
+---------------------------------------------------------------
+[ 2017-07-17T20:46:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index/detail/index.html?id=2
+[ error ] [8]未定义变量: controller[E:\wamp64\www\duncan\runtime\temp\c0320487ff918d3b2a21857012e4f174.php:12]
+
+---------------------------------------------------------------
+[ 2017-07-17T20:46:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index/detail/index.html?id=2
+[ error ] [8]未定义变量: controller[E:\wamp64\www\duncan\runtime\temp\c0320487ff918d3b2a21857012e4f174.php:12]
+
+---------------------------------------------------------------
+[ 2017-07-17T22:54:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/index.html?id=2&deal_count=1&deal_price=10
+[ error ] [0]method not exist:think\db\Query->add[E:\wamp64\www\duncan\thinkphp\library\think\db\Query.php:91]
+
+---------------------------------------------------------------

@@ -1,0 +1,229 @@
+[ 2017-07-14T15:34:11+08:00 ] ::1 ::1 GET /duncan/public/
+[ error ] [2002]SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+[E:\wamp64\www\duncan\thinkphp\library\think\db\Connection.php:282]
+
+---------------------------------------------------------------
+[ 2017-07-14T15:36:55+08:00 ] ::1 ::1 GET /duncan/public/
+[ error ] [8]未定义变量: defaultuname[E:\wamp64\www\duncan\application\index\controller\Base.php:35]
+
+---------------------------------------------------------------
+[ 2017-07-14T15:43:05+08:00 ] ::1 ::1 GET /duncan/public/
+[ error ] [8]未定义变量: defaultuname[E:\wamp64\www\duncan\application\index\controller\Base.php:35]
+
+---------------------------------------------------------------
+[ 2017-07-14T16:17:15+08:00 ] ::1 ::1 GET /duncan/public/index/user/register.html
+[ error ] [1]Call to undefined function captcha_img()[E:\wamp64\www\duncan\runtime\temp\cb5a54c9ff3af5a0975a259bbfcfb04d.php:51]
+
+---------------------------------------------------------------
+[ 2017-07-14T16:28:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/register.html
+[ error ] [1]Call to undefined function captcha_img()[E:\wamp64\www\duncan\runtime\temp\cb5a54c9ff3af5a0975a259bbfcfb04d.php:51]
+
+---------------------------------------------------------------
+[ 2017-07-14T16:41:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/register.html
+[ error ] [1]Call to undefined function captcha_img()[E:\wamp64\www\duncan\runtime\temp\cb5a54c9ff3af5a0975a259bbfcfb04d.php:51]
+
+---------------------------------------------------------------
+[ 2017-07-14T17:00:08+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/index.html
+[ error ] [0]类的属性不存在:app\common\model\Category->create_time[E:\wamp64\www\duncan\thinkphp\library\think\Model.php:424]
+
+---------------------------------------------------------------
+[ 2017-07-14T17:02:02+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/index.html
+[ error ] [0]类的属性不存在:app\common\model\Category->create_time[E:\wamp64\www\duncan\thinkphp\library\think\Model.php:424]
+
+---------------------------------------------------------------
+[ 2017-07-14T17:03:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/index.html
+[ error ] [0]类的属性不存在:app\common\model\Category->create_time[E:\wamp64\www\duncan\thinkphp\library\think\Model.php:424]
+
+---------------------------------------------------------------
+[ 2017-07-14T17:06:21+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/index.html
+[ error ] [0]类的属性不存在:app\common\model\Category->create_time[E:\wamp64\www\duncan\thinkphp\library\think\Model.php:424]
+
+---------------------------------------------------------------
+[ 2017-07-14T17:37:23+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/register.html
+[ error ] [1]Call to undefined function captcha_img()[E:\wamp64\www\duncan\runtime\temp\cb5a54c9ff3af5a0975a259bbfcfb04d.php:51]
+
+---------------------------------------------------------------
+[ 2017-07-14T18:08:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/test
+[ error ] [1]Class 'Map' not found[E:\wamp64\www\duncan\application\admin\controller\Index.php:11]
+
+---------------------------------------------------------------
+[ 2017-07-14T18:19:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/map.html
+[ error ] [8]未定义变量: address[E:\wamp64\www\duncan\extend\Map.php:34]
+
+---------------------------------------------------------------
+[ 2017-07-14T18:20:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/map.html
+[ error ] [8]未定义变量: address[E:\wamp64\www\duncan\extend\Map.php:34]
+
+---------------------------------------------------------------
+[ 2017-07-14T18:20:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/map.html
+[ error ] [8]未定义变量: address[E:\wamp64\www\duncan\extend\Map.php:34]
+
+---------------------------------------------------------------
+[ 2017-07-14T18:20:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/map.html
+[ error ] [8]未定义变量: address[E:\wamp64\www\duncan\extend\Map.php:34]
+
+---------------------------------------------------------------
+[ 2017-07-14T19:02:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [4]语法错误: unexpected end of file, expecting function (T_FUNCTION)[E:\wamp64\www\duncan\extend\phpmailer\Email.php:55]
+
+---------------------------------------------------------------
+[ 2017-07-14T19:03:17+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Class 'phpmailer\PHPMailer' not found[E:\wamp64\www\duncan\extend\phpmailer\Email.php:10]
+
+---------------------------------------------------------------
+[ 2017-07-14T19:05:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Class 'PHPMailer' not found[E:\wamp64\www\duncan\extend\phpmailer\Email.php:10]
+
+---------------------------------------------------------------
+[ 2017-07-14T19:07:23+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Class 'phpmailer\PHPMailer' not found[E:\wamp64\www\duncan\extend\phpmailer\Email.php:11]
+
+---------------------------------------------------------------
+[ 2017-07-14T19:13:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Class 'phpmailer\PHPMailer' not found[E:\wamp64\www\duncan\extend\phpmailer\Email.php:10]
+
+---------------------------------------------------------------
+[ 2017-07-14T19:13:27+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Class 'phpmailer\PHPMailer' not found[E:\wamp64\www\duncan\extend\phpmailer\Email.php:10]
+
+---------------------------------------------------------------
+[ 2017-07-14T19:13:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Class 'phpmailer\PHPMailer' not found[E:\wamp64\www\duncan\extend\phpmailer\Email.php:9]
+
+---------------------------------------------------------------
+[ 2017-07-14T19:14:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Class 'phpmailer\PHPMailer' not found[E:\wamp64\www\duncan\extend\phpmailer\Email.php:9]
+
+---------------------------------------------------------------
+[ 2017-07-14T19:24:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [0]variable type error： boolean[E:\wamp64\www\duncan\thinkphp\library\think\Response.php:310]
+
+---------------------------------------------------------------
+[ 2017-07-14T19:25:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Class 'phpmailer\PHPMailer' not found[E:\wamp64\www\duncan\extend\phpmailer\Email.php:13]
+
+---------------------------------------------------------------
+[ 2017-07-14T19:26:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Class 'phpmailer\PHPMailer' not found[E:\wamp64\www\duncan\extend\phpmailer\Email.php:13]
+
+---------------------------------------------------------------
+[ 2017-07-14T22:22:34+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/bis/register/add.html
+[ error ] [10501]SQLSTATE[01000]: Warning: 1265 Data truncated for column 'open_time' at row 1[E:\wamp64\www\duncan\thinkphp\library\think\db\Connection.php:405]
+
+---------------------------------------------------------------
+[ 2017-07-14T22:52:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/detail.html?id=3
+[ error ] [0]类的属性不存在:app\common\model\Bis->backname[E:\wamp64\www\duncan\thinkphp\library\think\Model.php:424]
+
+---------------------------------------------------------------
+[ 2017-07-14T23:09:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Class 'phpmailer\PHPMailer' not found[E:\wamp64\www\duncan\extend\phpmailer\Email.php:13]
+
+---------------------------------------------------------------
+[ 2017-07-14T23:12:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Class 'phpmailer\PHPMailer' not found[E:\wamp64\www\duncan\extend\phpmailer\Email.php:5]
+
+---------------------------------------------------------------
+[ 2017-07-14T23:13:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Class 'phpmailer\PHPMailer' not found[E:\wamp64\www\duncan\extend\phpmailer\Email.php:4]
+
+---------------------------------------------------------------
+[ 2017-07-14T23:14:17+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Class 'phpmailer\Email' not found[E:\wamp64\www\duncan\application\admin\controller\Index.php:18]
+
+---------------------------------------------------------------
+[ 2017-07-14T23:16:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Class 'phpmailer\Email' not found[E:\wamp64\www\duncan\application\admin\controller\Index.php:18]
+
+---------------------------------------------------------------
+[ 2017-07-14T23:19:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Class 'phpmailer\PHPMailer' not found[E:\wamp64\www\duncan\extend\Email.php:12]
+
+---------------------------------------------------------------
+[ 2017-07-14T23:19:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Class 'phpmailer\PHPMailer' not found[E:\wamp64\www\duncan\extend\Email.php:12]
+
+---------------------------------------------------------------
+[ 2017-07-14T23:20:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Class 'Email' not found[E:\wamp64\www\duncan\application\admin\controller\Index.php:18]
+
+---------------------------------------------------------------
+[ 2017-07-14T23:23:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Class 'Email' not found[E:\wamp64\www\duncan\application\admin\controller\Index.php:18]
+
+---------------------------------------------------------------
+[ 2017-07-14T23:26:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Class 'Email' not found[E:\wamp64\www\duncan\application\admin\controller\Index.php:18]
+
+---------------------------------------------------------------
+[ 2017-07-14T23:28:35+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Class 'phpmailer\PHPMailer' not found[E:\wamp64\www\duncan\extend\phpmailer\Email.php:12]
+
+---------------------------------------------------------------
+[ 2017-07-14T23:29:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Class 'PHPMailer' not found[E:\wamp64\www\duncan\extend\phpmailer\Email.php:12]
+
+---------------------------------------------------------------
+[ 2017-07-14T23:30:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Class 'phpmailer\PHPMailer' not found[E:\wamp64\www\duncan\extend\phpmailer\Email.php:12]
+
+---------------------------------------------------------------
+[ 2017-07-14T23:31:43+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Class 'Email' not found[E:\wamp64\www\duncan\application\admin\controller\Index.php:19]
+
+---------------------------------------------------------------
+[ 2017-07-14T23:31:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Class 'Email' not found[E:\wamp64\www\duncan\application\admin\controller\Index.php:19]
+
+---------------------------------------------------------------
+[ 2017-07-14T23:33:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Class 'Email' not found[E:\wamp64\www\duncan\application\admin\controller\Index.php:19]
+
+---------------------------------------------------------------
+[ 2017-07-14T23:37:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Class 'Email' not found[E:\wamp64\www\duncan\application\admin\controller\Index.php:19]
+
+---------------------------------------------------------------
+[ 2017-07-14T23:37:17+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Class 'Email' not found[E:\wamp64\www\duncan\application\admin\controller\Index.php:19]
+
+---------------------------------------------------------------
+[ 2017-07-14T23:38:01+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin
+[ error ] [4]syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM)[E:\wamp64\www\duncan\application\admin\controller\Index.php:18]
+
+---------------------------------------------------------------
+[ 2017-07-14T23:38:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Call to undefined function phpmailer\Email()[E:\wamp64\www\duncan\application\admin\controller\Index.php:18]
+
+---------------------------------------------------------------
+[ 2017-07-14T23:38:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Class 'phpmailer' not found[E:\wamp64\www\duncan\extend\phpmailer\Email.php:16]
+
+---------------------------------------------------------------
+[ 2017-07-14T23:41:27+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Class 'PHPMailer' not found[E:\wamp64\www\duncan\extend\Email.php:14]
+
+---------------------------------------------------------------
+[ 2017-07-14T23:44:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [4]语法错误: unexpected '/', expecting ',' or ';'[E:\wamp64\www\duncan\extend\Email.php:0]
+
+---------------------------------------------------------------
+[ 2017-07-14T23:44:59+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Class 'PHPMailer' not found[E:\wamp64\www\duncan\extend\Email.php:15]
+
+---------------------------------------------------------------
+[ 2017-07-14T23:46:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Class 'SMTP' not found[E:\wamp64\www\duncan\extend\phpmailer\class.phpmailer.php:1520]
+
+---------------------------------------------------------------
+[ 2017-07-14T23:47:43+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Class 'SMTP' not found[E:\wamp64\www\duncan\extend\phpmailer\class.phpmailer.php:1520]
+
+---------------------------------------------------------------
+[ 2017-07-14T23:48:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Class 'SMTP' not found[E:\wamp64\www\duncan\extend\phpmailer\class.phpmailer.php:1520]
+
+---------------------------------------------------------------
+[ 2017-07-14T23:50:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Class 'PHPMailer' not found[E:\wamp64\www\duncan\extend\Email.php:15]
+
+---------------------------------------------------------------

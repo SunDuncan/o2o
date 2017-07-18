@@ -1,0 +1,68 @@
+[ 2017-07-15T01:23:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/Category/del
+[ error ] [8]未定义数组索引: status[E:\wamp64\www\duncan\application\admin\controller\Category.php:102]
+
+---------------------------------------------------------------
+[ 2017-07-15T06:51:35+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/category/index.html?parent_id=2
+[ error ] [4]语法错误: unexpected ';', expecting ']'[E:\wamp64\www\duncan\runtime\temp\e20c8cdfa064692025dbef091924524e.php:62]
+
+---------------------------------------------------------------
+[ 2017-07-15T06:51:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/category/index.html
+[ error ] [4]语法错误: unexpected ';'[E:\wamp64\www\duncan\runtime\temp\e20c8cdfa064692025dbef091924524e.php:62]
+
+---------------------------------------------------------------
+[ 2017-07-15T06:52:07+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/category/index.html
+[ error ] [4]语法错误: unexpected ';'[E:\wamp64\www\duncan\runtime\temp\e20c8cdfa064692025dbef091924524e.php:62]
+
+---------------------------------------------------------------
+[ 2017-07-15T07:07:29+08:00 ] 127.0.0.1 127.0.0.1 GET /bis/location/index.html
+[ error ] [8]Use of undefined constant eixt - assumed 'eixt'[E:\wamp64\www\duncan\application\bis\controller\Location.php:14]
+
+---------------------------------------------------------------
+[ 2017-07-15T07:07:29+08:00 ] 127.0.0.1 127.0.0.1 GET /bis/location/
+[ error ] [8]Use of undefined constant eixt - assumed 'eixt'[E:\wamp64\www\duncan\application\bis\controller\Location.php:14]
+
+---------------------------------------------------------------
+[ 2017-07-15T07:46:23+08:00 ] 127.0.0.1 127.0.0.1 GET /bis/location/index.html
+[ error ] [4]语法错误: unexpected 'exit' (T_EXIT)[E:\wamp64\www\duncan\application\bis\controller\Location.php:19]
+
+---------------------------------------------------------------
+[ 2017-07-15T07:56:18+08:00 ] 127.0.0.1 127.0.0.1 GET /bis/location/index.html
+[ error ] [4]语法错误: unexpected 'instanceof' (T_INSTANCEOF)[E:\wamp64\www\duncan\runtime\temp\4761201df0693b5060fd9d814aa4f0a5.php:53]
+
+---------------------------------------------------------------
+[ 2017-07-15T08:11:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/index.html
+[ error ] [0]类的属性不存在:app\common\model\Bis->d[E:\wamp64\www\duncan\thinkphp\library\think\Model.php:424]
+
+---------------------------------------------------------------
+[ 2017-07-15T08:15:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/status.html?id=5&status=1
+[ error ] [0]类不存在:app\common\model\Location[E:\wamp64\www\duncan\thinkphp\library\think\Loader.php:385]
+
+---------------------------------------------------------------
+[ 2017-07-15T08:16:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/location/status.html?id=5&status=1
+[ error ] [0]类不存在:app\common\model\Location[E:\wamp64\www\duncan\thinkphp\library\think\Loader.php:385]
+
+---------------------------------------------------------------
+[ 2017-07-15T08:22:55+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Class 'PHPMailer' not found[E:\wamp64\www\duncan\extend\Email.php:15]
+
+---------------------------------------------------------------
+[ 2017-07-15T08:25:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [1]Class 'SMTP' not found[E:\wamp64\www\duncan\extend\phpmailer\mailer.php:1520]
+
+---------------------------------------------------------------
+[ 2017-07-15T08:27:21+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [2]include(./class.smtp.php): failed to open stream: No such file or directory[E:\wamp64\www\duncan\extend\phpmailer\mailer.php:28]
+
+---------------------------------------------------------------
+[ 2017-07-15T08:28:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ error ] [2]include(./smtp.php): failed to open stream: No such file or directory[E:\wamp64\www\duncan\extend\phpmailer\mailer.php:28]
+
+---------------------------------------------------------------
+[ 2017-07-15T10:16:23+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/bis/deal/add.html
+[ error ] [8]未定义数组索引: location_ids[E:\wamp64\www\duncan\application\bis\controller\Deal.php:21]
+
+---------------------------------------------------------------
+[ 2017-07-15T10:17:13+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/bis/deal/add.html
+[ error ] [8]未定义数组索引: location_ids[E:\wamp64\www\duncan\application\bis\controller\Deal.php:21]
+
+---------------------------------------------------------------
