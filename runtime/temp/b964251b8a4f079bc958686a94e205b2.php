@@ -1,58 +1,49 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:61:"/home/o2o/public/../application/index/view/order/confirm.html";i:1500429940;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:61:"/home/o2o/public/../application/index/view/order/confirm.html";i:1500609744;s:59:"/home/o2o/public/../application/index/view/public/head.html";i:1500429940;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="x-ua-compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>支付页</title>
-    <link rel="stylesheet" href="__STATIC__/index/css/common.css" />
-    <link rel="stylesheet" href="__STATIC__/index/css/base.css" />
-    <link rel="stylesheet" href="__STATIC__/index/css/pay.css" />
-    <script type="text/javascript" src="__STATIC__/index/js/html5shiv.js"></script>
-    <script type="text/javascript" src="__STATIC__/index/js/respond.min.js"></script>
-    <script type="text/javascript" src="__STATIC__/index/js/jquery-1.11.3.min.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title><?php echo $title; ?></title>
+  <link rel="shortcut icon" href="">
+  <link rel="stylesheet" href="__STATIC__/index/css/base.css" />
+  <link rel="stylesheet" href="__STATIC__/index/css/common.css" />
+  <link rel="stylesheet" href="__STATIC__/index/css/<?php echo $controler; ?>.css" />
+  <script type="text/javascript" src="__STATIC__/index/js/html5shiv.js"></script>
+  <script type="text/javascript" src="__STATIC__/index/js/respond.min.js"></script>
+  <script type="text/javascript" src="__STATIC__/index/js/jquery-1.11.3.min.js"></script>
 </head>
 <body>
 <div class="header-bar">
-    <div class="header-inner">
-        <ul class="father">
-            <li><a>北京</a></li>
-            <li>|</li>
-            <li class="city">
-                <a>切换城市<span class="arrow-down-logo"></span></a>
-                <div class="city-drop-down">
-                    <h3>热门城市</h3>
-                    <ul class="son">
-                        <li><a href="">北京</a></li>
-                        <li><a href="">上海</a></li>
-                        <li><a href="">广州</a></li>
-                        <li><a href="">深圳</a></li>
-                        <li><a href="">天津</a></li>
-                        <li><a href="">杭州</a></li>
-                        <li><a href="">西安</a></li>
-                        <li><a href="">成都</a></li>
-                        <li><a href="">郑州</a></li>
-                        <li><a href="">厦门</a></li>
-                        <li><a href="">青岛</a></li>
-                        <li><a href="">太原</a></li>
-                        <li><a href="">重庆</a></li>
-                        <li><a href="">武汉</a></li>
-                        <li><a href="">南京</a></li>
-                        <li><a href="">沈阳</a></li>
-                        <li><a href="">济南</a></li>
-                        <li><a href="">哈尔滨</a></li>
-                    </ul>
-                    <a href="" class="morelink ">更多城市 &gt;</a>
-                </div>
-            </li>
-            <li><a href="register.html">注册</a></li>
-            <li>|</li>
-            <li><a href="login.html">登录</a></li>
-        </ul>
-    </div>
-</div>
+  <div class="header-inner">
+    <ul class="father">
+      <li><a><?php echo $city['name']; ?></a></li>
+      <li>|</li>
+      <li class="city">
+        <a>切换城市<span class="arrow-down-logo"></span></a>
+        <div class="city-drop-down">
+          <h3>热门城市</h3>
+          <ul class="son">
+            <?php if(is_array($citys) || $citys instanceof \think\Collection): $i = 0; $__LIST__ = $citys;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
+            <li><a href="<?php echo url('index/index', ['city'=>$vo['uname']]); ?>"><?php echo $vo['name']; ?></a></li>
+            <?php endforeach; endif; else: echo "" ;endif; ?>
+          </ul>
 
+        </div>
+      </li>
+      <?php if($user): ?>
+      <li>欢迎您：<?php echo $user->username; ?></li>
+      <li><a href="<?php echo url('user/logout'); ?>">退出</a></li>
+      <?php else: ?>
+      <li><a href="<?php echo url('user/register'); ?>">注册</a></li>
+      <li>|</li>
+      <li><a href="<?php echo url('user/login'); ?>">登录</a></li>
+      <?php endif; ?>
+      <li><a href="<?php echo url('bis/login/index'); ?>">商户中心</a></li>
+    </ul>
+  </div>
+</div>
 <!--支付第一步-->
 <div class="firstly">
     <div class="bindmobile-wrap">
@@ -122,8 +113,11 @@
         }
         else{
             $(".buycount-ctrl input").val(num);
-            $(".j-sumPrice").text(($("td .font14").text() - $(".j-cellActivity span").text())* num);
-            $(".sum .price").text(($("td .font14").text() - $(".j-cellActivity span").text()) * num);
+            var a = $("td .font14").text();
+            var b = $(".j-cellActivity span").text();
+            var c = (a-b).toFixed(2);
+            $(".j-sumPrice").text(c * num);
+            $(".sum .price").text(c * num);
             if(num == 1){
                 $(".buycount-ctrl a").eq(0).addClass("disabled");
             }

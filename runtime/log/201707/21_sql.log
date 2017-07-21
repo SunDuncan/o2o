@@ -1408,4 +1408,36 @@
 [ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000998s ]
 
 ---------------------------------------------------------------
+<<<<<<< HEAD
 >>>>>>> b1acb061e9226755752a006a00c8aa3d8c187ec0
+=======
+[ 2017-07-21T13:09:15+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/bis/login/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009558s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.006980s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_account` WHERE  `username` = 'duncan' LIMIT 1 [ RunTime:0.004462s ]
+
+---------------------------------------------------------------
+[ 2017-07-21T13:09:25+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/bis/login/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002065s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.005197s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_account` WHERE  `username` = 'Duncan' LIMIT 1 [ RunTime:0.001268s ]
+
+---------------------------------------------------------------
+[ 2017-07-21T13:10:03+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/bis/login/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002315s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.004527s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_account` WHERE  `username` = 'zhongruan' LIMIT 1 [ RunTime:0.001124s ]
+[ sql ] [ SQL ] UPDATE `o2o_bis_account`  SET `last_login_time`=1500613801,`update_time`=1500613801  WHERE  `id` = 3 [ RunTime:0.045955s ]
+
+---------------------------------------------------------------
+[ 2017-07-21T13:12:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/deal/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002216s ] mysql:dbname=o2ot;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002798s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.002282s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.003570s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001448s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.004140s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `bis_id` = 4  AND `status` = 1 ORDER BY `id`  desc [ RunTime:0.001221s ]
+
+---------------------------------------------------------------
+>>>>>>> 29890616ea9378a82dc8da733521dcc6728d7cd5

@@ -53,6 +53,8 @@ class Pay extends Base {
         } else {
             $url = $result['code_url'];
         }
+
+        dump($url);
         return $this->fetch(
             '',[
                 'deal' => $deal,

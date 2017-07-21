@@ -16,7 +16,6 @@ class Deal extends  Base
         if(request()->isPost()) {
             // 走插入逻辑
             $data = input('post.');
-            dump($data);
             $location = model('BisLocation')->get($data['location_ids'][0]);
             $deals = [
                 'bis_id' => $bisId,
