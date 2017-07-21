@@ -1,0 +1,12 @@
+[ 2017-07-19T14:15:52+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)[/home/o2o/thinkphp/library/think/db/Connection.php:282]
+
+---------------------------------------------------------------
+[ 2017-07-19T15:10:06+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/index/user/register.html
+[ error ] [1]Call to undefined function captcha_img()[/home/o2o/runtime/temp/c20ba0dbc144fbc0cec5a86315586a6f.php:51]
+
+---------------------------------------------------------------
+[ 2017-07-19T18:59:48+08:00 ] 10.105.23.187 14.17.21.58 GET /index.php/index/detail/index.html?id%3D2
+[ error ] [0]方法参数错误:id[/home/o2o/thinkphp/library/think/App.php:302]
+
+---------------------------------------------------------------
