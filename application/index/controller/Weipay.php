@@ -28,7 +28,7 @@ class Weipay extends Controller
         $input->setGoodsTag("test");
         $input->setNotifyUrl("/index.php/index/weipay/notify");
         $input->setTradeType("NATIVE");
-        $input->setProductId("123456789");
+        $input->setProductId($id);
         $result = $notify->getPayUrl($input);
         if (empty($result["code_url"])) {
             $url = "";
