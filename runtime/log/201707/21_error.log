@@ -2,3 +2,35 @@
 [ error ] [0]curl出错，错误码:60[E:\wamp64\www\duncan\extend\wxpay\WxPayApi.php:577]
 
 ---------------------------------------------------------------
+[ 2017-07-21T10:32:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/weipay/wxpayQcode?id=1
+[ error ] [0]curl出错，错误码:60[E:\wamp64\www\duncan\extend\wxpay\WxPayApi.php:577]
+
+---------------------------------------------------------------
+[ 2017-07-21T11:06:21+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/pay/index
+[ error ] [8]未定义变量: url[E:\wamp64\www\duncan\runtime\temp\f8b2644cbe24cb58154f670bf59d6714.php:96]
+
+---------------------------------------------------------------
+[ 2017-07-21T11:24:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/pay/index.html?id=20
+[ error ] [2]Wrong parameter count for intval()[E:\wamp64\www\duncan\application\index\controller\Pay.php:22]
+
+---------------------------------------------------------------
+[ 2017-07-21T11:51:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/pay/index.html?id=25
+[ error ] [8]Trying to get property of non-object[E:\wamp64\www\duncan\application\index\controller\Pay.php:41]
+
+---------------------------------------------------------------
+[ 2017-07-21T11:52:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/pay/index.html?id=25
+[ error ] [8]Trying to get property of non-object[E:\wamp64\www\duncan\application\index\controller\Pay.php:39]
+
+---------------------------------------------------------------
+[ 2017-07-21T11:58:38+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/pay/index.html?id=26
+[ error ] [8]未定义变量: deal[E:\wamp64\www\duncan\application\index\controller\Pay.php:45]
+
+---------------------------------------------------------------
+[ 2017-07-21T11:59:55+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/pay/index.html?id=26
+[ error ] [8]未定义变量: deal[E:\wamp64\www\duncan\application\index\controller\Pay.php:45]
+
+---------------------------------------------------------------
+[ 2017-07-21T12:00:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/pay/index.html?id=26
+[ error ] [0]curl出错，错误码:60[E:\wamp64\www\duncan\extend\wxpay\WxPayApi.php:577]
+
+---------------------------------------------------------------

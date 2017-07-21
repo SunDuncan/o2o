@@ -27,7 +27,7 @@ class Order extends Base {
         if (!$count) {
             $this->error("传入的是非法的数据");
         }
-        $sum_price = input("get.deal_price", 1, 'intval');
+        $sum_price = input("get.deal_price");
         if (!$sum_price) {
             $this->error("传入的是非法数据");
         }
@@ -51,6 +51,7 @@ class Order extends Base {
         $data['create_time'] = time();
         $data['deal_count'] = $count;
         $data['total_price'] = $sum_price;
+        $data['deal_id'] = $id;
 
         try {
             $result_id = model('Order')->addOrder($data);
@@ -79,7 +80,7 @@ class Order extends Base {
         //对象转化为数组toArray()
         $deal = $deal->toArray();
 
-        $this->assign('controller', 'pay');
+        $this->assign('controler', 'pay');
         $this->assign("deal", $deal);
         $this->assign("count", $count);
         return $this->fetch();

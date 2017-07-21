@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:71:"E:\wamp64\www\duncan\public/../application/index\view\detail\index.html";i:1500301749;s:70:"E:\wamp64\www\duncan\public/../application/index\view\public\head.html";i:1500295649;s:69:"E:\wamp64\www\duncan\public/../application/index\view\public\nav.html";i:1489469584;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:71:"E:\wamp64\www\duncan\public/../application/index\view\detail\index.html";i:1500301749;s:70:"E:\wamp64\www\duncan\public/../application/index\view\public\head.html";i:1500607704;s:69:"E:\wamp64\www\duncan\public/../application/index\view\public\nav.html";i:1489469584;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
