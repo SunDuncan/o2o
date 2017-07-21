@@ -36,6 +36,7 @@ class Weipay extends Controller
             $url = $result['code_url'];
         }
 
+        dump($url);
         return '<img alt="模式二扫码支付" src="/weixin/example/qrcode.php?data=<?php echo urlencode($url);?>" style="width:300px;height:300px;"/>';
     }
 }
