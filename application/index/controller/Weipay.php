@@ -30,6 +30,7 @@ class Weipay extends Controller
         $input->setTradeType("NATIVE");
         $input->setProductId($id);
         $result = $notify->getPayUrl($input);
+        dump($result);
         if (empty($result["code_url"])) {
             $url = "";
         } else {
