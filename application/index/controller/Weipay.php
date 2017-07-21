@@ -30,14 +30,14 @@ class Weipay extends Controller
         $input->setTradeType("NATIVE");
         $input->setProductId($id);
         $result = $notify->getPayUrl($input);
-        dump($result);
+       
         if (empty($result["code_url"])) {
             $url = "";
         } else {
             $url = $result['code_url'];
         }
-
-        dump($url);
-        return '<img alt="模式二扫码支付" src="/weixin/example/qrcode.php?data=<?php echo urlencode($url);?>" style="width:300px;height:300px;"/>';
-    }
+		
+       $imgInfo = "<img alt='模式二扫码支付'" . "src='/weixin/example/qrcode.php?data=". urlencode($url). "' style='width:300px;height:300px;'/>"; 
+	return $imgInfo;  
+ }
 }
