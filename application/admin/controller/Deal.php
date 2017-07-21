@@ -38,6 +38,7 @@ class Deal extends  Base
         }
 
         $deals = $this->obj->getNormalDeals($sdata);
+
         return $this->fetch('', [
         	'categorys' => $categorys,
         	'citys' => $citys,
@@ -80,6 +81,7 @@ class Deal extends  Base
         foreach($citys as $city) {
             $cityArrs[$city->id] = $city->name;
         }
+
 
         $deals = $this->obj->getApplyDeals($sdata);
         return $this->fetch('', [

@@ -16,8 +16,7 @@ class Deal extends  Base
         if(request()->isPost()) {
             // 走插入逻辑
             $data = input('post.');
-            // 严格校验提交的数据， tp5 validate 小伙伴自行完成，
-
+            dump($data);
             $location = model('BisLocation')->get($data['location_ids'][0]);
             $deals = [
                 'bis_id' => $bisId,

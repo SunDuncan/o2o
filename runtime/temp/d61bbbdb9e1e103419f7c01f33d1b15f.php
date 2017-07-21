@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:69:"E:\wamp64\www\duncan\public/../application/admin\view\deal\index.html";i:1489469584;s:72:"E:\wamp64\www\duncan\public/../application/admin\view\public\header.html";i:1489469584;s:72:"E:\wamp64\www\duncan\public/../application/admin\view\public\footer.html";i:1489469584;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:69:"E:\wamp64\www\duncan\public/../application/admin\view\deal\index.html";i:1500519655;s:72:"E:\wamp64\www\duncan\public/../application/admin\view\public\header.html";i:1489469584;s:72:"E:\wamp64\www\duncan\public/../application/admin\view\public\footer.html";i:1489469584;}*/ ?>
 <!--包含头部文件-->
 <!DOCTYPE HTML>
 <html>

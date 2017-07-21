@@ -1,0 +1,4 @@
+[ 2017-07-21T10:19:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/weipay/wxpayQcode?id=1
+[ error ] [0]curl出错，错误码:60[E:\wamp64\www\duncan\extend\wxpay\WxPayApi.php:577]
+
+---------------------------------------------------------------
