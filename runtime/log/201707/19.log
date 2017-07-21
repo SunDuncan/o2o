@@ -1,10 +1,17 @@
+<<<<<<< HEAD
 [ 2017-07-19T14:15:52+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php
 [ log ] o2o.ducnan.cn/index.php [运行时间：0.066038s][吞吐率：15.14req/s] [内存消耗：2,814.29kb] [文件加载：49]
 [ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
+[ 2017-07-19T15:20:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin
+[ log ] loc.m.com/index.php/admin [运行时间：2.144768s][吞吐率：0.47req/s] [内存消耗：2,787.38kb] [文件加载：49]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
     0 => '',
     1 => NULL,
     2 => NULL,
@@ -14,11 +21,22 @@
   'host' => 'o2o.ducnan.cn',
   'connection' => 'keep-alive',
   'cache-control' => 'max-age=0',
+=======
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+  'connection' => 'keep-alive',
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
   'upgrade-insecure-requests' => '1',
   'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
   'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
   'accept-encoding' => 'gzip, deflate',
   'accept-language' => 'zh-CN,zh;q=0.8',
+<<<<<<< HEAD
   'cookie' => 'pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913',
   'content-type' => '',
   'content-length' => '',
@@ -32,10 +50,26 @@
 [ 2017-07-19T14:17:13+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php
 [ log ] o2o.ducnan.cn/index.php [运行时间：0.038587s][吞吐率：25.92req/s] [内存消耗：3,252.34kb] [文件加载：54]
 [ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
+  'cookie' => 'OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\wamp64\www\duncan\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:20:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ log ] loc.m.com/index.php/admin/index/welcome.html [运行时间：0.129959s][吞吐率：7.69req/s] [内存消耗：2,675.05kb] [文件加载：47]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
     0 => '',
     1 => NULL,
     2 => NULL,
@@ -82,6 +116,33 @@
 [ 2017-07-19T14:17:16+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php
 [ log ] o2o.ducnan.cn/index.php [运行时间：0.043469s][吞吐率：23.00req/s] [内存消耗：3,047.41kb] [文件加载：52]
 [ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://loc.m.com/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ E:\wamp64\www\duncan\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:21:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ log ] loc.m.com/index.php/ [运行时间：1.471891s][吞吐率：0.68req/s] [内存消耗：4,491.56kb] [文件加载：58]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -90,16 +151,24 @@
     1 => NULL,
     2 => NULL,
   ),
+<<<<<<< HEAD
 )
 [ info ] [ HEADER ] array (
   'host' => 'o2o.ducnan.cn',
   'connection' => 'keep-alive',
   'cache-control' => 'max-age=0',
+=======
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+  'connection' => 'keep-alive',
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
   'upgrade-insecure-requests' => '1',
   'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
   'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
   'accept-encoding' => 'gzip, deflate',
   'accept-language' => 'zh-CN,zh;q=0.8',
+<<<<<<< HEAD
   'cookie' => 'pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; thinkphp_show_page_trace=0|0',
   'content-type' => '',
   'content-length' => '',
@@ -107,15 +176,28 @@
 [ info ] [ PARAM ] array (
 )
 [ info ] [ DB ] INIT mysql
+=======
+  'cookie' => 'thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ SESSION ] INIT array (
   'id' => '',
   'var_session_id' => '',
   'prefix' => 'think',
   'type' => '',
   'auto_start' => true,
+<<<<<<< HEAD
 )
 [ info ] [ RUN ] app\index\controller\Index->index[ /home/o2o/application/index/controller/Index.php ]
 [ info ] [ VIEW ] /home/o2o/public/../application/index/view/index/index.html [ array (
+=======
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp64\www\duncan\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/index\view\index\index.html [ array (
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
   0 => 'citys',
   1 => 'city',
   2 => 'cats',
@@ -125,6 +207,7 @@
   6 => 'datas',
   7 => 'meishicates',
   8 => 'controller',
+<<<<<<< HEAD
 ) ]
 [ info ] [ LOG ] INIT File
 
@@ -132,10 +215,20 @@
 [ 2017-07-19T14:17:23+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php
 [ log ] o2o.ducnan.cn/index.php [运行时间：0.038478s][吞吐率：25.99req/s] [内存消耗：3,047.41kb] [文件加载：52]
 [ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:21:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/login/index.html
+[ log ] loc.m.com/index.php/bis/login/index.html [运行时间：0.142594s][吞吐率：7.01req/s] [内存消耗：2,799.49kb] [文件加载：49]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
     0 => '',
     1 => NULL,
     2 => NULL,
@@ -157,12 +250,34 @@
 [ info ] [ PARAM ] array (
 )
 [ info ] [ DB ] INIT mysql
+=======
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://loc.m.com/index.php/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875; PHPSESSID=066gkemudto9pumjqjeuiv4cb0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ E:\wamp64\www\duncan\application\bis\controller\Login.php ]
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ SESSION ] INIT array (
   'id' => '',
   'var_session_id' => '',
   'prefix' => 'think',
   'type' => '',
   'auto_start' => true,
+<<<<<<< HEAD
 )
 [ info ] [ RUN ] app\index\controller\Index->index[ /home/o2o/application/index/controller/Index.php ]
 [ info ] [ VIEW ] /home/o2o/public/../application/index/view/index/index.html [ array (
@@ -182,10 +297,22 @@
 [ 2017-07-19T14:17:33+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php
 [ log ] o2o.ducnan.cn/index.php [运行时间：0.034584s][吞吐率：28.92req/s] [内存消耗：3,047.41kb] [文件加载：52]
 [ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
+)
+[ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/bis\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:21:07+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/index.html
+[ log ] loc.m.com/index.php/bis/register/index.html [运行时间：0.269370s][吞吐率：3.71req/s] [内存消耗：4,352.55kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
     0 => '',
     1 => NULL,
     2 => NULL,
@@ -232,10 +359,43 @@
 [ 2017-07-19T14:18:02+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php
 [ log ] o2o.ducnan.cn/index.php [运行时间：0.028862s][吞吐率：34.65req/s] [内存消耗：3,047.41kb] [文件加载：52]
 [ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://loc.m.com/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875; PHPSESSID=066gkemudto9pumjqjeuiv4cb0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\wamp64\www\duncan\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:21:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] loc.m.com/index.php/bis/register/ [运行时间：0.171656s][吞吐率：5.83req/s] [内存消耗：4,352.79kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
     0 => '',
     1 => NULL,
     2 => NULL,
@@ -282,10 +442,43 @@
 [ 2017-07-19T14:18:07+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php
 [ log ] o2o.ducnan.cn/index.php [运行时间：0.036465s][吞吐率：27.42req/s] [内存消耗：3,047.41kb] [文件加载：52]
 [ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/26.0.0.137',
+  'accept' => '*/*',
+  'referer' => 'http://loc.m.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875; PHPSESSID=066gkemudto9pumjqjeuiv4cb0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\wamp64\www\duncan\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:21:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] loc.m.com/index.php/bis/register/ [运行时间：0.170361s][吞吐率：5.87req/s] [内存消耗：4,352.93kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
     0 => '',
     1 => NULL,
     2 => NULL,
@@ -332,10 +525,43 @@
 [ 2017-07-19T14:18:08+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php
 [ log ] o2o.ducnan.cn/index.php [运行时间：0.036409s][吞吐率：27.47req/s] [内存消耗：3,047.41kb] [文件加载：52]
 [ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/26.0.0.137',
+  'accept' => '*/*',
+  'referer' => 'http://loc.m.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875; PHPSESSID=066gkemudto9pumjqjeuiv4cb0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\wamp64\www\duncan\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:24:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/login
+[ log ] loc.m.com/index.php/bis/login [运行时间：0.080059s][吞吐率：12.49req/s] [内存消耗：2,799.35kb] [文件加载：49]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
     0 => '',
     1 => NULL,
     2 => NULL,
@@ -345,11 +571,22 @@
   'host' => 'o2o.ducnan.cn',
   'connection' => 'keep-alive',
   'cache-control' => 'max-age=0',
+=======
+    0 => 'bis',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+  'connection' => 'keep-alive',
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
   'upgrade-insecure-requests' => '1',
   'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
   'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
   'accept-encoding' => 'gzip, deflate',
   'accept-language' => 'zh-CN,zh;q=0.8',
+<<<<<<< HEAD
   'cookie' => 'pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; thinkphp_show_page_trace=0|0',
   'content-type' => '',
   'content-length' => '',
@@ -357,12 +594,20 @@
 [ info ] [ PARAM ] array (
 )
 [ info ] [ DB ] INIT mysql
+=======
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875; PHPSESSID=066gkemudto9pumjqjeuiv4cb0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ E:\wamp64\www\duncan\application\bis\controller\Login.php ]
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ SESSION ] INIT array (
   'id' => '',
   'var_session_id' => '',
   'prefix' => 'think',
   'type' => '',
   'auto_start' => true,
+<<<<<<< HEAD
 )
 [ info ] [ RUN ] app\index\controller\Index->index[ /home/o2o/application/index/controller/Index.php ]
 [ info ] [ VIEW ] /home/o2o/public/../application/index/view/index/index.html [ array (
@@ -382,10 +627,22 @@
 [ 2017-07-19T14:18:26+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php
 [ log ] o2o.ducnan.cn/index.php [运行时间：0.033471s][吞吐率：29.88req/s] [内存消耗：3,047.20kb] [文件加载：52]
 [ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
+)
+[ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/bis\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:24:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/index.html
+[ log ] loc.m.com/index.php/bis/register/index.html [运行时间：0.129206s][吞吐率：7.74req/s] [内存消耗：4,352.66kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
     0 => '',
     1 => NULL,
     2 => NULL,
@@ -393,10 +650,20 @@
 )
 [ info ] [ HEADER ] array (
   'host' => 'o2o.ducnan.cn',
+=======
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
   'connection' => 'keep-alive',
   'upgrade-insecure-requests' => '1',
   'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
   'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+<<<<<<< HEAD
   'accept-encoding' => 'gzip, deflate',
   'accept-language' => 'zh-CN,zh;q=0.8',
   'cookie' => 'pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; thinkphp_show_page_trace=0|0',
@@ -431,10 +698,32 @@
 [ 2017-07-19T14:18:46+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php
 [ log ] o2o.ducnan.cn/index.php [运行时间：0.039406s][吞吐率：25.38req/s] [内存消耗：3,047.41kb] [文件加载：52]
 [ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
+  'referer' => 'http://loc.m.com/index.php/bis/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875; PHPSESSID=066gkemudto9pumjqjeuiv4cb0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\wamp64\www\duncan\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:24:24+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] loc.m.com/index.php/bis/register/ [运行时间：0.152692s][吞吐率：6.55req/s] [内存消耗：4,352.87kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
     0 => '',
     1 => NULL,
     2 => NULL,
@@ -481,10 +770,43 @@
 [ 2017-07-19T14:18:57+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php
 [ log ] o2o.ducnan.cn/index.php [运行时间：0.031045s][吞吐率：32.21req/s] [内存消耗：3,047.20kb] [文件加载：52]
 [ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/26.0.0.137',
+  'accept' => '*/*',
+  'referer' => 'http://loc.m.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875; PHPSESSID=066gkemudto9pumjqjeuiv4cb0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\wamp64\www\duncan\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:24:24+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] loc.m.com/index.php/bis/register/ [运行时间：0.291364s][吞吐率：3.43req/s] [内存消耗：4,352.87kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
     0 => '',
     1 => NULL,
     2 => NULL,
@@ -530,10 +852,43 @@
 [ 2017-07-19T14:23:02+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php?s=index/index/index.html?city=nanjing
 [ log ] o2o.ducnan.cn/index.php?s=index/index/index.html?city=nanjing [运行时间：0.042733s][吞吐率：23.40req/s] [内存消耗：2,945.71kb] [文件加载：51]
 [ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/26.0.0.137',
+  'accept' => '*/*',
+  'referer' => 'http://loc.m.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875; PHPSESSID=066gkemudto9pumjqjeuiv4cb0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\wamp64\www\duncan\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:25:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/index.html
+[ log ] loc.m.com/index.php/bis/register/index.html [运行时间：0.182530s][吞吐率：5.48req/s] [内存消耗：4,352.73kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
     0 => 'index',
     1 => 'index',
     2 => 'index.html',
@@ -567,10 +922,44 @@
 [ 2017-07-19T14:24:15+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php?s=admin/index/iwelcome
 [ log ] o2o.ducnan.cn/index.php?s=admin/index/iwelcome [运行时间：0.019763s][吞吐率：50.60req/s] [内存消耗：1,779.72kb] [文件加载：44]
 [ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://loc.m.com/index.php/bis/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875; PHPSESSID=066gkemudto9pumjqjeuiv4cb0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\wamp64\www\duncan\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:25:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] loc.m.com/index.php/bis/register/ [运行时间：0.200425s][吞吐率：4.99req/s] [内存消耗：4,352.70kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
     0 => 'admin',
     1 => 'index',
     2 => 'iwelcome',
@@ -596,10 +985,43 @@
 [ 2017-07-19T14:24:22+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php?s=admin/index/welcome
 [ log ] o2o.ducnan.cn/index.php?s=admin/index/welcome [运行时间：0.016215s][吞吐率：61.67req/s] [内存消耗：1,711.76kb] [文件加载：41]
 [ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'ShockwaveFlash/26.0.0.137',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://loc.m.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875; PHPSESSID=066gkemudto9pumjqjeuiv4cb0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\wamp64\www\duncan\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:25:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] loc.m.com/index.php/bis/register/ [运行时间：0.174467s][吞吐率：5.73req/s] [内存消耗：4,352.70kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
     0 => 'admin',
     1 => 'index',
     2 => 'welcome',
@@ -626,10 +1048,43 @@
 [ 2017-07-19T14:59:33+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php?s=admin/index/welcome
 [ log ] o2o.ducnan.cn/index.php?s=admin/index/welcome [运行时间：0.019605s][吞吐率：51.01req/s] [内存消耗：1,712.23kb] [文件加载：41]
 [ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'ShockwaveFlash/26.0.0.137',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://loc.m.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875; PHPSESSID=066gkemudto9pumjqjeuiv4cb0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\wamp64\www\duncan\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:33:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/index.html
+[ log ] loc.m.com/index.php/bis/register/index.html [运行时间：0.206678s][吞吐率：4.84req/s] [内存消耗：4,352.73kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
     0 => 'admin',
     1 => 'index',
     2 => 'welcome',
@@ -637,11 +1092,21 @@
 )
 [ info ] [ HEADER ] array (
   'host' => 'o2o.ducnan.cn',
+=======
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
   'connection' => 'keep-alive',
   'cache-control' => 'max-age=0',
   'upgrade-insecure-requests' => '1',
   'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
   'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+<<<<<<< HEAD
   'accept-encoding' => 'gzip, deflate',
   'accept-language' => 'zh-CN,zh;q=0.8',
   'cookie' => 'pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=1|1',
@@ -657,10 +1122,32 @@
 [ 2017-07-19T14:59:41+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php
 [ log ] o2o.ducnan.cn/index.php [运行时间：0.051750s][吞吐率：19.32req/s] [内存消耗：3,046.91kb] [文件加载：52]
 [ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
+  'referer' => 'http://loc.m.com/index.php/bis/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875; PHPSESSID=066gkemudto9pumjqjeuiv4cb0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\wamp64\www\duncan\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:33:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] loc.m.com/index.php/bis/register/ [运行时间：0.151599s][吞吐率：6.60req/s] [内存消耗：4,352.70kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
     0 => '',
     1 => NULL,
     2 => NULL,
@@ -706,10 +1193,43 @@
 [ 2017-07-19T14:59:54+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php?s=index/index/index.html?city=nanjing
 [ log ] o2o.ducnan.cn/index.php?s=index/index/index.html?city=nanjing [运行时间：0.036094s][吞吐率：27.71req/s] [内存消耗：2,945.71kb] [文件加载：51]
 [ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'ShockwaveFlash/26.0.0.137',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://loc.m.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875; PHPSESSID=066gkemudto9pumjqjeuiv4cb0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\wamp64\www\duncan\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:33:35+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] loc.m.com/index.php/bis/register/ [运行时间：0.218138s][吞吐率：4.58req/s] [内存消耗：4,352.70kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
     0 => 'index',
     1 => 'index',
     2 => 'index.html',
@@ -743,10 +1263,43 @@
 [ 2017-07-19T15:00:34+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php?s=index/user/login
 [ log ] o2o.ducnan.cn/index.php?s=index/user/login [运行时间：0.020563s][吞吐率：48.63req/s] [内存消耗：1,990.70kb] [文件加载：43]
 [ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'ShockwaveFlash/26.0.0.137',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://loc.m.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875; PHPSESSID=066gkemudto9pumjqjeuiv4cb0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\wamp64\www\duncan\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:51:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/index.html
+[ log ] loc.m.com/index.php/bis/register/index.html [运行时间：0.186156s][吞吐率：5.37req/s] [内存消耗：4,352.73kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
     0 => 'index',
     1 => 'user',
     2 => 'login',
@@ -782,10 +1335,44 @@
 [ 2017-07-19T15:09:53+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/index/user/login
 [ log ] o2o.ducnan.cn/index.php/index/user/login [运行时间：0.023394s][吞吐率：42.75req/s] [内存消耗：1,795.84kb] [文件加载：41]
 [ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://loc.m.com/index.php/bis/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875; PHPSESSID=066gkemudto9pumjqjeuiv4cb0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\wamp64\www\duncan\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:51:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] loc.m.com/index.php/bis/register/ [运行时间：0.150224s][吞吐率：6.66req/s] [内存消耗：4,352.70kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
     0 => 'index',
     1 => 'user',
     2 => 'login',
@@ -822,10 +1409,43 @@
 [ 2017-07-19T15:09:55+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/index/user/login
 [ log ] o2o.ducnan.cn/index.php/index/user/login [运行时间：0.025290s][吞吐率：39.54req/s] [内存消耗：1,795.82kb] [文件加载：41]
 [ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'ShockwaveFlash/26.0.0.137',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://loc.m.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875; PHPSESSID=066gkemudto9pumjqjeuiv4cb0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\wamp64\www\duncan\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:51:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] loc.m.com/index.php/bis/register/ [运行时间：0.140314s][吞吐率：7.13req/s] [内存消耗：4,352.70kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
     0 => 'index',
     1 => 'user',
     2 => 'login',
@@ -862,10 +1482,43 @@
 [ 2017-07-19T15:10:06+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/index/user/register.html
 [ log ] o2o.ducnan.cn/index.php/index/user/register.html [运行时间：0.024455s][吞吐率：40.89req/s] [内存消耗：2,072.70kb] [文件加载：47]
 [ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'ShockwaveFlash/26.0.0.137',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://loc.m.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875; PHPSESSID=066gkemudto9pumjqjeuiv4cb0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\wamp64\www\duncan\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:51:16+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/index.html
+[ log ] loc.m.com/index.php/bis/register/index.html [运行时间：0.112983s][吞吐率：8.85req/s] [内存消耗：4,352.67kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
     0 => 'index',
     1 => 'user',
     2 => 'register',
@@ -895,10 +1548,44 @@
 [ 2017-07-19T15:10:31+08:00 ] 10.105.23.187 120.40.59.245 GET /
 [ log ] www.123cha.com/ [运行时间：0.039796s][吞吐率：25.13req/s] [内存消耗：3,046.14kb] [文件加载：52]
 [ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://loc.m.com/index.php/bis/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875; PHPSESSID=066gkemudto9pumjqjeuiv4cb0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\wamp64\www\duncan\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:51:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] loc.m.com/index.php/bis/register/ [运行时间：0.158099s][吞吐率：6.33req/s] [内存消耗：4,352.70kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
     0 => '',
     1 => NULL,
     2 => NULL,
@@ -939,10 +1626,43 @@
 [ 2017-07-19T15:12:56+08:00 ] 10.105.23.187 122.96.140.194 GET /
 [ log ] o2o.ducnan.cn/ [运行时间：0.044324s][吞吐率：22.56req/s] [内存消耗：3,256.86kb] [文件加载：58]
 [ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'ShockwaveFlash/26.0.0.137',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://loc.m.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875; PHPSESSID=066gkemudto9pumjqjeuiv4cb0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\wamp64\www\duncan\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:51:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] loc.m.com/index.php/bis/register/ [运行时间：0.180790s][吞吐率：5.53req/s] [内存消耗：4,352.70kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
     0 => '',
     1 => NULL,
     2 => NULL,
@@ -988,10 +1708,43 @@
 [ 2017-07-19T15:13:10+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/index/user/login.html
 [ log ] o2o.ducnan.cn/index.php/index/user/login.html [运行时间：0.017103s][吞吐率：58.47req/s] [内存消耗：2,005.25kb] [文件加载：47]
 [ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'ShockwaveFlash/26.0.0.137',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://loc.m.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875; PHPSESSID=066gkemudto9pumjqjeuiv4cb0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\wamp64\www\duncan\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:51:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/index.html
+[ log ] loc.m.com/index.php/bis/register/index.html [运行时间：0.146715s][吞吐率：6.82req/s] [内存消耗：4,352.73kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
     0 => 'index',
     1 => 'user',
     2 => 'login',
@@ -1027,10 +1780,44 @@
 [ 2017-07-19T15:13:13+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/index/user/register.html
 [ log ] o2o.ducnan.cn/index.php/index/user/register.html [运行时间：0.021350s][吞吐率：46.84req/s] [内存消耗：2,003.45kb] [文件加载：47]
 [ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://loc.m.com/index.php/bis/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875; PHPSESSID=066gkemudto9pumjqjeuiv4cb0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\wamp64\www\duncan\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:51:54+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] loc.m.com/index.php/bis/register/ [运行时间：0.144450s][吞吐率：6.92req/s] [内存消耗：4,352.70kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
     0 => 'index',
     1 => 'user',
     2 => 'register',
@@ -1097,10 +1884,77 @@
 [ 2017-07-19T15:16:06+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/index/user/register.html
 [ log ] o2o.ducnan.cn/index.php/index/user/register.html [运行时间：0.050965s][吞吐率：19.62req/s] [内存消耗：2,003.71kb] [文件加载：47]
 [ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'ShockwaveFlash/26.0.0.137',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://loc.m.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875; PHPSESSID=066gkemudto9pumjqjeuiv4cb0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\wamp64\www\duncan\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:51:55+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] loc.m.com/index.php/bis/register/ [运行时间：0.194064s][吞吐率：5.15req/s] [内存消耗：4,352.70kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'ShockwaveFlash/26.0.0.137',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://loc.m.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875; PHPSESSID=066gkemudto9pumjqjeuiv4cb0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\wamp64\www\duncan\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:54:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/index.html
+[ log ] loc.m.com/index.php/bis/register/index.html [运行时间：0.179455s][吞吐率：5.57req/s] [内存消耗：4,352.73kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+<<<<<<< HEAD
     0 => 'index',
     1 => 'user',
     2 => 'register',
@@ -1108,11 +1962,21 @@
 )
 [ info ] [ HEADER ] array (
   'host' => 'o2o.ducnan.cn',
+=======
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
   'connection' => 'keep-alive',
   'cache-control' => 'max-age=0',
   'upgrade-insecure-requests' => '1',
   'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
   'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+<<<<<<< HEAD
   'referer' => 'http://o2o.ducnan.cn/index.php/index/user/login.html',
   'accept-encoding' => 'gzip, deflate',
   'accept-language' => 'zh-CN,zh;q=0.8',
@@ -1168,10 +2032,66 @@
 [ 2017-07-19T15:16:15+08:00 ] 10.105.23.187 122.96.140.194 GET /
 [ log ] o2o.ducnan.cn/ [运行时间：0.063051s][吞吐率：15.86req/s] [内存消耗：3,257.48kb] [文件加载：58]
 [ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
+  'referer' => 'http://loc.m.com/index.php/bis/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875; PHPSESSID=066gkemudto9pumjqjeuiv4cb0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\wamp64\www\duncan\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:54:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] loc.m.com/index.php/bis/register/ [运行时间：0.160653s][吞吐率：6.22req/s] [内存消耗：4,352.70kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'ShockwaveFlash/26.0.0.137',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://loc.m.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875; PHPSESSID=066gkemudto9pumjqjeuiv4cb0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\wamp64\www\duncan\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:54:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] loc.m.com/index.php/bis/register/ [运行时间：0.142699s][吞吐率：7.01req/s] [内存消耗：4,352.70kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+<<<<<<< HEAD
     0 => '',
     1 => NULL,
     2 => NULL,
@@ -1217,10 +2137,43 @@
 [ 2017-07-19T15:16:23+08:00 ] 10.105.23.187 122.96.140.194 GET /
 [ log ] o2o.ducnan.cn/ [运行时间：0.049589s][吞吐率：20.17req/s] [内存消耗：3,257.48kb] [文件加载：58]
 [ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'ShockwaveFlash/26.0.0.137',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://loc.m.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875; PHPSESSID=066gkemudto9pumjqjeuiv4cb0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\wamp64\www\duncan\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:54:37+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/image/upload.html
+[ log ] loc.m.com/index.php/api/image/upload.html [运行时间：0.324386s][吞吐率：3.08req/s] [内存消耗：2,720.88kb] [文件加载：46]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
     0 => '',
     1 => NULL,
     2 => NULL,
@@ -1266,10 +2219,43 @@
 [ 2017-07-19T15:16:26+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php
 [ log ] o2o.ducnan.cn/index.php [运行时间：0.035009s][吞吐率：28.56req/s] [内存消耗：3,257.55kb] [文件加载：58]
 [ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
+    0 => 'api',
+    1 => 'image',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+  'connection' => 'keep-alive',
+  'content-length' => '152410',
+  'origin' => 'http://loc.m.com',
+  'x-requested-with' => 'ShockwaveFlash/26.0.0.137',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----------KM7GI3ae0Ef1gL6GI3Ef1cH2ae0Ij5',
+  'accept' => '*/*',
+  'referer' => 'http://loc.m.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875; PHPSESSID=066gkemudto9pumjqjeuiv4cb0',
+)
+[ info ] [ PARAM ] array (
+  'Filename' => 'timg.jpg',
+  'Upload' => 'Submit Query',
+)
+[ info ] [ RUN ] app\api\controller\Image->upload[ E:\wamp64\www\duncan\application\api\controller\Image.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:55:56+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/index.html
+[ log ] loc.m.com/index.php/bis/register/index.html [运行时间：0.146144s][吞吐率：6.84req/s] [内存消耗：4,352.73kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
     0 => '',
     1 => NULL,
     2 => NULL,
@@ -1315,10 +2301,44 @@
 [ 2017-07-19T15:16:28+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/index/index/index.html?city=nanjing
 [ log ] o2o.ducnan.cn/index.php/index/index/index.html?city=nanjing [运行时间：0.042788s][吞吐率：23.37req/s] [内存消耗：3,274.94kb] [文件加载：58]
 [ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://loc.m.com/index.php/bis/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875; PHPSESSID=066gkemudto9pumjqjeuiv4cb0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\wamp64\www\duncan\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:55:59+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] loc.m.com/index.php/bis/register/ [运行时间：0.156034s][吞吐率：6.41req/s] [内存消耗：4,352.70kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
     0 => 'index',
     1 => 'index',
     2 => 'index',
@@ -1366,10 +2386,43 @@
 [ 2017-07-19T15:17:04+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/index/user/login.html
 [ log ] o2o.ducnan.cn/index.php/index/user/login.html [运行时间：0.036233s][吞吐率：27.60req/s] [内存消耗：2,006.21kb] [文件加载：47]
 [ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'ShockwaveFlash/26.0.0.137',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://loc.m.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875; PHPSESSID=066gkemudto9pumjqjeuiv4cb0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\wamp64\www\duncan\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:56:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] loc.m.com/index.php/bis/register/ [运行时间：0.192591s][吞吐率：5.19req/s] [内存消耗：4,352.70kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
     0 => 'index',
     1 => 'user',
     2 => 'login',
@@ -1665,11 +2718,44 @@
 [ 2017-07-19T15:18:08+08:00 ] 10.105.23.187 122.96.140.194 POST /index.php/bis/login/index.html
 [ log ] o2o.ducnan.cn/index.php/bis/login/index.html [运行时间：0.055392s][吞吐率：18.05req/s] [内存消耗：3,178.58kb] [文件加载：60]
 [ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'ShockwaveFlash/26.0.0.137',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://loc.m.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875; PHPSESSID=066gkemudto9pumjqjeuiv4cb0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\wamp64\www\duncan\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T16:07:35+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/index.html
+[ log ] loc.m.com/index.php/bis/register/index.html [运行时间：0.159416s][吞吐率：6.27req/s] [内存消耗：4,352.73kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
     0 => 'bis',
+<<<<<<< HEAD
     1 => 'login',
     2 => 'index',
   ),
@@ -1756,11 +2842,44 @@
 [ 2017-07-19T15:18:15+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/bis/location/add.html
 [ log ] o2o.ducnan.cn/index.php/bis/location/add.html [运行时间：0.034815s][吞吐率：28.72req/s] [内存消耗：3,415.24kb] [文件加载：62]
 [ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://loc.m.com/index.php/bis/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875; PHPSESSID=066gkemudto9pumjqjeuiv4cb0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\wamp64\www\duncan\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T16:07:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] loc.m.com/index.php/bis/register/ [运行时间：0.219381s][吞吐率：4.56req/s] [内存消耗：4,352.70kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
     0 => 'bis',
+<<<<<<< HEAD
     1 => 'location',
     2 => 'add',
   ),
@@ -1792,11 +2911,43 @@
 [ 2017-07-19T15:18:45+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/bis/login/logout.html
 [ log ] o2o.ducnan.cn/index.php/bis/login/logout.html [运行时间：0.021879s][吞吐率：45.71req/s] [内存消耗：2,283.70kb] [文件加载：50]
 [ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'ShockwaveFlash/26.0.0.137',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://loc.m.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875; PHPSESSID=066gkemudto9pumjqjeuiv4cb0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\wamp64\www\duncan\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T16:07:38+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] loc.m.com/index.php/bis/register/ [运行时间：0.147493s][吞吐率：6.78req/s] [内存消耗：4,352.70kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
     0 => 'bis',
+<<<<<<< HEAD
     1 => 'login',
     2 => 'logout',
   ),
@@ -1830,10 +2981,42 @@
 [ 2017-07-19T15:18:45+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/bis/login/index.html
 [ log ] o2o.ducnan.cn/index.php/bis/login/index.html [运行时间：0.029171s][吞吐率：34.28req/s] [内存消耗：2,006.25kb] [文件加载：49]
 [ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'ShockwaveFlash/26.0.0.137',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://loc.m.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875; PHPSESSID=066gkemudto9pumjqjeuiv4cb0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\wamp64\www\duncan\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T16:07:41+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/image/upload.html
+[ log ] loc.m.com/index.php/api/image/upload.html [运行时间：0.137327s][吞吐率：7.28req/s] [内存消耗：2,720.88kb] [文件加载：46]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
     0 => 'bis',
     1 => 'login',
     2 => 'index',
@@ -1870,10 +3053,43 @@
 [ 2017-07-19T15:18:46+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/bis/register/index.html
 [ log ] o2o.ducnan.cn/index.php/bis/register/index.html [运行时间：0.031560s][吞吐率：31.69req/s] [内存消耗：3,344.79kb] [文件加载：59]
 [ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
+    0 => 'api',
+    1 => 'image',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+  'connection' => 'keep-alive',
+  'content-length' => '152410',
+  'origin' => 'http://loc.m.com',
+  'x-requested-with' => 'ShockwaveFlash/26.0.0.137',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----------KM7ei4ei4Ij5GI3Ef1GI3ei4cH2ei4',
+  'accept' => '*/*',
+  'referer' => 'http://loc.m.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875; PHPSESSID=066gkemudto9pumjqjeuiv4cb0',
+)
+[ info ] [ PARAM ] array (
+  'Filename' => 'timg.jpg',
+  'Upload' => 'Submit Query',
+)
+[ info ] [ RUN ] app\api\controller\Image->upload[ E:\wamp64\www\duncan\application\api\controller\Image.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T16:21:47+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/image/upload.html
+[ log ] loc.m.com/index.php/api/image/upload.html [运行时间：0.130977s][吞吐率：7.63req/s] [内存消耗：2,720.88kb] [文件加载：46]
+[ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
     0 => 'bis',
     1 => 'register',
     2 => 'index',
@@ -4127,3 +5343,32 @@
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
+=======
+    0 => 'api',
+    1 => 'image',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'loc.m.com',
+  'connection' => 'keep-alive',
+  'content-length' => '152410',
+  'origin' => 'http://loc.m.com',
+  'x-requested-with' => 'ShockwaveFlash/26.0.0.137',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----------Ef1Ef1Ij5GI3Ef1ae0KM7Ef1cH2ei4',
+  'accept' => '*/*',
+  'referer' => 'http://loc.m.com/index.php/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875; PHPSESSID=066gkemudto9pumjqjeuiv4cb0',
+)
+[ info ] [ PARAM ] array (
+  'Filename' => 'timg.jpg',
+  'Upload' => 'Submit Query',
+)
+[ info ] [ RUN ] app\api\controller\Image->upload[ E:\wamp64\www\duncan\application\api\controller\Image.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f

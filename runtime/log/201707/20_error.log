@@ -1,0 +1,92 @@
+[ 2017-07-20T10:34:43+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/bis/deal/add.html
+[ error ] [8]未定义数组索引: location_ids[E:\wamp64\www\duncan\application\bis\controller\Deal.php:21]
+
+---------------------------------------------------------------
+[ 2017-07-20T10:41:55+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/bis/deal/add.html
+[ error ] [10501]SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '0.0.1' for column 'current_price' at row 1[E:\wamp64\www\duncan\thinkphp\library\think\db\Connection.php:405]
+
+---------------------------------------------------------------
+[ 2017-07-20T10:46:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/deal/apply.html
+[ error ] [8]未定义数组下标: 14[E:\wamp64\www\duncan\runtime\temp\99f7ab74a04cf700b70e027e3c2921f7.php:86]
+
+---------------------------------------------------------------
+[ 2017-07-20T10:47:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/deal/apply.html
+[ error ] [8]未定义数组下标: 14[E:\wamp64\www\duncan\runtime\temp\99f7ab74a04cf700b70e027e3c2921f7.php:86]
+
+---------------------------------------------------------------
+[ 2017-07-20T10:49:17+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/deal/apply.html
+[ error ] [8]未定义数组下标: 14[E:\wamp64\www\duncan\runtime\temp\99f7ab74a04cf700b70e027e3c2921f7.php:86]
+
+---------------------------------------------------------------
+[ 2017-07-20T10:52:38+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/deal/index
+[ error ] [8]未定义数组索引: city_id[E:\wamp64\www\duncan\thinkphp\library\think\Collection.php:309]
+
+---------------------------------------------------------------
+[ 2017-07-20T10:53:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/deal/index
+[ error ] [1]Call to undefined function app\admin\controller\toArray()[E:\wamp64\www\duncan\application\admin\controller\Deal.php:43]
+
+---------------------------------------------------------------
+[ 2017-07-20T10:53:43+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/deal/index
+[ error ] [8]未定义数组索引: city_id[E:\wamp64\www\duncan\thinkphp\library\think\Collection.php:309]
+
+---------------------------------------------------------------
+[ 2017-07-20T10:56:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/deal/index
+[ error ] [8]未定义数组下标: 0[E:\wamp64\www\duncan\application\admin\controller\Deal.php:44]
+
+---------------------------------------------------------------
+[ 2017-07-20T10:57:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/deal/index
+[ error ] [8]未定义数组下标: 1[E:\wamp64\www\duncan\application\admin\controller\Deal.php:44]
+
+---------------------------------------------------------------
+[ 2017-07-20T10:58:54+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/deal/index
+[ error ] [8]Use of undefined constant name - assumed 'name'[E:\wamp64\www\duncan\application\admin\controller\Deal.php:46]
+
+---------------------------------------------------------------
+[ 2017-07-20T10:59:55+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/deal/apply.html
+[ error ] [8]未定义数组下标: 14[E:\wamp64\www\duncan\runtime\temp\99f7ab74a04cf700b70e027e3c2921f7.php:86]
+
+---------------------------------------------------------------
+[ 2017-07-20T10:59:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/deal/apply.html
+[ error ] [8]未定义数组下标: 14[E:\wamp64\www\duncan\runtime\temp\99f7ab74a04cf700b70e027e3c2921f7.php:86]
+
+---------------------------------------------------------------
+[ 2017-07-20T10:59:59+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/deal/apply.html
+[ error ] [8]未定义数组下标: 14[E:\wamp64\www\duncan\runtime\temp\99f7ab74a04cf700b70e027e3c2921f7.php:86]
+
+---------------------------------------------------------------
+[ 2017-07-20T11:00:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/deal/apply.html
+[ error ] [8]未定义数组下标: 14[E:\wamp64\www\duncan\runtime\temp\99f7ab74a04cf700b70e027e3c2921f7.php:86]
+
+---------------------------------------------------------------
+[ 2017-07-20T11:00:27+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/deal/apply.html
+[ error ] [8]未定义数组下标: 14[E:\wamp64\www\duncan\runtime\temp\99f7ab74a04cf700b70e027e3c2921f7.php:86]
+
+---------------------------------------------------------------
+[ 2017-07-20T11:00:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/deal/apply.html
+[ error ] [8]未定义数组下标: 14[E:\wamp64\www\duncan\runtime\temp\99f7ab74a04cf700b70e027e3c2921f7.php:86]
+
+---------------------------------------------------------------
+[ 2017-07-20T11:00:38+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/deal/apply.html
+[ error ] [8]未定义数组下标: 14[E:\wamp64\www\duncan\runtime\temp\99f7ab74a04cf700b70e027e3c2921f7.php:86]
+
+---------------------------------------------------------------
+[ 2017-07-20T11:00:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/deal/index.html
+[ error ] [4]语法错误: unexpected ';', expecting ']'[E:\wamp64\www\duncan\runtime\temp\d61bbbdb9e1e103419f7c01f33d1b15f.php:86]
+
+---------------------------------------------------------------
+[ 2017-07-20T11:01:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/deal/apply.html
+[ error ] [8]未定义数组下标: 14[E:\wamp64\www\duncan\runtime\temp\99f7ab74a04cf700b70e027e3c2921f7.php:86]
+
+---------------------------------------------------------------
+[ 2017-07-20T11:04:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/deal/apply.html
+[ error ] [8]未定义数组下标: 14[E:\wamp64\www\duncan\application\admin\controller\Deal.php:89]
+
+---------------------------------------------------------------
+[ 2017-07-20T21:18:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/weipay/wxpayQcode?id=1
+[ error ] [1]Call to undefined method wxpay\database\WxPayUnifiedOrder::SetOut_trade_no()[E:\wamp64\www\duncan\application\index\controller\Weipay.php:24]
+
+---------------------------------------------------------------
+[ 2017-07-20T21:24:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/weipay/wxpayQcode?id=1
+[ error ] [0]curl出错，错误码:7[E:\wamp64\www\duncan\extend\wxpay\WxPayApi.php:577]
+
+---------------------------------------------------------------
