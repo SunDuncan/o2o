@@ -38,6 +38,6 @@ class Weipay extends Controller
         }
 
         dump($url);
-        return '<img alt="模式二扫码支付" src="/weixin/example/qrcode.php?data=<?php echo urlencode($url);?>" style="width:300px;height:300px;"/>';
+        return '<img alt="模式二扫码支付" src="/weixin/example/qrcode.php?data=<?php echo $url;?>" style="width:300px;height:300px;"/>';
     }
 }
