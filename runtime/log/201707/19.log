@@ -1,10 +1,27 @@
+<<<<<<< HEAD
+[ 2017-07-19T14:15:52+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php
+[ log ] o2o.ducnan.cn/index.php [运行时间：0.066038s][吞吐率：15.14req/s] [内存消耗：2,814.29kb] [文件加载：49]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
 [ 2017-07-19T15:20:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin
 [ log ] loc.m.com/index.php/admin [运行时间：2.144768s][吞吐率：0.47req/s] [内存消耗：2,787.38kb] [文件加载：49]
 [ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+=======
     0 => 'admin',
     1 => NULL,
     2 => NULL,
@@ -13,11 +30,27 @@
 [ info ] [ HEADER ] array (
   'host' => 'loc.m.com',
   'connection' => 'keep-alive',
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
   'upgrade-insecure-requests' => '1',
   'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
   'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
   'accept-encoding' => 'gzip, deflate',
   'accept-language' => 'zh-CN,zh;q=0.8',
+<<<<<<< HEAD
+  'cookie' => 'pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T14:17:13+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php
+[ log ] o2o.ducnan.cn/index.php [运行时间：0.038587s][吞吐率：25.92req/s] [内存消耗：3,252.34kb] [文件加载：54]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
   'cookie' => 'OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875',
 )
 [ info ] [ PARAM ] array (
@@ -31,10 +64,59 @@
 [ 2017-07-19T15:20:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
 [ log ] loc.m.com/index.php/admin/index/welcome.html [运行时间：0.129959s][吞吐率：7.69req/s] [内存消耗：2,675.05kb] [文件加载：47]
 [ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T14:17:16+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php
+[ log ] o2o.ducnan.cn/index.php [运行时间：0.043469s][吞吐率：23.00req/s] [内存消耗：3,047.41kb] [文件加载：52]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
     0 => 'admin',
     1 => 'index',
     2 => 'welcome',
@@ -60,6 +142,7 @@
 [ 2017-07-19T15:21:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
 [ log ] loc.m.com/index.php/ [运行时间：1.471891s][吞吐率：0.68req/s] [内存消耗：4,491.56kb] [文件加载：58]
 [ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -68,29 +151,53 @@
     1 => NULL,
     2 => NULL,
   ),
+<<<<<<< HEAD
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+=======
 )
 [ info ] [ HEADER ] array (
   'host' => 'loc.m.com',
   'connection' => 'keep-alive',
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
   'upgrade-insecure-requests' => '1',
   'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
   'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
   'accept-encoding' => 'gzip, deflate',
   'accept-language' => 'zh-CN,zh;q=0.8',
+<<<<<<< HEAD
+  'cookie' => 'pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+=======
   'cookie' => 'thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875',
 )
 [ info ] [ PARAM ] array (
 )
 [ info ] [ DB ] INIT mysql
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ SESSION ] INIT array (
   'id' => '',
   'var_session_id' => '',
   'prefix' => 'think',
   'type' => '',
   'auto_start' => true,
+<<<<<<< HEAD
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/index/index.html [ array (
+=======
 )
 [ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp64\www\duncan\application\index\controller\Index.php ]
 [ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/index\view\index\index.html [ array (
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
   0 => 'citys',
   1 => 'city',
   2 => 'cats',
@@ -100,6 +207,15 @@
   6 => 'datas',
   7 => 'meishicates',
   8 => 'controller',
+<<<<<<< HEAD
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T14:17:23+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php
+[ log ] o2o.ducnan.cn/index.php [运行时间：0.038478s][吞吐率：25.99req/s] [内存消耗：3,047.41kb] [文件加载：52]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
 ) ]
 [ info ] [ LOG ] INIT File
 
@@ -107,10 +223,34 @@
 [ 2017-07-19T15:21:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/login/index.html
 [ log ] loc.m.com/index.php/bis/login/index.html [运行时间：0.142594s][吞吐率：7.01req/s] [内存消耗：2,799.49kb] [文件加载：49]
 [ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+=======
     0 => 'bis',
     1 => 'login',
     2 => 'index',
@@ -130,12 +270,34 @@
 [ info ] [ PARAM ] array (
 )
 [ info ] [ RUN ] app\bis\controller\Login->index[ E:\wamp64\www\duncan\application\bis\controller\Login.php ]
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ SESSION ] INIT array (
   'id' => '',
   'var_session_id' => '',
   'prefix' => 'think',
   'type' => '',
   'auto_start' => true,
+<<<<<<< HEAD
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T14:17:33+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php
+[ log ] o2o.ducnan.cn/index.php [运行时间：0.034584s][吞吐率：28.92req/s] [内存消耗：3,047.41kb] [文件加载：52]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
 )
 [ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/bis\view\login\index.html [ array (
 ) ]
@@ -145,10 +307,59 @@
 [ 2017-07-19T15:21:07+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/index.html
 [ log ] loc.m.com/index.php/bis/register/index.html [运行时间：0.269370s][吞吐率：3.71req/s] [内存消耗：4,352.55kb] [文件加载：57]
 [ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T14:18:02+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php
+[ log ] o2o.ducnan.cn/index.php [运行时间：0.028862s][吞吐率：34.65req/s] [内存消耗：3,047.41kb] [文件加载：52]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
     0 => 'bis',
     1 => 'register',
     2 => 'index',
@@ -179,10 +390,59 @@
 [ 2017-07-19T15:21:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
 [ log ] loc.m.com/index.php/bis/register/ [运行时间：0.171656s][吞吐率：5.83req/s] [内存消耗：4,352.79kb] [文件加载：57]
 [ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T14:18:07+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php
+[ log ] o2o.ducnan.cn/index.php [运行时间：0.036465s][吞吐率：27.42req/s] [内存消耗：3,047.41kb] [文件加载：52]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
     0 => 'bis',
     1 => 'register',
     2 => NULL,
@@ -213,10 +473,59 @@
 [ 2017-07-19T15:21:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
 [ log ] loc.m.com/index.php/bis/register/ [运行时间：0.170361s][吞吐率：5.87req/s] [内存消耗：4,352.93kb] [文件加载：57]
 [ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T14:18:08+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php
+[ log ] o2o.ducnan.cn/index.php [运行时间：0.036409s][吞吐率：27.47req/s] [内存消耗：3,047.41kb] [文件加载：52]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
     0 => 'bis',
     1 => 'register',
     2 => NULL,
@@ -247,10 +556,22 @@
 [ 2017-07-19T15:24:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/login
 [ log ] loc.m.com/index.php/bis/login [运行时间：0.080059s][吞吐率：12.49req/s] [内存消耗：2,799.35kb] [文件加载：49]
 [ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+=======
     0 => 'bis',
     1 => 'login',
     2 => NULL,
@@ -259,22 +580,54 @@
 [ info ] [ HEADER ] array (
   'host' => 'loc.m.com',
   'connection' => 'keep-alive',
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
   'upgrade-insecure-requests' => '1',
   'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
   'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
   'accept-encoding' => 'gzip, deflate',
   'accept-language' => 'zh-CN,zh;q=0.8',
+<<<<<<< HEAD
+  'cookie' => 'pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+=======
   'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; OUTFOX_SEARCH_USER_ID_NCOO=978554766.5293875; PHPSESSID=066gkemudto9pumjqjeuiv4cb0',
 )
 [ info ] [ PARAM ] array (
 )
 [ info ] [ RUN ] app\bis\controller\Login->index[ E:\wamp64\www\duncan\application\bis\controller\Login.php ]
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ SESSION ] INIT array (
   'id' => '',
   'var_session_id' => '',
   'prefix' => 'think',
   'type' => '',
   'auto_start' => true,
+<<<<<<< HEAD
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T14:18:26+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php
+[ log ] o2o.ducnan.cn/index.php [运行时间：0.033471s][吞吐率：29.88req/s] [内存消耗：3,047.20kb] [文件加载：52]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
 )
 [ info ] [ VIEW ] E:\wamp64\www\duncan\public/../application/bis\view\login\index.html [ array (
 ) ]
@@ -284,10 +637,20 @@
 [ 2017-07-19T15:24:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/index.html
 [ log ] loc.m.com/index.php/bis/register/index.html [运行时间：0.129206s][吞吐率：7.74req/s] [内存消耗：4,352.66kb] [文件加载：57]
 [ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+=======
     0 => 'bis',
     1 => 'register',
     2 => 'index',
@@ -295,10 +658,47 @@
 )
 [ info ] [ HEADER ] array (
   'host' => 'loc.m.com',
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
   'connection' => 'keep-alive',
   'upgrade-insecure-requests' => '1',
   'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
   'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+<<<<<<< HEAD
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T14:18:46+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php
+[ log ] o2o.ducnan.cn/index.php [运行时间：0.039406s][吞吐率：25.38req/s] [内存消耗：3,047.41kb] [文件加载：52]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
   'referer' => 'http://loc.m.com/index.php/bis/login',
   'accept-encoding' => 'gzip, deflate',
   'accept-language' => 'zh-CN,zh;q=0.8',
@@ -318,10 +718,59 @@
 [ 2017-07-19T15:24:24+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
 [ log ] loc.m.com/index.php/bis/register/ [运行时间：0.152692s][吞吐率：6.55req/s] [内存消耗：4,352.87kb] [文件加载：57]
 [ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T14:18:57+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php
+[ log ] o2o.ducnan.cn/index.php [运行时间：0.031045s][吞吐率：32.21req/s] [内存消耗：3,047.20kb] [文件加载：52]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
     0 => 'bis',
     1 => 'register',
     2 => NULL,
@@ -352,10 +801,58 @@
 [ 2017-07-19T15:24:24+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
 [ log ] loc.m.com/index.php/bis/register/ [运行时间：0.291364s][吞吐率：3.43req/s] [内存消耗：4,352.87kb] [文件加载：57]
 [ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T14:23:02+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php?s=index/index/index.html?city=nanjing
+[ log ] o2o.ducnan.cn/index.php?s=index/index/index.html?city=nanjing [运行时间：0.042733s][吞吐率：23.40req/s] [内存消耗：2,945.71kb] [文件加载：51]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
     0 => 'bis',
     1 => 'register',
     2 => NULL,
@@ -386,10 +883,46 @@
 [ 2017-07-19T15:25:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/index.html
 [ log ] loc.m.com/index.php/bis/register/index.html [运行时间：0.182530s][吞吐率：5.48req/s] [内存消耗：4,352.73kb] [文件加载：57]
 [ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => 'index',
+    1 => 'index',
+    2 => 'index.html',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; thinkphp_show_page_trace=1|1; pgv_si=s3642785792',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T14:24:15+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php?s=admin/index/iwelcome
+[ log ] o2o.ducnan.cn/index.php?s=admin/index/iwelcome [运行时间：0.019763s][吞吐率：50.60req/s] [内存消耗：1,779.72kb] [文件加载：44]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
     0 => 'bis',
     1 => 'register',
     2 => 'index',
@@ -421,10 +954,38 @@
 [ 2017-07-19T15:25:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
 [ log ] loc.m.com/index.php/bis/register/ [运行时间：0.200425s][吞吐率：4.99req/s] [内存消耗：4,352.70kb] [文件加载：57]
 [ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => 'admin',
+    1 => 'index',
+    2 => 'iwelcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=1|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T14:24:22+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php?s=admin/index/welcome
+[ log ] o2o.ducnan.cn/index.php?s=admin/index/welcome [运行时间：0.016215s][吞吐率：61.67req/s] [内存消耗：1,711.76kb] [文件加载：41]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
     0 => 'bis',
     1 => 'register',
     2 => NULL,
@@ -455,10 +1016,39 @@
 [ 2017-07-19T15:25:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
 [ log ] loc.m.com/index.php/bis/register/ [运行时间：0.174467s][吞吐率：5.73req/s] [内存消耗：4,352.70kb] [文件加载：57]
 [ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=1|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ /home/o2o/application/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T14:59:33+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php?s=admin/index/welcome
+[ log ] o2o.ducnan.cn/index.php?s=admin/index/welcome [运行时间：0.019605s][吞吐率：51.01req/s] [内存消耗：1,712.23kb] [文件加载：41]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
     0 => 'bis',
     1 => 'register',
     2 => NULL,
@@ -489,10 +1079,20 @@
 [ 2017-07-19T15:33:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/index.html
 [ log ] loc.m.com/index.php/bis/register/index.html [运行时间：0.206678s][吞吐率：4.84req/s] [内存消耗：4,352.73kb] [文件加载：57]
 [ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+=======
     0 => 'bis',
     1 => 'register',
     2 => 'index',
@@ -500,11 +1100,29 @@
 )
 [ info ] [ HEADER ] array (
   'host' => 'loc.m.com',
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
   'connection' => 'keep-alive',
   'cache-control' => 'max-age=0',
   'upgrade-insecure-requests' => '1',
   'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
   'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+<<<<<<< HEAD
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=1|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ /home/o2o/application/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T14:59:41+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php
+[ log ] o2o.ducnan.cn/index.php [运行时间：0.051750s][吞吐率：19.32req/s] [内存消耗：3,046.91kb] [文件加载：52]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
   'referer' => 'http://loc.m.com/index.php/bis/login',
   'accept-encoding' => 'gzip, deflate',
   'accept-language' => 'zh-CN,zh;q=0.8',
@@ -524,10 +1142,58 @@
 [ 2017-07-19T15:33:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
 [ log ] loc.m.com/index.php/bis/register/ [运行时间：0.151599s][吞吐率：6.60req/s] [内存消耗：4,352.70kb] [文件加载：57]
 [ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=1|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T14:59:54+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php?s=index/index/index.html?city=nanjing
+[ log ] o2o.ducnan.cn/index.php?s=index/index/index.html?city=nanjing [运行时间：0.036094s][吞吐率：27.71req/s] [内存消耗：2,945.71kb] [文件加载：51]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
     0 => 'bis',
     1 => 'register',
     2 => NULL,
@@ -558,10 +1224,46 @@
 [ 2017-07-19T15:33:35+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
 [ log ] loc.m.com/index.php/bis/register/ [运行时间：0.218138s][吞吐率：4.58req/s] [内存消耗：4,352.70kb] [文件加载：57]
 [ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => 'index',
+    1 => 'index',
+    2 => 'index.html',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=1|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:00:34+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php?s=index/user/login
+[ log ] o2o.ducnan.cn/index.php?s=index/user/login [运行时间：0.020563s][吞吐率：48.63req/s] [内存消耗：1,990.70kb] [文件加载：43]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
     0 => 'bis',
     1 => 'register',
     2 => NULL,
@@ -592,10 +1294,48 @@
 [ 2017-07-19T15:51:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/index.html
 [ log ] loc.m.com/index.php/bis/register/index.html [运行时间：0.186156s][吞吐率：5.37req/s] [内存消耗：4,352.73kb] [文件加载：57]
 [ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=1|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ /home/o2o/application/index/controller/User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/user/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:09:53+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/index/user/login
+[ log ] o2o.ducnan.cn/index.php/index/user/login [运行时间：0.023394s][吞吐率：42.75req/s] [内存消耗：1,795.84kb] [文件加载：41]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
     0 => 'bis',
     1 => 'register',
     2 => 'index',
@@ -627,10 +1367,49 @@
 [ 2017-07-19T15:51:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
 [ log ] loc.m.com/index.php/bis/register/ [运行时间：0.150224s][吞吐率：6.66req/s] [内存消耗：4,352.70kb] [文件加载：57]
 [ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=1|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ /home/o2o/application/index/controller/User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/user/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:09:55+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/index/user/login
+[ log ] o2o.ducnan.cn/index.php/index/user/login [运行时间：0.025290s][吞吐率：39.54req/s] [内存消耗：1,795.82kb] [文件加载：41]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
     0 => 'bis',
     1 => 'register',
     2 => NULL,
@@ -661,10 +1440,49 @@
 [ 2017-07-19T15:51:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
 [ log ] loc.m.com/index.php/bis/register/ [运行时间：0.140314s][吞吐率：7.13req/s] [内存消耗：4,352.70kb] [文件加载：57]
 [ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=1|1; pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=1|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ /home/o2o/application/index/controller/User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/user/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:10:06+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/index/user/register.html
+[ log ] o2o.ducnan.cn/index.php/index/user/register.html [运行时间：0.024455s][吞吐率：40.89req/s] [内存消耗：2,072.70kb] [文件加载：47]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
     0 => 'bis',
     1 => 'register',
     2 => NULL,
@@ -695,10 +1513,42 @@
 [ 2017-07-19T15:51:16+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/index.html
 [ log ] loc.m.com/index.php/bis/register/index.html [运行时间：0.112983s][吞吐率：8.85req/s] [内存消耗：4,352.67kb] [文件加载：57]
 [ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => 'index',
+    1 => 'user',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=1|1; pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=1|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->register[ /home/o2o/application/index/controller/User.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/user/register.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:10:31+08:00 ] 10.105.23.187 120.40.59.245 GET /
+[ log ] www.123cha.com/ [运行时间：0.039796s][吞吐率：25.13req/s] [内存消耗：3,046.14kb] [文件加载：52]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
     0 => 'bis',
     1 => 'register',
     2 => 'index',
@@ -730,10 +1580,53 @@
 [ 2017-07-19T15:51:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
 [ log ] loc.m.com/index.php/bis/register/ [运行时间：0.158099s][吞吐率：6.33req/s] [内存消耗：4,352.70kb] [文件加载：57]
 [ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.123cha.com',
+  'proxy-connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:12:56+08:00 ] 10.105.23.187 122.96.140.194 GET /
+[ log ] o2o.ducnan.cn/ [运行时间：0.044324s][吞吐率：22.56req/s] [内存消耗：3,256.86kb] [文件加载：58]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
     0 => 'bis',
     1 => 'register',
     2 => NULL,
@@ -764,10 +1657,58 @@
 [ 2017-07-19T15:51:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
 [ log ] loc.m.com/index.php/bis/register/ [运行时间：0.180790s][吞吐率：5.53req/s] [内存消耗：4,352.70kb] [文件加载：57]
 [ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=1|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:13:10+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/index/user/login.html
+[ log ] o2o.ducnan.cn/index.php/index/user/login.html [运行时间：0.017103s][吞吐率：58.47req/s] [内存消耗：2,005.25kb] [文件加载：47]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
     0 => 'bis',
     1 => 'register',
     2 => NULL,
@@ -798,10 +1739,48 @@
 [ 2017-07-19T15:51:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/index.html
 [ log ] loc.m.com/index.php/bis/register/index.html [运行时间：0.146715s][吞吐率：6.82req/s] [内存消耗：4,352.73kb] [文件加载：57]
 [ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=1|1; pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=1|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ /home/o2o/application/index/controller/User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/user/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:13:13+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/index/user/register.html
+[ log ] o2o.ducnan.cn/index.php/index/user/register.html [运行时间：0.021350s][吞吐率：46.84req/s] [内存消耗：2,003.45kb] [文件加载：47]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
     0 => 'bis',
     1 => 'register',
     2 => 'index',
@@ -833,10 +1812,79 @@
 [ 2017-07-19T15:51:54+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
 [ log ] loc.m.com/index.php/bis/register/ [运行时间：0.144450s][吞吐率：6.92req/s] [内存消耗：4,352.70kb] [文件加载：57]
 [ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => 'index',
+    1 => 'user',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=1|1; pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=1|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->register[ /home/o2o/application/index/controller/User.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/user/register.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:13:13+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/captcha.html
+[ log ] o2o.ducnan.cn/index.php/captcha.html [运行时间：0.027544s][吞吐率：36.31req/s] [内存消耗：1,583.73kb] [文件加载：37]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php/index/user/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=1|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /home/o2o/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:16:06+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/index/user/register.html
+[ log ] o2o.ducnan.cn/index.php/index/user/register.html [运行时间：0.050965s][吞吐率：19.62req/s] [内存消耗：2,003.71kb] [文件加载：47]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
     0 => 'bis',
     1 => 'register',
     2 => NULL,
@@ -901,10 +1949,20 @@
 [ 2017-07-19T15:54:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/index.html
 [ log ] loc.m.com/index.php/bis/register/index.html [运行时间：0.179455s][吞吐率：5.57req/s] [内存消耗：4,352.73kb] [文件加载：57]
 [ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => 'index',
+    1 => 'user',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+=======
     0 => 'bis',
     1 => 'register',
     2 => 'index',
@@ -912,11 +1970,69 @@
 )
 [ info ] [ HEADER ] array (
   'host' => 'loc.m.com',
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
   'connection' => 'keep-alive',
   'cache-control' => 'max-age=0',
   'upgrade-insecure-requests' => '1',
   'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
   'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+<<<<<<< HEAD
+  'referer' => 'http://o2o.ducnan.cn/index.php/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=1|1; pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=1|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->register[ /home/o2o/application/index/controller/User.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/user/register.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:16:06+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/captcha.html
+[ log ] o2o.ducnan.cn/index.php/captcha.html [运行时间：0.028942s][吞吐率：34.55req/s] [内存消耗：1,583.69kb] [文件加载：37]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php/index/user/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=1|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /home/o2o/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:16:15+08:00 ] 10.105.23.187 122.96.140.194 GET /
+[ log ] o2o.ducnan.cn/ [运行时间：0.063051s][吞吐率：15.86req/s] [内存消耗：3,257.48kb] [文件加载：58]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
   'referer' => 'http://loc.m.com/index.php/bis/login',
   'accept-encoding' => 'gzip, deflate',
   'accept-language' => 'zh-CN,zh;q=0.8',
@@ -970,10 +2086,58 @@
 [ 2017-07-19T15:54:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
 [ log ] loc.m.com/index.php/bis/register/ [运行时间：0.142699s][吞吐率：7.01req/s] [内存消耗：4,352.70kb] [文件加载：57]
 [ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=1|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:16:23+08:00 ] 10.105.23.187 122.96.140.194 GET /
+[ log ] o2o.ducnan.cn/ [运行时间：0.049589s][吞吐率：20.17req/s] [内存消耗：3,257.48kb] [文件加载：58]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
     0 => 'bis',
     1 => 'register',
     2 => NULL,
@@ -1004,10 +2168,58 @@
 [ 2017-07-19T15:54:37+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/image/upload.html
 [ log ] loc.m.com/index.php/api/image/upload.html [运行时间：0.324386s][吞吐率：3.08req/s] [内存消耗：2,720.88kb] [文件加载：46]
 [ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:16:26+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php
+[ log ] o2o.ducnan.cn/index.php [运行时间：0.035009s][吞吐率：28.56req/s] [内存消耗：3,257.55kb] [文件加载：58]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
     0 => 'api',
     1 => 'image',
     2 => 'upload',
@@ -1038,10 +2250,58 @@
 [ 2017-07-19T15:55:56+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/index.html
 [ log ] loc.m.com/index.php/bis/register/index.html [运行时间：0.146144s][吞吐率：6.84req/s] [内存消耗：4,352.73kb] [文件加载：57]
 [ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:16:28+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/index/index/index.html?city=nanjing
+[ log ] o2o.ducnan.cn/index.php/index/index/index.html?city=nanjing [运行时间：0.042788s][吞吐率：23.37req/s] [内存消耗：3,274.94kb] [文件加载：58]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
     0 => 'bis',
     1 => 'register',
     2 => 'index',
@@ -1073,10 +2333,60 @@
 [ 2017-07-19T15:55:59+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
 [ log ] loc.m.com/index.php/bis/register/ [运行时间：0.156034s][吞吐率：6.41req/s] [内存消耗：4,352.70kb] [文件加载：57]
 [ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'city' => 'nanjing',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:17:04+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/index/user/login.html
+[ log ] o2o.ducnan.cn/index.php/index/user/login.html [运行时间：0.036233s][吞吐率：27.60req/s] [内存消耗：2,006.21kb] [文件加载：47]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
     0 => 'bis',
     1 => 'register',
     2 => NULL,
@@ -1107,10 +2417,308 @@
 [ 2017-07-19T15:56:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
 [ log ] loc.m.com/index.php/bis/register/ [运行时间：0.192591s][吞吐率：5.19req/s] [内存消耗：4,352.70kb] [文件加载：57]
 [ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php/index/index/index.html?city=nanjing',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ /home/o2o/application/index/controller/User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/user/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:17:08+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/index/index/index.html?city=nanjing
+[ log ] o2o.ducnan.cn/index.php/index/index/index.html?city=nanjing [运行时间：0.036053s][吞吐率：27.74req/s] [内存消耗：3,274.95kb] [文件加载：58]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'city' => 'nanjing',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:17:11+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/bis/login/index.html
+[ log ] o2o.ducnan.cn/index.php/bis/login/index.html [运行时间：0.037623s][吞吐率：26.58req/s] [内存消耗：2,198.16kb] [文件加载：51]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php/index/index/index.html?city=nanjing',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ /home/o2o/application/bis/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/o2o/public/../application/bis/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:17:18+08:00 ] 10.105.23.187 122.96.140.194 POST /index.php/bis/login/index.html
+[ log ] o2o.ducnan.cn/index.php/bis/login/index.html [运行时间：0.031929s][吞吐率：31.32req/s] [内存消耗：3,215.97kb] [文件加载：59]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '31',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.ducnan.cn',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'duncan',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ /home/o2o/application/bis/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/o2o/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:17:21+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/bis/login/index.html
+[ log ] o2o.ducnan.cn/index.php/bis/login/index.html [运行时间：0.023567s][吞吐率：42.43req/s] [内存消耗：2,006.14kb] [文件加载：49]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php/index/index/index.html?city=nanjing',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ /home/o2o/application/bis/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/o2o/public/../application/bis/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:17:47+08:00 ] 10.105.23.187 122.96.140.194 POST /index.php/bis/login/index.html
+[ log ] o2o.ducnan.cn/index.php/bis/login/index.html [运行时间：0.029265s][吞吐率：34.17req/s] [内存消耗：3,026.72kb] [文件加载：57]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '31',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.ducnan.cn',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'Duncan',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ /home/o2o/application/bis/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/o2o/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:17:50+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/bis/login/index.html
+[ log ] o2o.ducnan.cn/index.php/bis/login/index.html [运行时间：0.020219s][吞吐率：49.46req/s] [内存消耗：2,006.14kb] [文件加载：49]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php/index/index/index.html?city=nanjing',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ /home/o2o/application/bis/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/o2o/public/../application/bis/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:18:08+08:00 ] 10.105.23.187 122.96.140.194 POST /index.php/bis/login/index.html
+[ log ] o2o.ducnan.cn/index.php/bis/login/index.html [运行时间：0.055392s][吞吐率：18.05req/s] [内存消耗：3,178.58kb] [文件加载：60]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
     0 => 'bis',
     1 => 'register',
     2 => NULL,
@@ -1141,11 +2749,100 @@
 [ 2017-07-19T16:07:35+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/index.html
 [ log ] loc.m.com/index.php/bis/register/index.html [运行时间：0.159416s][吞吐率：6.27req/s] [内存消耗：4,352.73kb] [文件加载：57]
 [ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
     0 => 'bis',
+<<<<<<< HEAD
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '34',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.ducnan.cn',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'zhongruan',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ /home/o2o/application/bis/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/o2o/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:18:11+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/bis/index/index.html
+[ log ] o2o.ducnan.cn/index.php/bis/index/index.html [运行时间：0.029727s][吞吐率：33.64req/s] [内存消耗：2,520.99kb] [文件加载：55]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->index[ /home/o2o/application/bis/controller/Index.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/bis/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:18:15+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/bis/location/add.html
+[ log ] o2o.ducnan.cn/index.php/bis/location/add.html [运行时间：0.034815s][吞吐率：28.72req/s] [内存消耗：3,415.24kb] [文件加载：62]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
     1 => 'register',
     2 => 'index',
   ),
@@ -1176,11 +2873,45 @@
 [ 2017-07-19T16:07:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
 [ log ] loc.m.com/index.php/bis/register/ [运行时间：0.219381s][吞吐率：4.56req/s] [内存消耗：4,352.70kb] [文件加载：57]
 [ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
     0 => 'bis',
+<<<<<<< HEAD
+    1 => 'location',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php/bis/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Location->add[ /home/o2o/application/bis/controller/Location.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/o2o/public/../application/bis/view/location/add.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:18:45+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/bis/login/logout.html
+[ log ] o2o.ducnan.cn/index.php/bis/login/logout.html [运行时间：0.021879s][吞吐率：45.71req/s] [内存消耗：2,283.70kb] [文件加载：50]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
     1 => 'register',
     2 => NULL,
   ),
@@ -1210,11 +2941,47 @@
 [ 2017-07-19T16:07:38+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
 [ log ] loc.m.com/index.php/bis/register/ [运行时间：0.147493s][吞吐率：6.78req/s] [内存消耗：4,352.70kb] [文件加载：57]
 [ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
     0 => 'bis',
+<<<<<<< HEAD
+    1 => 'login',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php/bis/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Login->logout[ /home/o2o/application/bis/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:18:45+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/bis/login/index.html
+[ log ] o2o.ducnan.cn/index.php/bis/login/index.html [运行时间：0.029171s][吞吐率：34.28req/s] [内存消耗：2,006.25kb] [文件加载：49]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
     1 => 'register',
     2 => NULL,
   ),
@@ -1244,10 +3011,49 @@
 [ 2017-07-19T16:07:41+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/image/upload.html
 [ log ] loc.m.com/index.php/api/image/upload.html [运行时间：0.137327s][吞吐率：7.28req/s] [内存消耗：2,720.88kb] [文件加载：46]
 [ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php/bis/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ /home/o2o/application/bis/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/o2o/public/../application/bis/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:18:46+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/bis/register/index.html
+[ log ] o2o.ducnan.cn/index.php/bis/register/index.html [运行时间：0.031560s][吞吐率：31.69req/s] [内存消耗：3,344.79kb] [文件加载：59]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+=======
     0 => 'api',
     1 => 'image',
     2 => 'upload',
@@ -1278,10 +3084,2266 @@
 [ 2017-07-19T16:21:47+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/image/upload.html
 [ log ] loc.m.com/index.php/api/image/upload.html [运行时间：0.130977s][吞吐率：7.63req/s] [内存消耗：2,720.88kb] [文件加载：46]
 [ info ] [ LANG ] E:\wamp64\www\duncan\thinkphp\lang\zh-cn.php
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ /home/o2o/application/bis/controller/Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/o2o/public/../application/bis/view/register/index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:23:31+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php
+[ log ] o2o.ducnan.cn/index.php [运行时间：0.033556s][吞吐率：29.80req/s] [内存消耗：3,257.08kb] [文件加载：58]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '3.7.4',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:23:37+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/bis/login/index.html
+[ log ] o2o.ducnan.cn/index.php/bis/login/index.html [运行时间：0.026089s][吞吐率：38.33req/s] [内存消耗：2,005.27kb] [文件加载：49]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7a99dko9b8uufnk9kg3cmmp652; thinkphp_show_page_trace=0|0',
+  'proxy-connection' => 'keep-alive',
+  'referer' => 'http://o2o.ducnan.cn/index.php',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ /home/o2o/application/bis/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/o2o/public/../application/bis/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:23:51+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/bis/register/index.html
+[ log ] o2o.ducnan.cn/index.php/bis/register/index.html [运行时间：0.030427s][吞吐率：32.87req/s] [内存消耗：3,140.40kb] [文件加载：57]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7a99dko9b8uufnk9kg3cmmp652; thinkphp_show_page_trace=0|0',
+  'proxy-connection' => 'keep-alive',
+  'referer' => 'http://o2o.ducnan.cn/index.php/bis/login/index.html',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '3.7.4',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ /home/o2o/application/bis/controller/Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/o2o/public/../application/bis/view/register/index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:25:33+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/bis/register/index.html
+[ log ] o2o.ducnan.cn/index.php/bis/register/index.html [运行时间：0.040883s][吞吐率：24.46req/s] [内存消耗：3,140.43kb] [文件加载：57]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cache-control' => 'max-age=0',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=7a99dko9b8uufnk9kg3cmmp652; thinkphp_show_page_trace=0|0',
+  'proxy-connection' => 'keep-alive',
+  'referer' => 'http://o2o.ducnan.cn/index.php/bis/login/index.html',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '3.7.4',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ /home/o2o/application/bis/controller/Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/o2o/public/../application/bis/view/register/index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:33:28+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/bis/register/index.html
+[ log ] o2o.ducnan.cn/index.php/bis/register/index.html [运行时间：0.031030s][吞吐率：32.23req/s] [内存消耗：3,140.34kb] [文件加载：57]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ /home/o2o/application/bis/controller/Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/o2o/public/../application/bis/view/register/index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:37:13+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/bis/register/index.html
+[ log ] o2o.ducnan.cn/index.php/bis/register/index.html [运行时间：0.039955s][吞吐率：25.03req/s] [内存消耗：3,140.34kb] [文件加载：57]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ /home/o2o/application/bis/controller/Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/o2o/public/../application/bis/view/register/index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:37:17+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/bis/register/index.html
+[ log ] o2o.ducnan.cn/index.php/bis/register/index.html [运行时间：0.037537s][吞吐率：26.64req/s] [内存消耗：3,140.34kb] [文件加载：57]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ /home/o2o/application/bis/controller/Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/o2o/public/../application/bis/view/register/index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:38:07+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/bis/register/index.html
+[ log ] o2o.ducnan.cn/index.php/bis/register/index.html [运行时间：0.027421s][吞吐率：36.47req/s] [内存消耗：3,140.34kb] [文件加载：57]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ /home/o2o/application/bis/controller/Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/o2o/public/../application/bis/view/register/index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:38:11+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/bis/register/index.html
+[ log ] o2o.ducnan.cn/index.php/bis/register/index.html [运行时间：0.032576s][吞吐率：30.70req/s] [内存消耗：3,140.34kb] [文件加载：57]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ /home/o2o/application/bis/controller/Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/o2o/public/../application/bis/view/register/index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:38:19+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/bis/register/index.html
+[ log ] o2o.ducnan.cn/index.php/bis/register/index.html [运行时间：0.030472s][吞吐率：32.82req/s] [内存消耗：3,140.34kb] [文件加载：57]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ /home/o2o/application/bis/controller/Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/o2o/public/../application/bis/view/register/index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:38:40+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php
+[ log ] o2o.ducnan.cn/index.php [运行时间：0.039833s][吞吐率：25.10req/s] [内存消耗：3,257.13kb] [文件加载：58]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7a99dko9b8uufnk9kg3cmmp652; thinkphp_show_page_trace=0|0',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '3.7.4',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:38:45+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/bis/login/index.html
+[ log ] o2o.ducnan.cn/index.php/bis/login/index.html [运行时间：0.024179s][吞吐率：41.36req/s] [内存消耗：2,005.49kb] [文件加载：49]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=7a99dko9b8uufnk9kg3cmmp652; thinkphp_show_page_trace=0|0',
+  'proxy-connection' => 'keep-alive',
+  'referer' => 'http://o2o.ducnan.cn/index.php',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '3.7.4',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ /home/o2o/application/bis/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/o2o/public/../application/bis/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:38:46+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/bis/register/index.html
+[ log ] o2o.ducnan.cn/index.php/bis/register/index.html [运行时间：0.026672s][吞吐率：37.49req/s] [内存消耗：3,139.88kb] [文件加载：57]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=7a99dko9b8uufnk9kg3cmmp652; thinkphp_show_page_trace=0|0',
+  'proxy-connection' => 'keep-alive',
+  'referer' => 'http://o2o.ducnan.cn/index.php/bis/login/index.html',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ /home/o2o/application/bis/controller/Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/o2o/public/../application/bis/view/register/index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:39:27+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/bis/register/index.html
+[ log ] o2o.ducnan.cn/index.php/bis/register/index.html [运行时间：0.036738s][吞吐率：27.22req/s] [内存消耗：3,140.43kb] [文件加载：57]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cache-control' => 'max-age=0',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=7a99dko9b8uufnk9kg3cmmp652; thinkphp_show_page_trace=0|0',
+  'proxy-connection' => 'keep-alive',
+  'referer' => 'http://o2o.ducnan.cn/index.php/bis/login/index.html',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '3.7.4',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ /home/o2o/application/bis/controller/Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/o2o/public/../application/bis/view/register/index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:39:55+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php
+[ log ] o2o.ducnan.cn/index.php [运行时间：0.033207s][吞吐率：30.11req/s] [内存消耗：3,257.13kb] [文件加载：58]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7a99dko9b8uufnk9kg3cmmp652; thinkphp_show_page_trace=0|0',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '3.7.4',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:39:56+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/bis/login/index.html
+[ log ] o2o.ducnan.cn/index.php/bis/login/index.html [运行时间：0.019488s][吞吐率：51.31req/s] [内存消耗：2,005.49kb] [文件加载：49]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=7a99dko9b8uufnk9kg3cmmp652; thinkphp_show_page_trace=0|0',
+  'proxy-connection' => 'keep-alive',
+  'referer' => 'http://o2o.ducnan.cn/index.php',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '3.7.4',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ /home/o2o/application/bis/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/o2o/public/../application/bis/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:39:57+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/bis/register/index.html
+[ log ] o2o.ducnan.cn/index.php/bis/register/index.html [运行时间：0.037367s][吞吐率：26.76req/s] [内存消耗：3,139.88kb] [文件加载：57]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=7a99dko9b8uufnk9kg3cmmp652; thinkphp_show_page_trace=0|0',
+  'proxy-connection' => 'keep-alive',
+  'referer' => 'http://o2o.ducnan.cn/index.php/bis/login/index.html',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ /home/o2o/application/bis/controller/Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/o2o/public/../application/bis/view/register/index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:40:03+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/bis/register/index.html
+[ log ] o2o.ducnan.cn/index.php/bis/register/index.html [运行时间：0.028868s][吞吐率：34.64req/s] [内存消耗：3,140.17kb] [文件加载：57]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cache-control' => 'max-age=0',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=7a99dko9b8uufnk9kg3cmmp652; thinkphp_show_page_trace=0|0',
+  'proxy-connection' => 'keep-alive',
+  'referer' => 'http://o2o.ducnan.cn/index.php/bis/login/index.html',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ /home/o2o/application/bis/controller/Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/o2o/public/../application/bis/view/register/index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:59:43+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/bis/register/index.html
+[ log ] o2o.ducnan.cn/index.php/bis/register/index.html [运行时间：0.032210s][吞吐率：31.05req/s] [内存消耗：3,140.43kb] [文件加载：57]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cache-control' => 'max-age=0',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=7a99dko9b8uufnk9kg3cmmp652; thinkphp_show_page_trace=0|0',
+  'proxy-connection' => 'keep-alive',
+  'referer' => 'http://o2o.ducnan.cn/index.php/bis/login/index.html',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '3.7.4',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ /home/o2o/application/bis/controller/Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/o2o/public/../application/bis/view/register/index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T15:59:59+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/bis/register/index.html
+[ log ] o2o.ducnan.cn/index.php/bis/register/index.html [运行时间：0.032185s][吞吐率：31.07req/s] [内存消耗：3,140.17kb] [文件加载：57]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cache-control' => 'max-age=0',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=7a99dko9b8uufnk9kg3cmmp652; thinkphp_show_page_trace=0|0',
+  'proxy-connection' => 'keep-alive',
+  'referer' => 'http://o2o.ducnan.cn/index.php/bis/login/index.html',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ /home/o2o/application/bis/controller/Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/o2o/public/../application/bis/view/register/index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T16:23:54+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/bis/login/index.html
+[ log ] o2o.ducnan.cn/index.php/bis/login/index.html [运行时间：0.018309s][吞吐率：54.62req/s] [内存消耗：2,006.41kb] [文件加载：49]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php/bis/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ /home/o2o/application/bis/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/o2o/public/../application/bis/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T16:23:59+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/bis/index/index.html
+[ log ] o2o.ducnan.cn/index.php/bis/index/index.html [运行时间：0.016789s][吞吐率：59.56req/s] [内存消耗：1,981.66kb] [文件加载：48]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T16:23:59+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/bis/login/index.html
+[ log ] o2o.ducnan.cn/index.php/bis/login/index.html [运行时间：0.019876s][吞吐率：50.31req/s] [内存消耗：2,006.25kb] [文件加载：49]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ /home/o2o/application/bis/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/o2o/public/../application/bis/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T16:24:02+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/
+[ log ] o2o.ducnan.cn/index.php/ [运行时间：0.041074s][吞吐率：24.35req/s] [内存消耗：3,274.05kb] [文件加载：58]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T16:24:06+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/index/detail/index.html?id=2
+[ log ] o2o.ducnan.cn/index.php/index/detail/index.html?id=2 [运行时间：0.049665s][吞吐率：20.13req/s] [内存消耗：3,548.46kb] [文件加载：61]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'detail',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Detail->index[ /home/o2o/application/index/controller/Detail.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/detail/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'deal',
+  7 => 'category',
+  8 => 'locations',
+  9 => 'overplus',
+  10 => 'flag',
+  11 => 'mapstr',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T16:24:06+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/index/map/getmapimage.html?data=118.80203760581,32.033748955263
+[ log ] o2o.ducnan.cn/index.php/index/map/getmapimage.html?data=118.80203760581,32.033748955263 [运行时间：0.560362s][吞吐率：1.78req/s] [内存消耗：1,914.20kb] [文件加载：46]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'map',
+    2 => 'getmapimage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php/index/detail/index.html?id=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'data' => '118.80203760581,32.033748955263',
+)
+[ info ] [ RUN ] app\index\controller\Map->getMapImage[ /home/o2o/application/index/controller/Map.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T16:24:08+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/index/order/confirm.html?id=2&count=1
+[ log ] o2o.ducnan.cn/index.php/index/order/confirm.html?id=2&count=1 [运行时间：0.037275s][吞吐率：26.83req/s] [内存消耗：3,186.39kb] [文件加载：57]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'confirm',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php/index/detail/index.html?id=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'count' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Order->confirm[ /home/o2o/application/index/controller/Order.php ]
+[ info ] [ VIEW ] /home/o2o/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'code',
+  7 => 'msg',
+  8 => 'data',
+  9 => 'url',
+  10 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T16:24:11+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/index/user/login.html
+[ log ] o2o.ducnan.cn/index.php/index/user/login.html [运行时间：0.026082s][吞吐率：38.34req/s] [内存消耗：2,006.14kb] [文件加载：47]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php/index/order/confirm.html?id=2&count=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ /home/o2o/application/index/controller/User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/user/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T16:24:12+08:00 ] 10.105.23.187 122.96.140.194 POST /index.php/index/user/logincheck.html
+[ log ] o2o.ducnan.cn/index.php/index/user/logincheck.html [运行时间：0.038603s][吞吐率：25.90req/s] [内存消耗：3,180.88kb] [文件加载：58]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'logincheck',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '31',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.ducnan.cn',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'duncan',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\index\controller\User->logincheck[ /home/o2o/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/o2o/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T16:24:15+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/index/index/index.html
+[ log ] o2o.ducnan.cn/index.php/index/index/index.html [运行时间：0.035455s][吞吐率：28.20req/s] [内存消耗：3,317.94kb] [文件加载：59]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php/index/user/logincheck.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T16:24:20+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/index/detail/index.html?id=2
+[ log ] o2o.ducnan.cn/index.php/index/detail/index.html?id=2 [运行时间：0.040559s][吞吐率：24.66req/s] [内存消耗：3,381.14kb] [文件加载：60]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'detail',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Detail->index[ /home/o2o/application/index/controller/Detail.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/detail/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'deal',
+  7 => 'category',
+  8 => 'locations',
+  9 => 'overplus',
+  10 => 'flag',
+  11 => 'mapstr',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T16:24:20+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/index/map/getmapimage.html?data=118.80203760581,32.033748955263
+[ log ] o2o.ducnan.cn/index.php/index/map/getmapimage.html?data=118.80203760581,32.033748955263 [运行时间：0.144548s][吞吐率：6.92req/s] [内存消耗：1,914.21kb] [文件加载：46]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'map',
+    2 => 'getmapimage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php/index/detail/index.html?id=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'data' => '118.80203760581,32.033748955263',
+)
+[ info ] [ RUN ] app\index\controller\Map->getMapImage[ /home/o2o/application/index/controller/Map.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T16:24:21+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/index/order/confirm.html?id=2&count=1
+[ log ] o2o.ducnan.cn/index.php/index/order/confirm.html?id=2&count=1 [运行时间：0.034371s][吞吐率：29.09req/s] [内存消耗：3,526.33kb] [文件加载：61]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'confirm',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php/index/detail/index.html?id=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'count' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Order->confirm[ /home/o2o/application/index/controller/Order.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/order/confirm.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'controller',
+  7 => 'deal',
+  8 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T16:24:23+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/index/order/index.html?id=2&deal_count=3&deal_price=30
+[ log ] o2o.ducnan.cn/index.php/index/order/index.html?id=2&deal_count=3&deal_price=30 [运行时间：0.040759s][吞吐率：24.53req/s] [内存消耗：3,343.59kb] [文件加载：59]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php/index/order/confirm.html?id=2&count=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'deal_count' => '3',
+  'deal_price' => '30',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Order->index[ /home/o2o/application/index/controller/Order.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T16:24:23+08:00 ] 10.105.23.187 122.96.140.194 GET /index.php/index/pay/index.html?id=20
+[ log ] o2o.ducnan.cn/index.php/index/pay/index.html?id=20 [运行时间：0.040563s][吞吐率：24.65req/s] [内存消耗：3,155.77kb] [文件加载：56]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.ducnan.cn/index.php/index/order/confirm.html?id=2&count=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; pgv_pvi=8945036288; ___rl__test__cookies=1500433134606; OUTFOX_SEARCH_USER_ID_NCOO=1376377311.124913; PHPSESSID=9etk6lqn9e2bpvadmlujhm47m7; pgv_si=s3642785792; thinkphp_show_page_trace=0|1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '20',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Pay->index[ /home/o2o/application/index/controller/Pay.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T17:40:36+08:00 ] 10.105.23.187 183.57.53.222 GET /index.php/index/user/login.html
+[ log ] o2o.ducnan.cn/index.php/index/user/login.html [运行时间：0.024628s][吞吐率：40.60req/s] [内存消耗：2,004.13kb] [文件加载：47]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'accept-encoding' => 'deflate, gzip',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'connection' => 'Close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ /home/o2o/application/index/controller/User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/user/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T17:50:53+08:00 ] 10.105.23.187 14.17.3.64 GET /index.php/bis/index/index.html
+[ log ] o2o.ducnan.cn/index.php/bis/index/index.html [运行时间：0.044031s][吞吐率：22.71req/s] [内存消耗：1,979.91kb] [文件加载：48]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'accept-encoding' => 'deflate, gzip',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'connection' => 'Close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T17:50:53+08:00 ] 10.105.23.187 113.108.10.5 GET /index.php/index/index/index.html?city%3Dnanjing
+[ log ] o2o.ducnan.cn/index.php/index/index/index.html?city%3Dnanjing [运行时间：0.062816s][吞吐率：15.92req/s] [内存消耗：3,257.32kb] [文件加载：58]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'accept-encoding' => 'deflate, gzip',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'connection' => 'Close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'city=nanjing' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T17:50:53+08:00 ] 10.105.23.187 14.17.3.64 GET /index.php/bis/login/index.html
+[ log ] o2o.ducnan.cn/index.php/bis/login/index.html [运行时间：0.020653s][吞吐率：48.42req/s] [内存消耗：2,004.53kb] [文件加载：49]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'accept-encoding' => 'deflate, gzip',
+  'referer' => 'http://o2o.ducnan.cn/index.php/bis/index/index.html',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'connection' => 'Close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ /home/o2o/application/bis/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/o2o/public/../application/bis/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T18:28:21+08:00 ] 10.105.23.187 47.92.2.1 GET /
+[ log ] 115.159.5.98:8000/ [运行时间：0.037507s][吞吐率：26.66req/s] [内存消耗：3,256.12kb] [文件加载：58]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '115.159.5.98:8000',
+  'connection' => 'Close',
+  'accept-encoding' => 'identity',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T18:45:17+08:00 ] 10.105.23.187 183.129.160.229 GET /
+[ log ] 115.159.185.58:80/ [运行时间：0.046979s][吞吐率：21.29req/s] [内存消耗：3,256.49kb] [文件加载：58]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '115.159.185.58:80',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'deflate',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T18:45:55+08:00 ] 10.105.23.187 119.147.207.144 GET /index.php/index/user/login
+[ log ] o2o.ducnan.cn/index.php/index/user/login [运行时间：0.047764s][吞吐率：20.94req/s] [内存消耗：2,004.45kb] [文件加载：47]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'accept-encoding' => 'deflate, gzip',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'connection' => 'Close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ /home/o2o/application/index/controller/User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/user/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T18:45:55+08:00 ] 10.105.23.187 183.57.53.222 GET /
+[ log ] o2o.ducnan.cn/ [运行时间：0.069304s][吞吐率：14.43req/s] [内存消耗：3,256.57kb] [文件加载：58]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'accept-encoding' => 'deflate, gzip',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'connection' => 'Close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T18:46:36+08:00 ] 10.105.23.187 123.116.157.233 GET /
+[ log ] www.123cha.com/ [运行时间：0.041750s][吞吐率：23.95req/s] [内存消耗：3,255.98kb] [文件加载：58]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.123cha.com',
+  'proxy-connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T18:59:48+08:00 ] 10.105.23.187 14.17.21.58 GET /index.php/index/detail/index.html?id%3D2
+[ log ] o2o.ducnan.cn/index.php/index/detail/index.html?id%3D2 [运行时间：0.031039s][吞吐率：32.22req/s] [内存消耗：3,148.74kb] [文件加载：56]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'detail',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'accept-encoding' => 'deflate, gzip',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'connection' => 'Close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id=2' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T19:15:13+08:00 ] 10.105.23.187 112.90.82.236 GET /index.php/index/pay/index.html?id%3D20
+[ log ] o2o.ducnan.cn/index.php/index/pay/index.html?id%3D20 [运行时间：0.033264s][吞吐率：30.06req/s] [内存消耗：3,079.61kb] [文件加载：54]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'accept-encoding' => 'deflate, gzip',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'connection' => 'Close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id=20' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Pay->index[ /home/o2o/application/index/controller/Pay.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T19:27:44+08:00 ] 10.105.23.187 14.17.3.65 GET /index.php/index/order/index.html?id%3D2%26deal_count%3D3%26deal_price%3D30
+[ log ] o2o.ducnan.cn/index.php/index/order/index.html?id%3D2%26deal_count%3D3%26deal_price%3D30 [运行时间：0.028600s][吞吐率：34.97req/s] [内存消耗：3,184.64kb] [文件加载：57]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'accept-encoding' => 'deflate, gzip',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'connection' => 'Close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id=2&deal_count=3&deal_price=30' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Order->index[ /home/o2o/application/index/controller/Order.php ]
+[ info ] [ VIEW ] /home/o2o/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'code',
+  7 => 'msg',
+  8 => 'data',
+  9 => 'url',
+  10 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T19:49:45+08:00 ] 10.105.23.187 14.17.3.64 GET /index.php/index/user/logincheck.html
+[ log ] o2o.ducnan.cn/index.php/index/user/logincheck.html [运行时间：0.022533s][吞吐率：44.38req/s] [内存消耗：1,933.92kb] [文件加载：47]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'logincheck',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'accept-encoding' => 'deflate, gzip',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'connection' => 'Close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->logincheck[ /home/o2o/application/index/controller/User.php ]
+[ info ] [ VIEW ] /home/o2o/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T20:53:09+08:00 ] 10.105.23.187 14.17.3.64 GET /index.php/index/index/index.html?city%253Dnanjing
+[ log ] o2o.ducnan.cn/index.php/index/index/index.html?city%253Dnanjing [运行时间：0.049225s][吞吐率：20.31req/s] [内存消耗：3,256.94kb] [文件加载：58]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'accept-encoding' => 'deflate, gzip',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'connection' => 'Close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'city%3Dnanjing' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T22:14:54+08:00 ] 10.105.23.187 101.226.64.174 GET /
+[ log ] 115.159.185.58/ [运行时间：0.031763s][吞吐率：31.48req/s] [内存消耗：3,256.80kb] [文件加载：58]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '115.159.185.58',
+  'accept-encoding' => 'deflate, gzip',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'connection' => 'Close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T23:33:28+08:00 ] 10.105.23.187 222.186.44.62 GET /
+[ log ] 115.159.185.58/ [运行时间：0.042117s][吞吐率：23.74req/s] [内存消耗：3,256.40kb] [文件加载：58]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'referer' => 'http://115.159.185.58:80/',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => '115.159.185.58',
+  'cache-control' => 'no-cache',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T23:54:30+08:00 ] 10.105.23.187 183.184.30.21 GET /
+[ log ] www.123cha.com/ [运行时间：0.047620s][吞吐率：21.00req/s] [内存消耗：3,255.98kb] [文件加载：58]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.123cha.com',
+  'proxy-connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-19T23:58:07+08:00 ] 10.105.23.187 113.108.10.5 GET /index.php/index/index/index.html?city%25253Dnanjing
+[ log ] o2o.ducnan.cn/index.php/index/index/index.html?city%25253Dnanjing [运行时间：0.037629s][吞吐率：26.58req/s] [内存消耗：3,257.23kb] [文件加载：58]
+[ info ] [ LANG ] /home/o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.ducnan.cn',
+  'accept-encoding' => 'deflate, gzip',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'connection' => 'Close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'city%253Dnanjing' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/o2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+=======
     0 => 'api',
     1 => 'image',
     2 => 'upload',
@@ -1309,3 +5371,4 @@
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
+>>>>>>> d06d7f7f67a4ce708b0ba329f876d40be09ff63f

@@ -40,6 +40,7 @@ $input->SetTrade_type("NATIVE");
 $input->SetProduct_id("123456789");
 $result = $notify->GetPayUrl($input);
 $url2 = $result["code_url"];
+echo $url2;
 ?>
 
 <html>
