@@ -54,7 +54,6 @@ class Pay extends Base {
             $url = $result['code_url'];
         }
 
-        dump($url);
         return $this->fetch(
             '',[
                 'deal' => $deal,
@@ -62,5 +61,9 @@ class Pay extends Base {
                 'url'  => $url
             ]
         );
+    }
+
+    public function paysuccess() {
+        return $this->fetch('',);
     }
 }

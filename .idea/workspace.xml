@@ -2,449 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22efd08b-1124-405f-b647-929a026a1344" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runtime/log/201707/19_error.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runtime/temp/111d4355498c48877c41dac2846a2af7.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runtime/temp/1d36467596d4460f50f4b091803715d9.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runtime/temp/3c3852e5485f4e7c975b115cd377ed2c.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runtime/temp/4d3abd6c38729d4ec80d2d34b1ddac44.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runtime/temp/51ffa777d5f870152de178a37dbeed8a.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runtime/temp/7e84d1a5f5ec65d3b4ebab2feea792c9.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runtime/temp/a8da8ba5d18215a571089d7b10daab24.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runtime/temp/aa1226064c2fc85a5dcd7b217c924985.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runtime/temp/ad4b0420e055fe2521fc7d73bed8d72e.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runtime/temp/b648fd6668b15bece49d9e969d34c9ad.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runtime/temp/b964251b8a4f079bc958686a94e205b2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runtime/temp/c20ba0dbc144fbc0cec5a86315586a6f.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runtime/temp/c464a9102643725ffa28fd3895e3b600.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runtime/temp/caf3ef0925be587663e37eeb90c2ffd4.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runtime/temp/d36a01b0a3493adb3d43c1f376467fbc.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runtime/temp/f8acb64077080667da83ae0cd1716440.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="$PROJECT_DIR$/public/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ueditor/php/upload/image/20170114/1484380249415690.png" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20170114/1484380249415690.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ueditor/php/upload/image/20170115/1484473712156060.png" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20170115/1484473712156060.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ueditor/php/upload/image/20170311/1489227732945077.jpg" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20170311/1489227732945077.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ueditor/php/upload/image/20170313/1489403977273966.jpg" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20170313/1489403977273966.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ueditor/php/upload/image/20170313/1489405649126829.jpg" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20170313/1489405649126829.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ueditor/php/upload/image/20170714/1500040501989300.jpg" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20170714/1500040501989300.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170115/2ce878768a40805c0a520f0cc6a6be32.png" afterPath="$PROJECT_DIR$/public/upload/20170115/2ce878768a40805c0a520f0cc6a6be32.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170115/819c4afc5e4444a40e2130376ddcfecf.png" afterPath="$PROJECT_DIR$/public/upload/20170115/819c4afc5e4444a40e2130376ddcfecf.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170115/86c3c46ae746dda1a4af393466e4c07b.png" afterPath="$PROJECT_DIR$/public/upload/20170115/86c3c46ae746dda1a4af393466e4c07b.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170115/8e09b46d097480ccfbdb07104b5a0d9d.png" afterPath="$PROJECT_DIR$/public/upload/20170115/8e09b46d097480ccfbdb07104b5a0d9d.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170122/0abbc2d97c52e0883bac9522d27f0244.png" afterPath="$PROJECT_DIR$/public/upload/20170122/0abbc2d97c52e0883bac9522d27f0244.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170122/0e48c3472bc79c2232a64b086b798182.png" afterPath="$PROJECT_DIR$/public/upload/20170122/0e48c3472bc79c2232a64b086b798182.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170122/28141ad57dbe4191f948bf3211b96b43.png" afterPath="$PROJECT_DIR$/public/upload/20170122/28141ad57dbe4191f948bf3211b96b43.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170122/4dd8bbfc7cd3b94cb1a7103191b76662.png" afterPath="$PROJECT_DIR$/public/upload/20170122/4dd8bbfc7cd3b94cb1a7103191b76662.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170122/6b472e073d3d9113841520ded129e599.png" afterPath="$PROJECT_DIR$/public/upload/20170122/6b472e073d3d9113841520ded129e599.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170122/7b250f7b0af5a4a3c25fa050594fa518.png" afterPath="$PROJECT_DIR$/public/upload/20170122/7b250f7b0af5a4a3c25fa050594fa518.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170122/92954b81303a22bd63edce3146c40e19.png" afterPath="$PROJECT_DIR$/public/upload/20170122/92954b81303a22bd63edce3146c40e19.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170122/b041ef62b92d17ca842713d136628005.png" afterPath="$PROJECT_DIR$/public/upload/20170122/b041ef62b92d17ca842713d136628005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170122/e65aa253ca066b4c0c6deebe3287f453.png" afterPath="$PROJECT_DIR$/public/upload/20170122/e65aa253ca066b4c0c6deebe3287f453.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170205/971ed11d347241e2077693ae178873b7.png" afterPath="$PROJECT_DIR$/public/upload/20170205/971ed11d347241e2077693ae178873b7.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170205/c157f7cbe8da9ff151781bc5930c64a2.png" afterPath="$PROJECT_DIR$/public/upload/20170205/c157f7cbe8da9ff151781bc5930c64a2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170205/e1f72f9ee1ab70c051db24d6e7c2e597.png" afterPath="$PROJECT_DIR$/public/upload/20170205/e1f72f9ee1ab70c051db24d6e7c2e597.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170205/eeb5d7e8ead52b94efe7fcb1fe04f25d.png" afterPath="$PROJECT_DIR$/public/upload/20170205/eeb5d7e8ead52b94efe7fcb1fe04f25d.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170206/762564e8e90163d6e1a53a52f2fee5a8.png" afterPath="$PROJECT_DIR$/public/upload/20170206/762564e8e90163d6e1a53a52f2fee5a8.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170206/93aa915c68bf91d3c946bfab4c00491a.png" afterPath="$PROJECT_DIR$/public/upload/20170206/93aa915c68bf91d3c946bfab4c00491a.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170206/ca530a984bd4960fe6fa5633b4ca549e.png" afterPath="$PROJECT_DIR$/public/upload/20170206/ca530a984bd4960fe6fa5633b4ca549e.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170206/e0bf629155825b66375b1f4911544dc8.png" afterPath="$PROJECT_DIR$/public/upload/20170206/e0bf629155825b66375b1f4911544dc8.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170219/0c419b2425c8935b4222354c0442f0dd.jpg" afterPath="$PROJECT_DIR$/public/upload/20170219/0c419b2425c8935b4222354c0442f0dd.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170219/1574822f08a76532a74047670f44015e.jpg" afterPath="$PROJECT_DIR$/public/upload/20170219/1574822f08a76532a74047670f44015e.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170219/3e35576eb4c321bf517f8d8ac2c95acf.jpg" afterPath="$PROJECT_DIR$/public/upload/20170219/3e35576eb4c321bf517f8d8ac2c95acf.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170219/3fbf62aa64e2c197be655c010adfe0f3.jpg" afterPath="$PROJECT_DIR$/public/upload/20170219/3fbf62aa64e2c197be655c010adfe0f3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170219/64fad76c6cb6084ba466b43810fe4d25.jpg" afterPath="$PROJECT_DIR$/public/upload/20170219/64fad76c6cb6084ba466b43810fe4d25.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170219/8af01775f874b7ebf3583eb2fdf3e9ed.jpg" afterPath="$PROJECT_DIR$/public/upload/20170219/8af01775f874b7ebf3583eb2fdf3e9ed.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170219/a89a8c417e7e5ff3079e4e2b6129d785.jpg" afterPath="$PROJECT_DIR$/public/upload/20170219/a89a8c417e7e5ff3079e4e2b6129d785.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170219/ads.jpg" afterPath="$PROJECT_DIR$/public/upload/20170219/ads.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170219/bc3356e2d1959ad830ca992e4606167e.jpg" afterPath="$PROJECT_DIR$/public/upload/20170219/bc3356e2d1959ad830ca992e4606167e.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170219/d1.jpg" afterPath="$PROJECT_DIR$/public/upload/20170219/d1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170219/d2f4a90b29ff6f9751456f0fe44d09f2.jpg" afterPath="$PROJECT_DIR$/public/upload/20170219/d2f4a90b29ff6f9751456f0fe44d09f2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170219/datu.jpg" afterPath="$PROJECT_DIR$/public/upload/20170219/datu.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170219/de895022acce2a7c94e1dd255a7565f9.jpg" afterPath="$PROJECT_DIR$/public/upload/20170219/de895022acce2a7c94e1dd255a7565f9.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170219/ed6baf2b9686ffe4c17f9052b1c041aa.jpg" afterPath="$PROJECT_DIR$/public/upload/20170219/ed6baf2b9686ffe4c17f9052b1c041aa.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170219/f35c26b5069e96402d2f25a20f5e6faf.jpg" afterPath="$PROJECT_DIR$/public/upload/20170219/f35c26b5069e96402d2f25a20f5e6faf.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170311/3461f6bc5de101e15d3dd5c059c6964f.png" afterPath="$PROJECT_DIR$/public/upload/20170311/3461f6bc5de101e15d3dd5c059c6964f.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170311/8f84f9e9d8ebc3a226c008bf842703ee.jpg" afterPath="$PROJECT_DIR$/public/upload/20170311/8f84f9e9d8ebc3a226c008bf842703ee.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170311/f2c008ee590cffb3128f2e57e2e25945.jpg" afterPath="$PROJECT_DIR$/public/upload/20170311/f2c008ee590cffb3128f2e57e2e25945.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170313/2d8b03615df9193b551c62bd632c0956.jpg" afterPath="$PROJECT_DIR$/public/upload/20170313/2d8b03615df9193b551c62bd632c0956.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170313/4f971079334b378b1600b9bde052be8d.jpg" afterPath="$PROJECT_DIR$/public/upload/20170313/4f971079334b378b1600b9bde052be8d.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170313/b041bc1a39e8a673680e4bdb41ac2683.jpg" afterPath="$PROJECT_DIR$/public/upload/20170313/b041bc1a39e8a673680e4bdb41ac2683.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170714/2c42e93634ac1dc754a988e9d057c21f.jpg" afterPath="$PROJECT_DIR$/public/upload/20170714/2c42e93634ac1dc754a988e9d057c21f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170714/315c17f476f01d160d19e18a83e46339.jpg" afterPath="$PROJECT_DIR$/public/upload/20170714/315c17f476f01d160d19e18a83e46339.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170714/592f318ff4ca2c47f3f6bd6df57faa3c.jpg" afterPath="$PROJECT_DIR$/public/upload/20170714/592f318ff4ca2c47f3f6bd6df57faa3c.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170714/7d18013a432d0a5659da4edc0bbb1ddd.jpg" afterPath="$PROJECT_DIR$/public/upload/20170714/7d18013a432d0a5659da4edc0bbb1ddd.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170714/80d4bc0a6f4abde01a9fa8cfa5c91254.jpg" afterPath="$PROJECT_DIR$/public/upload/20170714/80d4bc0a6f4abde01a9fa8cfa5c91254.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170714/8283388620a1e85355da45b4eb0c542f.jpg" afterPath="$PROJECT_DIR$/public/upload/20170714/8283388620a1e85355da45b4eb0c542f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170714/8d5093c879ad52fbf22de59765544ada.jpg" afterPath="$PROJECT_DIR$/public/upload/20170714/8d5093c879ad52fbf22de59765544ada.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170714/96946919d377d7f72945ff32a4e4853c.jpg" afterPath="$PROJECT_DIR$/public/upload/20170714/96946919d377d7f72945ff32a4e4853c.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170714/a89d9658a8729e538bcf6df92c8eaa99.jpg" afterPath="$PROJECT_DIR$/public/upload/20170714/a89d9658a8729e538bcf6df92c8eaa99.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170714/fd9b5c13ab524a8d74d1302bedb72397.jpg" afterPath="$PROJECT_DIR$/public/upload/20170714/fd9b5c13ab524a8d74d1302bedb72397.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170715/09849e16bf98b673d4ade447514caa91.jpg" afterPath="$PROJECT_DIR$/public/upload/20170715/09849e16bf98b673d4ade447514caa91.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170715/0c35279d3d761ff26924fe51843bbf9a.jpg" afterPath="$PROJECT_DIR$/public/upload/20170715/0c35279d3d761ff26924fe51843bbf9a.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170715/1653b34cd4c337961499e4b8fc436432.jpg" afterPath="$PROJECT_DIR$/public/upload/20170715/1653b34cd4c337961499e4b8fc436432.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170715/276979c38ff27254494c355357350f91.jpg" afterPath="$PROJECT_DIR$/public/upload/20170715/276979c38ff27254494c355357350f91.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170715/28a75fedbbdcc2550d0697dad32f0916.jpg" afterPath="$PROJECT_DIR$/public/upload/20170715/28a75fedbbdcc2550d0697dad32f0916.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170715/2f99fec2cce15aa65f4944a9af6df1a7.jpg" afterPath="$PROJECT_DIR$/public/upload/20170715/2f99fec2cce15aa65f4944a9af6df1a7.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170715/32b6955006c310ae3e09bc020ad0fa94.jpg" afterPath="$PROJECT_DIR$/public/upload/20170715/32b6955006c310ae3e09bc020ad0fa94.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170715/3fd44b0447eafbf0d76551e527b4c1f9.jpg" afterPath="$PROJECT_DIR$/public/upload/20170715/3fd44b0447eafbf0d76551e527b4c1f9.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170715/4a503759015c6bea44802ce5f51835d4.jpg" afterPath="$PROJECT_DIR$/public/upload/20170715/4a503759015c6bea44802ce5f51835d4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170715/84f17199d845e839a93dc2d4ae1b1005.jpg" afterPath="$PROJECT_DIR$/public/upload/20170715/84f17199d845e839a93dc2d4ae1b1005.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170715/8f130c0c975d110b49a5ecf8377613e4.jpg" afterPath="$PROJECT_DIR$/public/upload/20170715/8f130c0c975d110b49a5ecf8377613e4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170715/9a3c013a8cda4d30d13bb551a768065f.jpg" afterPath="$PROJECT_DIR$/public/upload/20170715/9a3c013a8cda4d30d13bb551a768065f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170715/adf9e7f1817d59901fcb9504d90cd255.jpg" afterPath="$PROJECT_DIR$/public/upload/20170715/adf9e7f1817d59901fcb9504d90cd255.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170715/af24a93044b7f0917a42ca2bb107bf8f.jpg" afterPath="$PROJECT_DIR$/public/upload/20170715/af24a93044b7f0917a42ca2bb107bf8f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170715/b2e2947b412b156ea7bf7a418bdc17c3.jpg" afterPath="$PROJECT_DIR$/public/upload/20170715/b2e2947b412b156ea7bf7a418bdc17c3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170715/b4f00cdf0c8fc4437f34671cde683a39.jpg" afterPath="$PROJECT_DIR$/public/upload/20170715/b4f00cdf0c8fc4437f34671cde683a39.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170715/b54874d766f17f2f9e0262609a6cf9be.jpg" afterPath="$PROJECT_DIR$/public/upload/20170715/b54874d766f17f2f9e0262609a6cf9be.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170715/b882cb5a727858f8710daac22ec60614.jpg" afterPath="$PROJECT_DIR$/public/upload/20170715/b882cb5a727858f8710daac22ec60614.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170715/c3f123035ebe940e19f6c41f95496d1d.jpg" afterPath="$PROJECT_DIR$/public/upload/20170715/c3f123035ebe940e19f6c41f95496d1d.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170715/e132265a504447085d7a2da662ae3729.jpg" afterPath="$PROJECT_DIR$/public/upload/20170715/e132265a504447085d7a2da662ae3729.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170715/e53c380beac2ea9b61418b430bae82c0.jpg" afterPath="$PROJECT_DIR$/public/upload/20170715/e53c380beac2ea9b61418b430bae82c0.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170715/f57106853d4a264496443208a00e6950.jpg" afterPath="$PROJECT_DIR$/public/upload/20170715/f57106853d4a264496443208a00e6950.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170715/f945646f5f8d9b48bb8940fa288991ef.jpg" afterPath="$PROJECT_DIR$/public/upload/20170715/f945646f5f8d9b48bb8940fa288991ef.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170715/fd3ca947d3519b756862fad16d605943.jpg" afterPath="$PROJECT_DIR$/public/upload/20170715/fd3ca947d3519b756862fad16d605943.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170717/01c57b8c530b1fb2e1a88df8baf27856.jpg" afterPath="$PROJECT_DIR$/public/upload/20170717/01c57b8c530b1fb2e1a88df8baf27856.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170717/596e919e75e2bf3f89bb2d14a86b9dbc.jpg" afterPath="$PROJECT_DIR$/public/upload/20170717/596e919e75e2bf3f89bb2d14a86b9dbc.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/upload/20170717/7bb43ab782a9727d55abb1178d80f449.jpg" afterPath="$PROJECT_DIR$/public/upload/20170717/7bb43ab782a9727d55abb1178d80f449.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/weixin/doc/README" afterPath="$PROJECT_DIR$/public/weixin/doc/README" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/weixin/doc/README.doc" afterPath="$PROJECT_DIR$/public/weixin/doc/README.doc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/weixin/image/bk.png" afterPath="$PROJECT_DIR$/public/weixin/image/bk.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/weixin/image/image001.jpg" afterPath="$PROJECT_DIR$/public/weixin/image/image001.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/weixin/image/image002.png" afterPath="$PROJECT_DIR$/public/weixin/image/image002.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/console/bin/hiddeninput.exe" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/bin/hiddeninput.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/logo.png" afterPath="$PROJECT_DIR$/thinkphp/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/duncan.iml" afterPath="$PROJECT_DIR$/.idea/duncan.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/api/controller/Order.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/index/view/pay/paysuccess.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/temp/0e642a35168dafce35721ef5f5a93408.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/temp/2f073806efcc570216df19d21a11e728.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE.txt" afterPath="$PROJECT_DIR$/LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/.htaccess" afterPath="$PROJECT_DIR$/application/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/common.php" afterPath="$PROJECT_DIR$/application/admin/common.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/config.php" afterPath="$PROJECT_DIR$/application/admin/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/controller/Base.php" afterPath="$PROJECT_DIR$/application/admin/controller/Base.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/controller/Bis.php" afterPath="$PROJECT_DIR$/application/admin/controller/Bis.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/controller/Category.php" afterPath="$PROJECT_DIR$/application/admin/controller/Category.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/controller/Deal.php" afterPath="$PROJECT_DIR$/application/admin/controller/Deal.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/controller/Featured.php" afterPath="$PROJECT_DIR$/application/admin/controller/Featured.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/controller/Index.php" afterPath="$PROJECT_DIR$/application/admin/controller/Index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/validate/Category.php" afterPath="$PROJECT_DIR$/application/admin/validate/Category.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/view/bis/apply.html" afterPath="$PROJECT_DIR$/application/admin/view/bis/apply.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/view/bis/detail.html" afterPath="$PROJECT_DIR$/application/admin/view/bis/detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/view/bis/index.html" afterPath="$PROJECT_DIR$/application/admin/view/bis/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/view/category/add.html" afterPath="$PROJECT_DIR$/application/admin/view/category/add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/view/category/edit.html" afterPath="$PROJECT_DIR$/application/admin/view/category/edit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/view/category/index.html" afterPath="$PROJECT_DIR$/application/admin/view/category/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/view/deal/apply.html" afterPath="$PROJECT_DIR$/application/admin/view/deal/apply.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/view/deal/index.html" afterPath="$PROJECT_DIR$/application/admin/view/deal/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/view/featured/add.html" afterPath="$PROJECT_DIR$/application/admin/view/featured/add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/view/featured/index.html" afterPath="$PROJECT_DIR$/application/admin/view/featured/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/view/index/index.html" afterPath="$PROJECT_DIR$/application/admin/view/index/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/view/public/footer.html" afterPath="$PROJECT_DIR$/application/admin/view/public/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/view/public/header.html" afterPath="$PROJECT_DIR$/application/admin/view/public/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/view/public/menu.html" afterPath="$PROJECT_DIR$/application/admin/view/public/menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/api/common.php" afterPath="$PROJECT_DIR$/application/api/common.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/api/config.php" afterPath="$PROJECT_DIR$/application/api/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/api/controller/Category.php" afterPath="$PROJECT_DIR$/application/api/controller/Category.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/api/controller/City.php" afterPath="$PROJECT_DIR$/application/api/controller/City.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/api/controller/Image.php" afterPath="$PROJECT_DIR$/application/api/controller/Image.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/api/controller/Index.php" afterPath="$PROJECT_DIR$/application/api/controller/Index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bis/common.php" afterPath="$PROJECT_DIR$/application/bis/common.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bis/config.php" afterPath="$PROJECT_DIR$/application/bis/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bis/controller/Base.php" afterPath="$PROJECT_DIR$/application/bis/controller/Base.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bis/controller/Deal.php" afterPath="$PROJECT_DIR$/application/bis/controller/Deal.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bis/controller/Index.php" afterPath="$PROJECT_DIR$/application/bis/controller/Index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bis/controller/Location.php" afterPath="$PROJECT_DIR$/application/bis/controller/Location.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bis/controller/Login.php" afterPath="$PROJECT_DIR$/application/bis/controller/Login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bis/controller/Register.php" afterPath="$PROJECT_DIR$/application/bis/controller/Register.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bis/view/deal/add.html" afterPath="$PROJECT_DIR$/application/bis/view/deal/add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bis/view/index/index.html" afterPath="$PROJECT_DIR$/application/bis/view/index/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bis/view/location/add.html" afterPath="$PROJECT_DIR$/application/bis/view/location/add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bis/view/location/index.html" afterPath="$PROJECT_DIR$/application/bis/view/location/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bis/view/login/index.html" afterPath="$PROJECT_DIR$/application/bis/view/login/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bis/view/public/footer.html" afterPath="$PROJECT_DIR$/application/bis/view/public/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bis/view/public/header.html" afterPath="$PROJECT_DIR$/application/bis/view/public/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bis/view/public/menu.html" afterPath="$PROJECT_DIR$/application/bis/view/public/menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bis/view/register/index.html" afterPath="$PROJECT_DIR$/application/bis/view/register/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bis/view/register/waiting.html" afterPath="$PROJECT_DIR$/application/bis/view/register/waiting.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/build.php" afterPath="$PROJECT_DIR$/application/build.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/command.php" afterPath="$PROJECT_DIR$/application/command.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/common.php" afterPath="$PROJECT_DIR$/application/common.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/common/common.php" afterPath="$PROJECT_DIR$/application/common/common.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/common/config.php" afterPath="$PROJECT_DIR$/application/common/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/common/controller/Index.php" afterPath="$PROJECT_DIR$/application/common/controller/Index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/common/model/Admin.php" afterPath="$PROJECT_DIR$/application/common/model/Admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/common/model/BaseModel.php" afterPath="$PROJECT_DIR$/application/common/model/BaseModel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/common/model/Bis.php" afterPath="$PROJECT_DIR$/application/common/model/Bis.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/common/model/BisAccount.php" afterPath="$PROJECT_DIR$/application/common/model/BisAccount.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/common/model/BisLocation.php" afterPath="$PROJECT_DIR$/application/common/model/BisLocation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/common/model/Category.php" afterPath="$PROJECT_DIR$/application/common/model/Category.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/common/model/City.php" afterPath="$PROJECT_DIR$/application/common/model/City.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/common/model/Deal.php" afterPath="$PROJECT_DIR$/application/common/model/Deal.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/common/model/Featured.php" afterPath="$PROJECT_DIR$/application/common/model/Featured.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/common/model/Order.php" afterPath="$PROJECT_DIR$/application/common/model/Order.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/common/model/User.php" afterPath="$PROJECT_DIR$/application/common/model/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/common/validate/Bis.php" afterPath="$PROJECT_DIR$/application/common/validate/Bis.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config.php" afterPath="$PROJECT_DIR$/application/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/database.php" afterPath="$PROJECT_DIR$/application/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/extra/email.php" afterPath="$PROJECT_DIR$/application/extra/email.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/extra/featured.php" afterPath="$PROJECT_DIR$/application/extra/featured.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/extra/map.php" afterPath="$PROJECT_DIR$/application/extra/map.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/controller/Base.php" afterPath="$PROJECT_DIR$/application/index/controller/Base.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/controller/Detail.php" afterPath="$PROJECT_DIR$/application/index/controller/Detail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/controller/Index.php" afterPath="$PROJECT_DIR$/application/index/controller/Index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/controller/Lists.php" afterPath="$PROJECT_DIR$/application/index/controller/Lists.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/controller/Map.php" afterPath="$PROJECT_DIR$/application/index/controller/Map.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/controller/Order.php" afterPath="$PROJECT_DIR$/application/index/controller/Order.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/controller/Pay.php" afterPath="$PROJECT_DIR$/application/index/controller/Pay.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/controller/Test.php" afterPath="$PROJECT_DIR$/application/index/controller/Test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/controller/User.php" afterPath="$PROJECT_DIR$/application/index/controller/User.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/controller/Weipay.php" afterPath="$PROJECT_DIR$/application/index/controller/Weipay.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/view/detail/index.html" afterPath="$PROJECT_DIR$/application/index/view/detail/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/view/index/index.html" afterPath="$PROJECT_DIR$/application/index/view/index/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/view/lists/index.html" afterPath="$PROJECT_DIR$/application/index/view/lists/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/view/order/buy.html" afterPath="$PROJECT_DIR$/application/index/view/order/buy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/view/order/confirm.html" afterPath="$PROJECT_DIR$/application/index/view/order/confirm.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/view/public/head.html" afterPath="$PROJECT_DIR$/application/index/view/public/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/view/public/nav.html" afterPath="$PROJECT_DIR$/application/index/view/public/nav.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/view/user/login.html" afterPath="$PROJECT_DIR$/application/index/view/user/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/view/user/register.html" afterPath="$PROJECT_DIR$/application/index/view/user/register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/route.php" afterPath="$PROJECT_DIR$/application/route.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/tags.php" afterPath="$PROJECT_DIR$/application/tags.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.php" afterPath="$PROJECT_DIR$/build.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/.htaccess" afterPath="$PROJECT_DIR$/public/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/nohup.out" afterPath="$PROJECT_DIR$/public/nohup.out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/robots.txt" afterPath="$PROJECT_DIR$/public/robots.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/router.php" afterPath="$PROJECT_DIR$/public/router.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/.gitignore" afterPath="$PROJECT_DIR$/public/static/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/weixin/cert/apiclient_cert.pem" afterPath="$PROJECT_DIR$/public/weixin/cert/apiclient_cert.pem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/weixin/cert/apiclient_key.pem" afterPath="$PROJECT_DIR$/public/weixin/cert/apiclient_key.pem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/weixin/example/WxPay.JsApiPay.php" afterPath="$PROJECT_DIR$/public/weixin/example/WxPay.JsApiPay.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/weixin/example/WxPay.MicroPay.php" afterPath="$PROJECT_DIR$/public/weixin/example/WxPay.MicroPay.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/weixin/example/WxPay.NativePay.php" afterPath="$PROJECT_DIR$/public/weixin/example/WxPay.NativePay.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/weixin/example/download.php" afterPath="$PROJECT_DIR$/public/weixin/example/download.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/weixin/example/jsapi.php" afterPath="$PROJECT_DIR$/public/weixin/example/jsapi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/weixin/example/log.php" afterPath="$PROJECT_DIR$/public/weixin/example/log.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/weixin/example/micropay.php" afterPath="$PROJECT_DIR$/public/weixin/example/micropay.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/weixin/example/native.php" afterPath="$PROJECT_DIR$/public/weixin/example/native.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/weixin/example/native_notify.php" afterPath="$PROJECT_DIR$/public/weixin/example/native_notify.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/weixin/example/notify.php" afterPath="$PROJECT_DIR$/public/weixin/example/notify.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/weixin/example/orderquery.php" afterPath="$PROJECT_DIR$/public/weixin/example/orderquery.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/weixin/example/phpqrcode/phpqrcode.php" afterPath="$PROJECT_DIR$/public/weixin/example/phpqrcode/phpqrcode.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/weixin/example/qrcode.php" afterPath="$PROJECT_DIR$/public/weixin/example/qrcode.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/weixin/example/refund.php" afterPath="$PROJECT_DIR$/public/weixin/example/refund.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/weixin/example/refundquery.php" afterPath="$PROJECT_DIR$/public/weixin/example/refundquery.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/weixin/index.php" afterPath="$PROJECT_DIR$/public/weixin/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/weixin/lib/WxPay.Api.php" afterPath="$PROJECT_DIR$/public/weixin/lib/WxPay.Api.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/weixin/lib/WxPay.Config.php" afterPath="$PROJECT_DIR$/public/weixin/lib/WxPay.Config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/weixin/lib/WxPay.Data.php" afterPath="$PROJECT_DIR$/public/weixin/lib/WxPay.Data.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/weixin/lib/WxPay.Exception.php" afterPath="$PROJECT_DIR$/public/weixin/lib/WxPay.Exception.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/weixin/lib/WxPay.Notify.php" afterPath="$PROJECT_DIR$/public/weixin/lib/WxPay.Notify.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/LICENSE.txt" afterPath="$PROJECT_DIR$/runtime/LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/log/201707/14.log" afterPath="$PROJECT_DIR$/runtime/log/201707/14.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/log/201707/14_error.log" afterPath="$PROJECT_DIR$/runtime/log/201707/14_error.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/log/201707/14_sql.log" afterPath="$PROJECT_DIR$/runtime/log/201707/14_sql.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/log/201707/15.log" afterPath="$PROJECT_DIR$/runtime/log/201707/15.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/log/201707/15_error.log" afterPath="$PROJECT_DIR$/runtime/log/201707/15_error.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/log/201707/15_log.log" afterPath="$PROJECT_DIR$/runtime/log/201707/15_log.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/log/201707/15_sql.log" afterPath="$PROJECT_DIR$/runtime/log/201707/15_sql.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/log/201707/17.log" afterPath="$PROJECT_DIR$/runtime/log/201707/17.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/log/201707/17_error.log" afterPath="$PROJECT_DIR$/runtime/log/201707/17_error.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/log/201707/17_sql.log" afterPath="$PROJECT_DIR$/runtime/log/201707/17_sql.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/log/201707/18.log" afterPath="$PROJECT_DIR$/runtime/log/201707/18.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/log/201707/18_error.log" afterPath="$PROJECT_DIR$/runtime/log/201707/18_error.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/log/201707/18_sql.log" afterPath="$PROJECT_DIR$/runtime/log/201707/18_sql.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/log/201707/19.log" afterPath="$PROJECT_DIR$/runtime/log/201707/19.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/log/201707/19_sql.log" afterPath="$PROJECT_DIR$/runtime/log/201707/19_sql.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/log/201707/20.log" afterPath="$PROJECT_DIR$/runtime/log/201707/20.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/log/201707/20_log.log" afterPath="$PROJECT_DIR$/runtime/log/201707/20_log.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/log/201707/20_sql.log" afterPath="$PROJECT_DIR$/runtime/log/201707/20_sql.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/log/201707/21.log" afterPath="$PROJECT_DIR$/runtime/log/201707/21.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/log/201707/21_sql.log" afterPath="$PROJECT_DIR$/runtime/log/201707/21_sql.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/temp/0e642a35168dafce35721ef5f5a93408.php" afterPath="$PROJECT_DIR$/runtime/temp/0e642a35168dafce35721ef5f5a93408.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/temp/17c3b2946d05611baaaeb1eba89f0730.php" afterPath="$PROJECT_DIR$/runtime/temp/17c3b2946d05611baaaeb1eba89f0730.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/temp/1883d16e85f25ef981cb34c24ee372d8.php" afterPath="$PROJECT_DIR$/runtime/temp/1883d16e85f25ef981cb34c24ee372d8.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/temp/2f073806efcc570216df19d21a11e728.php" afterPath="$PROJECT_DIR$/runtime/temp/2f073806efcc570216df19d21a11e728.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/temp/3392b366a477950d2f46b12d24cf87bf.php" afterPath="$PROJECT_DIR$/runtime/temp/3392b366a477950d2f46b12d24cf87bf.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/temp/33f476c3b044a7dbb1b22a590ea68cc5.php" afterPath="$PROJECT_DIR$/runtime/temp/33f476c3b044a7dbb1b22a590ea68cc5.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/temp/3e4d79bb893c58fce2eee138fa39bb53.php" afterPath="$PROJECT_DIR$/runtime/temp/3e4d79bb893c58fce2eee138fa39bb53.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/temp/4761201df0693b5060fd9d814aa4f0a5.php" afterPath="$PROJECT_DIR$/runtime/temp/4761201df0693b5060fd9d814aa4f0a5.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/temp/5e7328521cfb56638f2e2fbfcb99d405.php" afterPath="$PROJECT_DIR$/runtime/temp/5e7328521cfb56638f2e2fbfcb99d405.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/temp/87e5e60f699ec1192843a65a0e8829d1.php" afterPath="$PROJECT_DIR$/runtime/temp/87e5e60f699ec1192843a65a0e8829d1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/temp/88b2c0c39b95ad52822d61d8debfe779.php" afterPath="$PROJECT_DIR$/runtime/temp/88b2c0c39b95ad52822d61d8debfe779.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/temp/9517d5d96725adae70220cad2fa2720d.php" afterPath="$PROJECT_DIR$/runtime/temp/9517d5d96725adae70220cad2fa2720d.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/temp/99f7ab74a04cf700b70e027e3c2921f7.php" afterPath="$PROJECT_DIR$/runtime/temp/99f7ab74a04cf700b70e027e3c2921f7.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/temp/9f09cb70a244cd51a52240826d16b025.php" afterPath="$PROJECT_DIR$/runtime/temp/9f09cb70a244cd51a52240826d16b025.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/temp/b04e28f8ce4da94939ce64fb3f44986b.php" afterPath="$PROJECT_DIR$/runtime/temp/b04e28f8ce4da94939ce64fb3f44986b.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/temp/c0320487ff918d3b2a21857012e4f174.php" afterPath="$PROJECT_DIR$/runtime/temp/c0320487ff918d3b2a21857012e4f174.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/temp/c24bccfb0a0ba26904288787a6c64d78.php" afterPath="$PROJECT_DIR$/runtime/temp/c24bccfb0a0ba26904288787a6c64d78.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/temp/cb31b1acd533b147b1704d14cad2918b.php" afterPath="$PROJECT_DIR$/runtime/temp/cb31b1acd533b147b1704d14cad2918b.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/temp/cb5a54c9ff3af5a0975a259bbfcfb04d.php" afterPath="$PROJECT_DIR$/runtime/temp/cb5a54c9ff3af5a0975a259bbfcfb04d.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/temp/cb969eb115fa47c61e2d1450b917228b.php" afterPath="$PROJECT_DIR$/runtime/temp/cb969eb115fa47c61e2d1450b917228b.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/temp/cd79c3a794e0d97341c9178e7e277e80.php" afterPath="$PROJECT_DIR$/runtime/temp/cd79c3a794e0d97341c9178e7e277e80.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/temp/d61bbbdb9e1e103419f7c01f33d1b15f.php" afterPath="$PROJECT_DIR$/runtime/temp/d61bbbdb9e1e103419f7c01f33d1b15f.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/temp/e20c8cdfa064692025dbef091924524e.php" afterPath="$PROJECT_DIR$/runtime/temp/e20c8cdfa064692025dbef091924524e.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/temp/e21b0b965ac03664b07028513770d701.php" afterPath="$PROJECT_DIR$/runtime/temp/e21b0b965ac03664b07028513770d701.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/temp/f50a3ec080ae16817f3d1852e1cc2f68.php" afterPath="$PROJECT_DIR$/runtime/temp/f50a3ec080ae16817f3d1852e1cc2f68.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/think" afterPath="$PROJECT_DIR$/think" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/.gitignore" afterPath="$PROJECT_DIR$/thinkphp/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/.htaccess" afterPath="$PROJECT_DIR$/thinkphp/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/.travis.yml" afterPath="$PROJECT_DIR$/thinkphp/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/thinkphp/CONTRIBUTING.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/LICENSE.txt" afterPath="$PROJECT_DIR$/thinkphp/LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/README.md" afterPath="$PROJECT_DIR$/thinkphp/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/base.php" afterPath="$PROJECT_DIR$/thinkphp/base.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/codecov.yml" afterPath="$PROJECT_DIR$/thinkphp/codecov.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/composer.json" afterPath="$PROJECT_DIR$/thinkphp/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/console.php" afterPath="$PROJECT_DIR$/thinkphp/console.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/convention.php" afterPath="$PROJECT_DIR$/thinkphp/convention.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/helper.php" afterPath="$PROJECT_DIR$/thinkphp/helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/lang/zh-cn.php" afterPath="$PROJECT_DIR$/thinkphp/lang/zh-cn.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/App.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/App.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Build.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Build.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Cache.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Collection.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Collection.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Config.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Console.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Console.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Controller.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Cookie.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Cookie.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Db.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Db.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Debug.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Debug.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Env.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Env.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Error.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Error.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Exception.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Exception.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/File.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/File.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Hook.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Hook.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Lang.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Loader.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Loader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Log.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Log.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Model.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Paginator.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Paginator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Process.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Process.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Request.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Request.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Response.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Response.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Route.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Route.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Session.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Session.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Template.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Url.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Url.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Validate.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Validate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/View.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/View.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/cache/Driver.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/Driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/File.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/File.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Lite.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Lite.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Memcache.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Memcache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Memcached.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Memcached.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Redis.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Redis.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Sqlite.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Sqlite.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Wincache.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Wincache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Xcache.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Xcache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/config/driver/Ini.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/config/driver/Ini.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/config/driver/Json.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/config/driver/Json.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/config/driver/Xml.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/config/driver/Xml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/console/Command.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/Command.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/console/Input.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/Input.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/console/LICENSE" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/console/Output.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/Output.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/console/bin/README.md" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/bin/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/console/command/Build.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/Build.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/console/command/Clear.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/Clear.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/console/command/Help.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/Help.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/console/command/Lists.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/Lists.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/console/command/Make.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/Make.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/console/command/make/Controller.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/make/Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/console/command/make/Model.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/make/Model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/console/command/make/stubs/controller.plain.stub" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/make/stubs/controller.plain.stub" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/console/command/make/stubs/controller.stub" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/make/stubs/controller.stub" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/console/command/make/stubs/model.stub" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/make/stubs/model.stub" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/console/command/optimize/Autoload.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/optimize/Autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/console/command/optimize/Config.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/optimize/Config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/console/command/optimize/Route.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/optimize/Route.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/console/command/optimize/Schema.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/optimize/Schema.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/console/input/Argument.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/input/Argument.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/console/input/Definition.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/input/Definition.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/console/input/Option.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/input/Option.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/console/output/Ask.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/Ask.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/console/output/Descriptor.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/Descriptor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/console/output/Formatter.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/Formatter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/console/output/Question.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/Question.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/console/output/descriptor/Console.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/descriptor/Console.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/console/output/driver/Buffer.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/driver/Buffer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/console/output/driver/Console.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/driver/Console.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/console/output/driver/Nothing.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/driver/Nothing.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/console/output/formatter/Stack.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/formatter/Stack.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/console/output/formatter/Style.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/formatter/Style.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/console/output/question/Choice.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/question/Choice.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/console/output/question/Confirmation.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/question/Confirmation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/controller/Rest.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/controller/Rest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/controller/Yar.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/controller/Yar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/db/Builder.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/db/Builder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/db/Connection.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/db/Connection.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/db/Query.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/db/Query.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/db/builder/Mysql.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/db/builder/Mysql.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/db/builder/Pgsql.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/db/builder/Pgsql.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/db/builder/Sqlite.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/db/builder/Sqlite.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/db/builder/Sqlsrv.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/db/builder/Sqlsrv.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/db/connector/Mysql.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/db/connector/Mysql.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/db/connector/Pgsql.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/db/connector/Pgsql.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/db/connector/Sqlite.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/db/connector/Sqlite.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/db/connector/Sqlsrv.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/db/connector/Sqlsrv.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/db/connector/pgsql.sql" afterPath="$PROJECT_DIR$/thinkphp/library/think/db/connector/pgsql.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/db/exception/BindParamException.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/db/exception/BindParamException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/db/exception/DataNotFoundException.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/db/exception/DataNotFoundException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/db/exception/ModelNotFoundException.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/db/exception/ModelNotFoundException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/debug/Console.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/debug/Console.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/debug/Html.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/debug/Html.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/exception/ClassNotFoundException.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/ClassNotFoundException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/exception/DbException.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/DbException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/exception/ErrorException.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/ErrorException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/exception/Handle.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/Handle.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/exception/HttpException.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/HttpException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/exception/HttpResponseException.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/HttpResponseException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/exception/PDOException.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/PDOException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/exception/RouteNotFoundException.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/RouteNotFoundException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/exception/TemplateNotFoundException.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/TemplateNotFoundException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/exception/ThrowableError.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/ThrowableError.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/exception/ValidateException.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/ValidateException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/log/driver/File.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/log/driver/File.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/log/driver/Socket.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/log/driver/Socket.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/log/driver/Test.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/log/driver/Test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/model/Merge.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/model/Merge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/model/Pivot.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/model/Pivot.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/model/Relation.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/model/Relation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/paginator/Collection.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/paginator/Collection.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/paginator/driver/Bootstrap.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/paginator/driver/Bootstrap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/process/Builder.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/process/Builder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/process/Utils.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/process/Utils.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/process/exception/Faild.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/process/exception/Faild.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/process/exception/Timeout.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/process/exception/Timeout.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/process/pipes/Pipes.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/process/pipes/Pipes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/process/pipes/Unix.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/process/pipes/Unix.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/process/pipes/Windows.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/process/pipes/Windows.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/response/Json.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/response/Json.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/response/Jsonp.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/response/Jsonp.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/response/Redirect.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/response/Redirect.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/response/View.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/response/View.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/response/Xml.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/response/Xml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/session/driver/Memcache.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/session/driver/Memcache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/session/driver/Memcached.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/session/driver/Memcached.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/session/driver/Redis.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/session/driver/Redis.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/template/TagLib.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/template/TagLib.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/template/driver/File.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/template/driver/File.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/template/taglib/Cx.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/template/taglib/Cx.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/view/driver/Php.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/view/driver/Php.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/view/driver/Think.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/view/driver/Think.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/traits/controller/Jump.php" afterPath="$PROJECT_DIR$/thinkphp/library/traits/controller/Jump.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/traits/model/SoftDelete.php" afterPath="$PROJECT_DIR$/thinkphp/library/traits/model/SoftDelete.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/traits/think/Instance.php" afterPath="$PROJECT_DIR$/thinkphp/library/traits/think/Instance.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/phpunit.xml" afterPath="$PROJECT_DIR$/thinkphp/phpunit.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/start.php" afterPath="$PROJECT_DIR$/thinkphp/start.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/tpl/default_index.tpl" afterPath="$PROJECT_DIR$/thinkphp/tpl/default_index.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/tpl/dispatch_jump.tpl" afterPath="$PROJECT_DIR$/thinkphp/tpl/dispatch_jump.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/tpl/page_trace.tpl" afterPath="$PROJECT_DIR$/thinkphp/tpl/page_trace.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/tpl/think_exception.tpl" afterPath="$PROJECT_DIR$/thinkphp/tpl/think_exception.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/view/pay/index.html" afterPath="$PROJECT_DIR$/application/index/view/pay/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -456,69 +23,22 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WxPay.Config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/weixin/lib/WxPay.Config.php">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/index/view/pay/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="49" column="13" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-              <folding>
-                <marker date="1500622463667" expanded="true" signature="41:1611" ph="{...}" />
-                <marker date="1500622463667" expanded="true" signature="760:921" ph=" TODO：设置商户证书路径 ..." />
-                <marker date="1500622463667" expanded="true" signature="1088:1268" ph=" TODO：这里设置代理机器，只有需要代理的时候才设置，不需要代理，请设置为0.0.0.0和0 ..." />
-                <marker date="1500622463667" expanded="true" signature="1420:1581" ph=" TODO：接口调用上报等级，默认紧错误上报（注意：上报超时间为【1s】，上报无论成败【永不抛出异常】， ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="notify.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/weixin/example/notify.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-552">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="262">
+              <caret line="61" column="13" lean-forward="false" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="native.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/weixin/example/native.php">
+      <file leaf-file-name="Order.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/api/controller/Order.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="54" column="19" lean-forward="false" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+            <state relative-caret-position="161">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WxPayUnifiedOrder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extend/wxpay/database/WxPayUnifiedOrder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="211" column="26" lean-forward="false" selection-start-line="211" selection-start-column="26" selection-end-line="211" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="qrcode.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/weixin/example/qrcode.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Weipay.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/index/controller/Weipay.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-              <folding>
-                <element signature="e#38#59#0#PHP" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -526,8 +46,8 @@
       <file leaf-file-name="Pay.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/index/controller/Pay.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="897">
-              <caret line="49" column="45" lean-forward="false" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
+            <state relative-caret-position="483">
+              <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding>
                 <element signature="e#120#157#0#PHP" expanded="true" />
               </folding>
@@ -535,21 +55,71 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/index/view/detail/index.html">
+      <file leaf-file-name="common.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/common/common.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5658">
-              <caret line="246" column="5" lean-forward="false" selection-start-line="246" selection-start-column="5" selection-end-line="246" selection-end-column="5" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/index/view/index/index.html">
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/common/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="command.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/command.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/common.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Category.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/api/controller/Category.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/api/common.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="paysuccess.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/index/view/pay/paysuccess.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -589,8 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/application/config.php" />
-        <option value="$PROJECT_DIR$/application/bis/view/register/index.html" />
         <option value="$PROJECT_DIR$/extend/Map.php" />
         <option value="$PROJECT_DIR$/application/admin/view/bis/detail.html" />
         <option value="$PROJECT_DIR$/extend/phpmailer/Phpmailer.php" />
@@ -622,24 +190,26 @@
         <option value="$PROJECT_DIR$/application/bis/controller/Register.php" />
         <option value="$PROJECT_DIR$/application/index/view/order/buy.html" />
         <option value="$PROJECT_DIR$/application/common.php" />
-        <option value="$PROJECT_DIR$/application/common/model/Deal.php" />
         <option value="$PROJECT_DIR$/application/index/view/detail/index.html" />
-        <option value="$PROJECT_DIR$/application/common/model/Order.php" />
         <option value="$PROJECT_DIR$/public/weixin/index.php" />
         <option value="$PROJECT_DIR$/public/weixin/example/native.php" />
         <option value="$PROJECT_DIR$/thinkphp/library/think/template/driver/File.php" />
         <option value="$PROJECT_DIR$/public/static/admin/js/image.js" />
         <option value="$PROJECT_DIR$/application/admin/view/deal/index.html" />
         <option value="$PROJECT_DIR$/application/admin/controller/Deal.php" />
-        <option value="$PROJECT_DIR$/application/index/view/pay/index.html" />
         <option value="$PROJECT_DIR$/application/index/view/public/head.html" />
         <option value="$PROJECT_DIR$/application/index/view/order/confirm.html" />
         <option value="$PROJECT_DIR$/application/index/controller/Order.php" />
         <option value="$PROJECT_DIR$/application/bis/controller/Deal.php" />
-        <option value="$PROJECT_DIR$/application/index/controller/Pay.php" />
         <option value="$PROJECT_DIR$/public/weixin/lib/WxPay.Config.php" />
         <option value="$PROJECT_DIR$/extend/wxpay/WxPayConfig.php" />
+        <option value="$PROJECT_DIR$/application/common/model/Order.php" />
+        <option value="$PROJECT_DIR$/application/common/model/Deal.php" />
         <option value="$PROJECT_DIR$/application/index/controller/Weipay.php" />
+        <option value="$PROJECT_DIR$/application/api/controller/Order.php" />
+        <option value="$PROJECT_DIR$/application/index/view/pay/buy.html" />
+        <option value="$PROJECT_DIR$/application/index/controller/Pay.php" />
+        <option value="$PROJECT_DIR$/application/index/view/pay/index.html" />
       </list>
     </option>
   </component>
@@ -694,212 +264,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="runtime" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duncan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duncan" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="runtime" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="temp" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duncan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duncan" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duncan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duncan" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weixin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duncan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duncan" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weixin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duncan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duncan" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weixin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duncan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duncan" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weixin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="doc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duncan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duncan" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weixin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cert" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duncan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duncan" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extend" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duncan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duncan" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extend" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wxpay" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duncan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duncan" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extend" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wxpay" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duncan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duncan" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="application" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -923,32 +287,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duncan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duncan" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -996,84 +334,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="order" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duncan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duncan" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duncan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duncan" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="detail" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duncan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duncan" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -1092,7 +352,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bis" />
+              <option name="myItemId" value="api" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -1110,7 +370,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bis" />
+              <option name="myItemId" value="api" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1132,12 +392,13 @@
     <property name="nodejs_interpreter_path" value="E:/node/node" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\wamp64\www\duncan\application\index\view\pay" />
+      <recent name="E:\wamp64\www\duncan\application\index\view\order" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\wamp64\www\duncan\extend\phpmailer" />
       <recent name="E:\wamp64\www\duncan\extend" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\wamp64\www\duncan\application\index\view\order" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1247,12 +508,12 @@
       <workItem from="1500515669342" duration="11088000" />
       <workItem from="1500556163696" duration="1775000" />
       <workItem from="1500599835187" duration="12938000" />
-      <workItem from="1500619808231" duration="2714000" />
+      <workItem from="1500619808231" duration="6853000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104918000" />
+    <option name="totallyTimeSpent" value="109057000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1307,108 +568,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ueditor/php/upload/image/20170114/1484380249415690.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/admin/uploadify/uploadify.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/common.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2093">
-          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/admin/uploadify/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/bis/view/register/waiting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/bis/view/register/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4370">
-          <caret line="190" column="0" lean-forward="false" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/bis/view/login/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/admin/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/admin/js/image.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/common/model/BisLocation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/bis/view/deal/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2415">
-          <caret line="45" column="10" lean-forward="true" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/view/deal/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="54" column="27" lean-forward="false" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/common/model/City.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-322">
           <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/common/model/Deal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1487,13 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/pay/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-828">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/extend/wxpay/PayNotifyCallBack.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1566,14 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Order.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/index/controller/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -1622,28 +770,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Pay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="897">
-          <caret line="49" column="45" lean-forward="false" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
-          <folding>
-            <element signature="e#120#157#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/weixin/example/notify.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-552">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runtime/temp/0e642a35168dafce35721ef5f5a93408.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -1693,13 +823,159 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/runtime/temp/0e642a35168dafce35721ef5f5a93408.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-207">
+          <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtime/temp/1d36467596d4460f50f4b091803715d9.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/common/model/Bis.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/common/model/Admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/common/model/BisAccount.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/controller/Order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/common/model/Deal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/index/controller/Weipay.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="368">
+          <caret line="51" column="37" lean-forward="true" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
           <folding>
             <element signature="e#38#59#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/common/model/Order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="28" column="46" lean-forward="true" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/common/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/common/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/command.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/api/controller/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/api/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/api/controller/Order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/pay/paysuccess.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/controller/Pay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding>
+            <element signature="e#120#157#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/pay/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="61" column="13" lean-forward="false" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>

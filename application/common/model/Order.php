@@ -14,4 +14,22 @@ class Order extends Model {
         $result = $this->insertGetId($data);
         return $result;
     }
+
+
+    public function updateOrderByOutTradeNo($outTradeTo, $weixinData) {
+        if (!empty($weixinData['transcaction_id'])) {
+            $data['transaction_id'] = $weixinData['transcaction_id'];
+        }
+
+        if (!empty($weixinData['total_fee'])) {
+            $data['pay_amount'] = $weixinData['total_fee'] / 100;
+            $data['status'] = 1;
+        }
+
+        if (!empty($weixinData['time_end'])) {
+            $data['pay_time'] = $weixinData['time_end'];
+        }
+
+        return $this->allowField(true)->save($data, ['out_trade_no' => $outTradeTo]);
+    }
 }

@@ -51,6 +51,22 @@
     <div align="center"><h1 class="title">使用微信扫码支付方式</h1><img src="/weixin/example/qrcode.php?data={$url}" alt="微信扫码支付" style="width:300px;height:300px;"></div>
 
 </div>
+    <script>
+        function get_pay_status() {
+            var url = "{:url('api/order/paystatus')}";
+            var pay_success_url = "{:url('pay/paysuccess')}";
 
+            var id = {$order['id']};
+            var postData = {
+                'id' : id
+            }
+            $.post(url, postData, function(result) {
+                if (result.status == 1) {
+                    self.location = pay_success_url;
+                }
+            }, 'JSON');
+        }
+        window.setInterval("get_pay_status", 2000);
+    </script>
 </body>
 </html>
